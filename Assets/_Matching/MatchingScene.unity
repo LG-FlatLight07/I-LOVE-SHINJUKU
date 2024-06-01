@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 2044498594}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &29027280
@@ -1750,9 +1750,9 @@ RectTransform:
   m_Children:
   - {fileID: 1586142283}
   - {fileID: 568881610}
+  - {fileID: 1877460523}
   - {fileID: 2044498595}
   - {fileID: 1007084508}
-  - {fileID: 1877460523}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
