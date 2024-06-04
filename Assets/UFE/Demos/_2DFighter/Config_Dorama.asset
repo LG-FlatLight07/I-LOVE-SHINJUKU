@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 2039538461, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Config_2D_Fighter
+  m_Name: Config_Dorama
   m_EditorClassIdentifier: 
   version: 2
   player1Character: {fileID: 0}
@@ -184,11 +184,15 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
-    selectableCharactersInVersusMode: 00000000010000000200000003000000040000000500000006000000
+    selectableCharactersInStoryMode: 0100000000000000020000000300000004000000050000000600000007000000
+    selectableCharactersInVersusMode: 0000000001000000020000000300000004000000050000000600000007000000
     characterStories:
-      _keys: 00000000010000000200000003000000040000000500000006000000
+      _keys: 0000000001000000020000000300000004000000050000000600000007000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -1212,6 +1216,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+  - {fileID: 11400000, guid: d6a3c11a4ee195c47856422aee08a794, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -1411,7 +1416,7 @@ MonoBehaviour:
       charactersToggle: 0
     teamsToggle: 0
   debugOptions:
-    debugMode: 1
+    debugMode: 0
     emulateNetwork: 0
     trainingModeDebugger: 1
     preloadedObjects: 0
@@ -2081,20 +2086,20 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 3
+    selectedDifficultyLevel: 2
     selectedDifficulty:
-      difficultyLevel: 3
-      overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0.1
-      overrideTimeBetweenActions: 1
+      difficultyLevel: 2
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
       timeBetweenActions: 0.05
-      overrideAggressiveness: 1
-      aggressiveness: 0.6
+      overrideAggressiveness: 0
+      aggressiveness: 0.4
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 1
+      overrideComboEfficiency: 0
       comboEfficiency: 1
-      startupBehavior: 4
+      startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
     disableRootMotion: 0
@@ -2146,7 +2151,7 @@ MonoBehaviour:
   music: 1
   musicVolume: 1
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.9
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

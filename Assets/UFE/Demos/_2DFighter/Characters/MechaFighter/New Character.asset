@@ -1,0 +1,5955 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: New Character
+  m_EditorClassIdentifier: 
+  gameplayType: 0
+  profilePictureSmall: {fileID: 0}
+  profilePictureBig: {fileID: 0}
+  characterName: Mecha
+  gender: 1
+  characterDescription: 
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 182
+  age: 1
+  bloodType: Unknown
+  lifePoints: 1000
+  maxGaugePoints: 1000
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 919132149155446097, guid: 763ab1a7a4db4774aac023b461247659,
+    type: 3}
+  prefabResourcePath: 
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 0
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 17179869184
+    _moveBackSpeed:
+      _serializedValue: 15032385536
+    _moveSidewaysSpeed:
+      _serializedValue: 17179869184
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    _jumpForce:
+      _serializedValue: 171798691840
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 34359738368
+    _jumpBackDistance:
+      _serializedValue: 34359738368
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 751619276800
+    jumpDelay: 8
+    landingDelay: 7
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 0
+    disableCrouch: 0
+    jumpButton: 2
+    crouchButton: 3
+  hideGauges: 00000000000000000000
+  _executionTiming:
+    _serializedValue: 1288490188
+  possibleAirMoves: 1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 763ab1a7a4db4774aac023b461247659, type: 3}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 0
+  normalizeAnimationFrames: 0
+  stanceResourcePath: []
+  moves:
+  - combatStance: 0
+    basicMoves:
+      idle:
+        id: 5869b42d-b69a-4dc5-9e00-6d9abc5f5f2e
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 0
+        editorToggle: 0
+        soundEffectsToggle: 0
+      moveForward:
+        id: 6c0cb924-a123-42d1-ada2-d040af051149
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 1
+        editorToggle: 0
+        soundEffectsToggle: 0
+      moveBack:
+        id: acfea6a7-edb9-4cba-9b16-3bd214cfeac2
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 2
+        editorToggle: 0
+        soundEffectsToggle: 0
+      moveSideways:
+        id: c3d6b0b0-e404-4195-93fb-e9cdae55e13c
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 50
+        editorToggle: 0
+        soundEffectsToggle: 0
+      crouching:
+        id: bac69860-99e9-4331-9d2d-7afcad05bbff
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 3
+        editorToggle: 0
+        soundEffectsToggle: 0
+      takeOff:
+        id: d57b1fce-15c6-4d2c-a13b-c0c39a59b7a4
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 4
+        editorToggle: 0
+        soundEffectsToggle: 0
+      jumpStraight:
+        id: 819ac9e8-304e-4edf-b2fc-48c652956de2
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 5
+        editorToggle: 0
+        soundEffectsToggle: 0
+      jumpBack:
+        id: dbc09f5c-f6b0-483b-8e2a-bb16f82b5aa4
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 6
+        editorToggle: 0
+        soundEffectsToggle: 0
+      jumpForward:
+        id: 18738a0b-0d54-417f-93dd-9a9ff48b0584
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 7
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallStraight:
+        id: 7fcc46f3-f763-4056-a5c7-3925b236842e
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 8
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallBack:
+        id: cfc98f9d-ee7b-4dc2-a9bf-be2147d83374
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 9
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallForward:
+        id: 34eab7ae-5ebb-4543-ba5d-40d75463d2b2
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 10
+        editorToggle: 0
+        soundEffectsToggle: 0
+      landing:
+        id: e137adf1-0ddd-446c-b539-a928f9ce8210
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 11
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingCrouchingPose:
+        id: befeba55-0492-40e5-ad7f-c355504f8fc5
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 15
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingCrouchingHit:
+        id: 7e08dc9b-1340-43f3-9e03-00166fc1fc98
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 16
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingHighPose:
+        id: 0194d13e-1acf-4eeb-afd4-933ed146f580
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 12
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingHighHit:
+        id: ab5e5aa1-2a4e-4358-8d1b-d18795da6f4e
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 13
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingLowHit:
+        id: e515c1e1-e170-48b6-b93e-145dd3a7f468
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 14
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingAirPose:
+        id: 9d12819d-5623-4a0f-8668-5e02245a7bb1
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 17
+        editorToggle: 0
+        soundEffectsToggle: 0
+      blockingAirHit:
+        id: 3db6b5e1-39ae-4a9a-8c40-6f5e9e810e35
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 18
+        editorToggle: 0
+        soundEffectsToggle: 0
+      parryCrouching:
+        id: f13f656c-5bad-4c62-bff7-ebfc9cf5a84f
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 21
+        editorToggle: 0
+        soundEffectsToggle: 0
+      parryHigh:
+        id: 53e80c80-bfa1-4296-be3a-3dbfeb63e867
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 19
+        editorToggle: 0
+        soundEffectsToggle: 0
+      parryLow:
+        id: 0f61454e-4d58-41b6-a5cb-01d739c60cc8
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 20
+        editorToggle: 0
+        soundEffectsToggle: 0
+      parryAir:
+        id: 1b27e203-92d5-4d97-b510-fe0fcbe28782
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 22
+        editorToggle: 0
+        soundEffectsToggle: 0
+      groundBounce:
+        id: 01407719-ce4f-47cc-8166-03b9bc25f268
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 32
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standingWallBounce:
+        id: c3732041-e4aa-4e51-baab-f3e2f0c3ef08
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 33
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standingWallBounceKnockdown:
+        id: 5a8d70c9-3f6e-421e-9337-6e612e6f804b
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 34
+        editorToggle: 0
+        soundEffectsToggle: 0
+      airWallBounce:
+        id: c7bad4a1-4514-4a24-a3a9-c61d5922af08
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 35
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallingFromGroundBounce:
+        id: 6bbaceb3-b130-41ae-a189-67f93dfe4185
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 36
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallingFromAirHit:
+        id: 8b95ca38-4e09-4395-bb27-17192aad147b
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 37
+        editorToggle: 0
+        soundEffectsToggle: 0
+      fallDown:
+        id: 1b90e977-83f3-4cd8-a8e9-fccc157977b2
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 38
+        editorToggle: 0
+        soundEffectsToggle: 0
+      airRecovery:
+        id: a241eb80-22b5-4900-8e50-404ebbaab3a6
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 39
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitCrouching:
+        id: 6ea9fa1f-2c10-4ed9-b6ab-90d38a860e71
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 25
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitHigh:
+        id: d4f27463-319c-4062-9faa-9302e47646b8
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 23
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitLow:
+        id: 3ff42666-f618-4329-9919-cab3259c55ad
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 24
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitHighKnockdown:
+        id: 882e12a1-a2bd-4120-9efb-dd590aa816d5
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 28
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitMidKnockdown:
+        id: 826dac8e-ccdd-4392-b8c9-2ce6589c2843
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 29
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitAir:
+        id: 59be349f-77e5-4581-a863-b92393eb6a85
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 26
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitCrumple:
+        id: ff1a2e43-7db3-4d69-ae43-9254af8561ac
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 31
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitKnockBack:
+        id: da7334a6-5e4b-4526-87c5-dc476d3b4729
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 27
+        editorToggle: 0
+        soundEffectsToggle: 0
+      getHitSweep:
+        id: 806e041b-ad85-4e66-9089-7dbb40633e4f
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 30
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUp:
+        id: 677bc537-3726-4c65-884f-10ab32bf083d
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 40
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromAirHit:
+        id: 884f6128-30bd-43d3-8a88-4b01c7a75ebd
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 41
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromKnockBack:
+        id: 3452fc98-78aa-4c58-aa42-5e84823f79af
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 42
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromStandingHighHit:
+        id: 72feb894-8667-4829-b696-a6c0b28e85d6
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 43
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromStandingMidHit:
+        id: 04fb4535-05f7-49b1-be44-eeb7e071cde1
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 44
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromCrumple:
+        id: ecc1480c-a337-424d-acb3-a5fa32825d20
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 46
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromSweep:
+        id: 3a6dd0a7-4678-4216-92b7-7b6f4cc57fe0
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 45
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromStandingWallBounce:
+        id: 735e0ecc-95bf-4f9f-ac4e-f9f5581168e1
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 47
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromAirWallBounce:
+        id: d4af714d-1be8-4604-8d6d-d063a273f5d8
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 48
+        editorToggle: 0
+        soundEffectsToggle: 0
+      standUpFromGroundBounce:
+        id: 29f4eccd-f566-49ee-bf1e-f17c57d2ef37
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 49
+        editorToggle: 0
+        soundEffectsToggle: 0
+      intro:
+        id: e81141ec-63b8-48a1-baeb-69d0fc071be4
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 51
+        editorToggle: 0
+        soundEffectsToggle: 0
+      roundWon:
+        id: 26e14a1e-d501-493a-8b35-3b686660fcc9
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 52
+        editorToggle: 0
+        soundEffectsToggle: 0
+      timeOut:
+        id: 216c118e-92bb-4d5b-b865-b8bb22a4b0b5
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 53
+        editorToggle: 0
+        soundEffectsToggle: 0
+      gameWon:
+        id: b1abc658-dbb7-4072-9e8e-ef37e86c67e4
+        animData:
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        - id: 
+          clip: {fileID: 0}
+          customHitBoxDefinition: {fileID: 0}
+          length:
+            _serializedValue: 0
+          bakeSpeed: 0
+          hitBoxDefinitionType: 0
+        _animationSpeed:
+          _serializedValue: 4294967296
+        wrapMode: 0
+        moveInfo: {fileID: 0}
+        useMoveFile: 0
+        autoSpeed: 1
+        _restingClipInterval:
+          _serializedValue: 25769803776
+        overrideBlendingIn: 0
+        overrideBlendingOut: 0
+        _blendingIn:
+          _serializedValue: 0
+        _blendingOut:
+          _serializedValue: 0
+        invincible: 0
+        disableHeadLook: 0
+        applyRootMotion: 0
+        lockXMotion: 0
+        lockYMotion: 0
+        lockZMotion: 0
+        loopDownClip: 0
+        soundEffects: []
+        continuousSound: 0
+        particleEffect:
+          editorToggle: 0
+          prefab: {fileID: 0}
+          duration: 1
+          stick: 0
+          destroyOnMoveOver: 0
+          followRotation: 0
+          lockLocalPosition: 0
+          mirrorOn2PSide: 0
+          overrideRotation: 1
+          initialRotation: {x: 0, y: 0, z: 0}
+          positionOffSet: {x: 0, y: 0, z: 0}
+          bodyPart: 0
+          hitBoxDefinitionIndex: 0
+        reference: 54
+        editorToggle: 0
+        soundEffectsToggle: 0
+      moveEnabled: 1
+      jumpEnabled: 1
+      crouchEnabled: 1
+      blockEnabled: 1
+      parryEnabled: 1
+    attackMoves: []
+    AM_File: {fileID: 0}
+    enabledBasicMovesToggle: 0
+    basicMovesToggle: 0
+    attackMovesToggle: 0
+  aiInstructionsSet: []
