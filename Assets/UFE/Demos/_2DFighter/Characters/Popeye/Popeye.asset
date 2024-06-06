@@ -10,26 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: New Character 1
+  m_Name: Popeye
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 0}
-  profilePictureBig: {fileID: 0}
-  characterName: Mecha
+  profilePictureSmall: {fileID: 2800000, guid: 9e4cc2a96f7d36549a70314d41cae04d, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 9e4cc2a96f7d36549a70314d41cae04d, type: 3}
+  characterName: Popeye
   gender: 1
   characterDescription: 
-  selectionAnimation: {fileID: 0}
+  selectionAnimation: {fileID: 7400000, guid: 2977a47a9bd9fd44296bbedc5d3d6176, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
-  height: 1000
-  age: 0
-  bloodType: A+
+  height: 180
+  age: 34
+  bloodType: B-
   lifePoints: 1000
-  maxGaugePoints: 0
+  maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 0}
+  characterPrefab: {fileID: 8906567804172844013, guid: ecae204aa88e32648a2896aa047817ab,
+    type: 3}
   prefabResourcePath: 
-  alternativeCostumes: []
+  alternativeCostumes:
+  - name: Popeye
+    characterPrefabStorage: 0
+    prefab: {fileID: 8906567804172844013, guid: ecae204aa88e32648a2896aa047817ab,
+      type: 3}
+    prefabResourcePath: 
+    enableColorMask: 1
+    colorMask: {r: 1, g: 0, b: 0, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -41,11 +49,11 @@ MonoBehaviour:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 0
+      _serializedValue: 3037000704
     z:
       _serializedValue: 0
     w:
-      _serializedValue: 0
+      _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
       _serializedValue: 17179869184
@@ -96,17 +104,20 @@ MonoBehaviour:
     crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
-    _serializedValue: 1288490188
+    _serializedValue: 1288490240
   possibleAirMoves: 1
   _blendingTime:
-    _serializedValue: 429496729
-  animationType: 0
-  avatar: {fileID: 0}
+    _serializedValue: 429496736
+  animationType: 1
+  avatar: {fileID: 9000000, guid: f4bf0f42f8c671f40a554086ca695e8f, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
-  stanceResourcePath: []
+  stanceResourcePath:
+  - _2DFighter/MoveSets/Robot_Kyle
   moves: []
-  aiInstructionsSet: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}
+    behavior: 0
