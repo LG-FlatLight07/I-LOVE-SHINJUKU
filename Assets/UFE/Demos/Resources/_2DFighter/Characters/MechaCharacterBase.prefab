@@ -78,6 +78,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MechaCharacterBase
       objectReference: {fileID: 0}
+    - target: {fileID: 2223639932434330405, guid: b1e1dd5047532e04795a93e9bfb5a8a0,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: b1e1dd5047532e04795a93e9bfb5a8a0,
         type: 3}
       propertyPath: m_Controller

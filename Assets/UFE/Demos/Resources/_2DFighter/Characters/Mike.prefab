@@ -1337,7 +1337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742292772786450}
   - component: {fileID: 114569017382701078}
-  - component: {fileID: 154819394496955903}
+  - component: {fileID: 1690096784181547547}
   m_Layer: 9
   m_Name: Mike
   m_TagString: Untagged
@@ -2710,27 +2710,21 @@ MonoBehaviour:
   moveSetScript: {fileID: 0}
   previewAllBoxes: 0
   customHitBoxes: {fileID: 0}
---- !u!95 &154819394496955903
-Animator:
-  serializedVersion: 5
+--- !u!111 &1690096784181547547
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311943263835902}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e65df4c6306bbeb42aed9403b5ead998, type: 3}
-  m_Controller: {fileID: 9100000, guid: 85eca58503f1043499d28ef6a3683ace, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1325899955113048
 GameObject:
   m_ObjectHideFlags: 0
