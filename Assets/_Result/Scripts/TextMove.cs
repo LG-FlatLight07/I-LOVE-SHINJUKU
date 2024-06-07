@@ -7,10 +7,10 @@ using UnityEngine;
 
 public class TextMove : MonoBehaviour
 {
+    float w = Screen.width;
+    float h = Screen.height;
     public TMP_Text m_tmpText;          //text
-    [SerializeField]
     private float X;                    //X座標入力
-    [SerializeField]
     private float Y;                    //Y座標入力
     [SerializeField]
     private int num;                    //どちらに進むか入力（+右-左）
@@ -18,6 +18,19 @@ public class TextMove : MonoBehaviour
     void Start()
     {
         StartCoroutine("FadeIn");
+        X = w / 2;
+        if(num>0)
+        {
+            transform.position = new(w / -6, -h/8, 0);
+        }
+        else
+        {
+            transform.position = new(w / 6, (-3*h) / 8, 0);
+        }
+        w /= 6;
+        Y = transform.position.y;
+        Debug.Log(w);
+        Debug.Log(h);
     }
    
     IEnumerator FadeIn()
@@ -33,7 +46,7 @@ public class TextMove : MonoBehaviour
             {
                 for (int i = 0; i < 1000; i++)
                 {
-                    x += num;                               //X座標にnum加算
+                    x += w/60;                               //X座標にnum加算
                     transform.position = new(x, Y, 0);      //座標をずらす
                                                             
                     //目的地についたらbreakで終了
@@ -51,7 +64,7 @@ public class TextMove : MonoBehaviour
             {
                 for (int i = 0; i < 1000; i++)
                 {
-                    x += num;                                   //X座標にnum加算
+                    x -= w / 60;                                   //X座標にnum加算
                     transform.position = new(x, Y, 0);           //座標をずらす
 
                     //目的地についたらbreakで終了

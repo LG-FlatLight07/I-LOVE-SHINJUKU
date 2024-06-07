@@ -13,7 +13,9 @@ public class TextScript : MonoBehaviour
     private float Y;
     [SerializeField]
     private float num;
-    private bool OnBlinking = false;
+    [SerializeField]
+    private float A;
+
     void Start()
     {
         // コンポ取得
@@ -28,7 +30,6 @@ public class TextScript : MonoBehaviour
         textMeshPro.color = currentColor;
 
         StartCoroutine("FadeIn");
-        StartCoroutine("FadeOut");
     }
 
     IEnumerator FadeIn()
@@ -42,7 +43,7 @@ public class TextScript : MonoBehaviour
         Color currentColor = textMeshPro.color;
         while (OnFadeIn==true)
         {
-            for (int i = 0; i < 255; i++)
+            for (int i = 0; i < A; i++)
             {
                 // 新しいアルファ値を設定
                 currentColor.a += num;
@@ -50,12 +51,17 @@ public class TextScript : MonoBehaviour
                 // 設定した新しいカラーを適用
                 textMeshPro.color = currentColor;
                
-                yield return new WaitForSeconds(0.01f);
+                yield return new WaitForSeconds(0.0f);
             }
             if (X == 6)
             {
-                gameObject.SetActive(false);  
+                yield return StartCoroutine("OnBlinking");
             }
+            else
+            {
+                yield return StartCoroutine("FadeOut");
+            }
+          
             OnFadeIn = false;
         }
     }
@@ -72,17 +78,46 @@ public class TextScript : MonoBehaviour
         Color currentColor = textMeshPro.color;
         while (OnFadeOut==true)
         {
-            for (int i = 0; i < 255; i++)
+            for (int i = 0; i < 60; i++)
             {
                 // 新しいアルファ値を設定
-                currentColor.a -= 0.01f;
+                currentColor.a -= 0.02f;
 
                 // 設定した新しいカラーを適用
                 textMeshPro.color = currentColor;
-                yield return new WaitForSeconds(0.01f);
+                yield return new WaitForSeconds(0.0f);
             }
             Destroy(gameObject);
             OnFadeOut = false;
         }
+    }
+    IEnumerator OnBlinking()
+    {
+        yield return new WaitForSeconds(0.0f);
+        //2秒待ってから何か処理をする
+        // コンポ取得
+        TextMeshProUGUI textMeshPro = GetComponent<TextMeshProUGUI>();
+        // 現在のカラーを取得
+        Color currentColor = textMeshPro.color;
+        // 新しいアルファ値を設定
+        currentColor.a = 0.0f;
+
+        // 設定した新しいカラーを適用
+        textMeshPro.color = currentColor;
+        yield return StartCoroutine("OffBlinking");
+    }
+    IEnumerator OffBlinking()
+    {
+        yield return new WaitForSeconds(0.1f);
+        // コンポ取得
+        TextMeshProUGUI textMeshPro = GetComponent<TextMeshProUGUI>();
+        // 現在のカラーを取得
+        Color currentColor = textMeshPro.color;
+        // 新しいアルファ値を設定
+        currentColor.a = 1.0f;
+
+        // 設定した新しいカラーを適用
+        textMeshPro.color = currentColor;
+        Debug.Log("デバッグログのメッセージ");
     }
 }
