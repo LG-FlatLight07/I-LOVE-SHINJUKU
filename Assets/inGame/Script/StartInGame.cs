@@ -11,22 +11,22 @@ public class StartInGame : MonoBehaviour
     UFE3D.CharacterInfo playerCharaInfo1;
     [SerializeField]
     UFE3D.CharacterInfo playerCharaInfo2;
+    [SerializeField]
+    UFE3D.GlobalInfo globalInfo;
 
     void Start()
     {
         // プレイヤー情報の設定
         if (playerCharaInfo1 != null)
         {
-            UFE.SetPlayer1(playerCharaInfo1);
+            //UFE.SetPlayer1(playerCharaInfo1);
         }
         if (playerCharaInfo2 != null)
         {
-            UFE.SetPlayer2(playerCharaInfo2);
+            //UFE.SetPlayer2(playerCharaInfo2);
         }
-        
-
         // PVPを開始
-        UFE.StartPlayerVersusPlayer();
+        UFE.StartPlayerVersusPlayer(1.0f);
     }
 
     // Update is called once per frame
