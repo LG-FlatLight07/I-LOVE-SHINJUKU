@@ -26,7 +26,7 @@ public class StartInGame : MonoBehaviour
             //UFE.SetPlayer2(playerCharaInfo2);
         }
         // PVPを開始
-        UFE.StartPlayerVersusPlayer(1.0f);
+       // UFE.StartPlayerVersusPlayer(1.0f);
     }
 
     // Update is called once per frame

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,6 +13,7 @@ public enum Key
     Z,
     X,
     C,
+    G,
 }
 
 public class InputManager : MonoBehaviour
@@ -28,6 +29,7 @@ public class InputManager : MonoBehaviour
     private static bool z;
     private static bool x;
     private static bool c;
+    private static bool g;
 
     private void Awake()
     {
@@ -52,6 +54,7 @@ public class InputManager : MonoBehaviour
         z = Keyboard.current.zKey.wasPressedThisFrame;
         x = Keyboard.current.xKey.wasPressedThisFrame;
         c = Keyboard.current.cKey.wasPressedThisFrame;
+        g = Keyboard.current.gKey.wasPressedThisFrame;
     }
 
     public static bool GetKey(Key key)
@@ -74,6 +77,8 @@ public class InputManager : MonoBehaviour
                 return x;
             case Key.C:
                 return c;
+            case Key.G:
+                return g;
         }
         return false;
     }
