@@ -5,33 +5,11 @@ using UFE3D;
 
 public class StartInGame : MonoBehaviour
 {
-    //変数宣言
-    //キャラの取得
-    [SerializeField]
-    UFE3D.CharacterInfo playerCharaInfo1;
-    [SerializeField]
-    UFE3D.CharacterInfo playerCharaInfo2;
-    [SerializeField]
-    UFE3D.GlobalInfo globalInfo;
-
-    void Start()
-    {
-        // プレイヤー情報の設定
-        if (playerCharaInfo1 != null)
-        {
-            //UFE.SetPlayer1(playerCharaInfo1);
-        }
-        if (playerCharaInfo2 != null)
-        {
-            //UFE.SetPlayer2(playerCharaInfo2);
-        }
-        // PVPを開始
-       // UFE.StartPlayerVersusPlayer(1.0f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //UFE.gameMode =  GameMode.VersusMode; // or GameMode.TrainingMode if you want Training.
+    //UFE.config.player1Character = p1CharAsset; // or whatever variable you have the Character Asset file set 
+    //UFE.config.player2Character = p2CharAsset; // or whatever variable you have the Character Asset file set 
+    //UFE.config.selectedStage = stagePrefab; // or whatever variable you have the Stage Prefab file set
+    //UFE.SetCPU(1, false); // Set to true for AI on P1
+    //UFE.SetCPU(2, false); // Set to true for AI on P2
+    //UFE.StartGame(UFE.config.gameGUI.gameFadeDuration);
 }

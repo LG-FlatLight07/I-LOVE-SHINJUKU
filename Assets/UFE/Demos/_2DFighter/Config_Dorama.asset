@@ -222,7 +222,7 @@ MonoBehaviour:
     _serializedValue: 4294967296
   preloadStage: 1
   preloadHitEffects: 1
-  warmAllShaders: 1
+  warmAllShaders: 0
   _gravity:
     _serializedValue: 1803886208
   detect3D_Hits: 0

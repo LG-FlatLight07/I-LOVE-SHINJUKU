@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 1124511669}
   - component: {fileID: 1124511668}
   - component: {fileID: 1124511670}
+  - component: {fileID: 1124511671}
   m_Layer: 0
   m_Name: DebugManager
   m_TagString: Untagged
@@ -198,6 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cd8d35d3545324e84513927c83ca0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1MoveInfo: {fileID: 0}
+  player2MoveInfo: {fileID: 0}
 --- !u!4 &1124511669
 Transform:
   m_ObjectHideFlags: 0
@@ -225,6 +228,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc47510c84f05814c8e0f5ad97b833b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1124511671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124511667}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b28400e01ef244f843564476103af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSpecificMoveInfoOptions: []
 --- !u!850595691 &1128661064
 LightingSettings:
   m_ObjectHideFlags: 0
