@@ -36,7 +36,7 @@ public class GetPlayer : MonoBehaviour
             Debug.Log(player1.moves);
             Debug.Log(player2.moves);
 
-            player1.moves.attackMoves = player1MoveInfo;
+            //player1.moves.attackMoves = player1MoveInfo;
         }
     }
 }
