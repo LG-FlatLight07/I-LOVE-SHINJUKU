@@ -136,13 +136,48 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83881080}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1cd8d35d3545324e84513927c83ca0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player1MoveInfo: {fileID: 0}
   player2MoveInfo: {fileID: 0}
+--- !u!114 &83881084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83881080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d2c6962b05d0740b7f70945dda5cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1CharAsset: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
+  p2CharAsset: {fileID: 11400000, guid: f96eee7873a8782478ddd82929665d78, type: 2}
+  stagePrefab:
+    stageName: Training Room (Prefab)
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 0}
+    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -163208757248
+    _rightBoundary:
+      _serializedValue: 163208757248
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  gameFadeDuration: 0.5
 --- !u!1 &522146524
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +671,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8d3379622af66f040bfe7c5cd893bc35,
         type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7045494717640167704, guid: 3001ecf2d6ea4d142ae9f2f588fadfb0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -644,6 +680,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 83881083}
+    - targetCorrespondingSourceObject: {fileID: 1721537467670548549, guid: 3001ecf2d6ea4d142ae9f2f588fadfb0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 83881084}
   m_SourcePrefab: {fileID: 100100000, guid: 3001ecf2d6ea4d142ae9f2f588fadfb0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
