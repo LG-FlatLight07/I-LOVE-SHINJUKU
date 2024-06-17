@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UFE3D;
+using Unity.VisualScripting.FullSerializer;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         //player1.moves[0].attackMoves[0].
+        //UFE.config
     }
 
     // Update is called once per frame
