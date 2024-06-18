@@ -26,13 +26,14 @@ MonoBehaviour:
   bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 1000
-  characterPrefabStorage: 1
-  characterPrefab: {fileID: 0}
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 450718859478395356, guid: 0e2e45bffff23b145819f7b9950432b9,
+    type: 3}
   prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
   alternativeCostumes:
   - name: Ninja
-    characterPrefabStorage: 1
-    prefab: {fileID: 0}
+    characterPrefabStorage: 0
+    prefab: {fileID: 450718859478395356, guid: 0e2e45bffff23b145819f7b9950432b9, type: 3}
     prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
     enableColorMask: 1
     colorMask: {r: 0, g: 0.91391253, b: 1, a: 0}
@@ -45,13 +46,13 @@ MonoBehaviour:
       _serializedValue: 0
   initialRotation:
     x:
-      _serializedValue: -132
+      _serializedValue: 0
     y:
-      _serializedValue: -3037000704
+      _serializedValue: 4291873536
     z:
-      _serializedValue: -3037000704
+      _serializedValue: 0
     w:
-      _serializedValue: 132
+      _serializedValue: -162991568
   physics:
     _moveForwardSpeed:
       _serializedValue: 17179869184
