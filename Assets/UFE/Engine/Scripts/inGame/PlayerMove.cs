@@ -13,13 +13,11 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     private UFE3D.CharacterInfo player2;
 
-
-
     // Start is called before the first frame update
     void Start()
     {
-        //player1.moves[0].attackMoves[0].
-        //UFE.config
+        player1.moves[0].attackMoves[0]
+        
     }
 
     // Update is called once per frame

@@ -866,12 +866,12 @@ MonoBehaviour:
     engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     joystickAxisNameAlt: P1JoystickHorizontalDpad
-    cInputPositiveKeyName: P1Right
-    cInputPositiveDefaultKey: D
-    cInputPositiveAlternativeKey: Joy1 Axis 1+
-    cInputNegativeKeyName: P1Left
-    cInputNegativeDefaultKey: A
-    cInputNegativeAlternativeKey: Joy1 Axis 1-
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
     inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
     inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
     inputViewerIcon3: {fileID: 2800000, guid: 917c18f4aaf6f3a41a72d01a8fa79c1a, type: 3}
@@ -883,12 +883,12 @@ MonoBehaviour:
     engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     joystickAxisNameAlt: P1JoystickVerticalDpad
-    cInputPositiveKeyName: P1Up
-    cInputPositiveDefaultKey: W
-    cInputPositiveAlternativeKey: Joy1 Axis 2+
-    cInputNegativeKeyName: P1Down
-    cInputNegativeDefaultKey: S
-    cInputNegativeAlternativeKey: Joy1 Axis 2-
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
     inputViewerIcon1: {fileID: 2800000, guid: 0f803e1627a596e468c46d268cea841a, type: 3}
     inputViewerIcon2: {fileID: 2800000, guid: 7681f77e08529604096afaded862f563, type: 3}
     inputViewerIcon3: {fileID: 0}
@@ -901,8 +901,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: T
-    cInputPositiveAlternativeKey: Joystick1Button0
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -918,8 +918,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: Y
-    cInputPositiveAlternativeKey: Joystick1Button1
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -935,8 +935,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: U
-    cInputPositiveAlternativeKey: Joystick1Button2
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -952,8 +952,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: G
-    cInputPositiveAlternativeKey: Joystick1Button3
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -969,8 +969,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: H
-    cInputPositiveAlternativeKey: Joystick1Button4
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -986,8 +986,8 @@ MonoBehaviour:
     joystickAxisName: 
     joystickAxisNameAlt: 
     cInputPositiveKeyName: 
-    cInputPositiveDefaultKey: J
-    cInputPositiveAlternativeKey: Joystick1Button5
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
     cInputNegativeKeyName: 
     cInputNegativeDefaultKey: 
     cInputNegativeAlternativeKey: 
@@ -2142,10 +2142,10 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 2
-  music: 0
+  music: 1
   musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0.9
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
