@@ -16,7 +16,7 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player1.moves[0].attackMoves[0]
+        //player1.moves[0].attackMoves[0]
         
     }
 
