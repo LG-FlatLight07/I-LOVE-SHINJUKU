@@ -3,7 +3,32 @@ guid: 6ceaca60581c229419797673027838d8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic
+    second: {fileID: 2100000, guid: c8c79135f8efee2409a8101dfaa692b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ornament
+    second: {fileID: 2100000, guid: 11658afe78bf2d24c957d4f1394d9fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: ad783081482d8874db637fa71122eb5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: c8c79135f8efee2409a8101dfaa692b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood White
+    second: {fileID: 2100000, guid: 54eff264e2764f4438a8edeed314f157, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

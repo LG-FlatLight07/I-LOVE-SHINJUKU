@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Ninja
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 0}
-  profilePictureBig: {fileID: 0}
+  profilePictureSmall: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
   characterName: Ninja
   gender: 1
   characterDescription: 
   selectionAnimation: {fileID: 7400000, guid: 1c56c5bfd88a6a04bb9bdb8bd1b50c03, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
-  height: 80
+  height: 180
   age: 24
   bloodType: Unknown
   lifePoints: 1000
@@ -48,40 +48,40 @@ MonoBehaviour:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 4291873536
+      _serializedValue: 3037000704
     z:
       _serializedValue: 0
     w:
-      _serializedValue: -162991568
+      _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 17179869184
+      _serializedValue: 38654705664
     _moveBackSpeed:
-      _serializedValue: 15032385536
+      _serializedValue: 30064771072
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
     _friction:
-      _serializedValue: 128849018880
+      _serializedValue: 429496729600
     canCrouch: 1
     crouchDelay: 2
     standingDelay: 2
     canJump: 1
-    pressureSensitiveJump: 0
+    pressureSensitiveJump: 1
     _jumpForce:
       _serializedValue: 171798691840
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 60129542144
     _jumpBackDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 42949672960
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 751619276800
-    jumpDelay: 8
+      _serializedValue: 1632087572480
+    jumpDelay: 5
     landingDelay: 7
     _groundCollisionMass:
       _serializedValue: 8589934592
@@ -104,16 +104,17 @@ MonoBehaviour:
   hideGauges: 00000000000000000000
   _executionTiming:
     _serializedValue: 1288490240
-  possibleAirMoves: 1
+  possibleAirMoves: 10
   _blendingTime:
     _serializedValue: 429496736
-  animationType: 0
-  avatar: {fileID: 0}
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 015dac1fb1b550947b900ecc2af5af74, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
-  stanceResourcePath: []
+  stanceResourcePath:
+  - _2DFighter/MoveSets/Popeye
   moves: []
   aiInstructionsSet: []

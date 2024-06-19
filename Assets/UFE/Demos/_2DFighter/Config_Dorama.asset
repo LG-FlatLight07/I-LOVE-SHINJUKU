@@ -183,11 +183,15 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 01000000000000000200000003000000040000000500000006000000
-    selectableCharactersInVersusMode: 00000000010000000200000003000000040000000500000006000000
+    selectableCharactersInStoryMode: 0100000000000000020000000300000004000000050000000600000007000000
+    selectableCharactersInVersusMode: 0000000001000000020000000300000004000000050000000600000007000000
     characterStories:
-      _keys: 00000000010000000200000003000000040000000500000006000000
+      _keys: 0000000001000000020000000300000004000000050000000600000007000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -1211,6 +1215,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: f96eee7873a8782478ddd82929665d78, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+  - {fileID: 11400000, guid: f7c338a04ec6a7540a33c947e30e9cf8, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
