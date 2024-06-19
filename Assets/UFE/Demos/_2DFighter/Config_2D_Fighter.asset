@@ -122,8 +122,7 @@ MonoBehaviour:
     challengeModeAfterBattleScreen: {fileID: -6250319895440792964, guid: 53d723a65a7cda64e8378227002c9eb7,
       type: 3}
     connectionLostScreen: {fileID: 0}
-    replayTools: {fileID: 5718944953315841217, guid: f7b89f06da72baa4ea79bfba7192ac81,
-      type: 3}
+    replayTools: {fileID: 0}
     hostGameScreen: {fileID: 11400056, guid: 20827629319bf498baddba260447ef19, type: 3}
     joinGameScreen: {fileID: 11400056, guid: 589cc9185deee47bfab715e2b150de86, type: 3}
     networkConnectionScreen: {fileID: 4328001832862737647, guid: 9fd03fb470aa5a346a8ea29b92e55b67,
