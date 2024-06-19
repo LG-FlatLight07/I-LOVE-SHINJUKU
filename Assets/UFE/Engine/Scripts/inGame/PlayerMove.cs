@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         //player1.moves[0].attackMoves[0]
-        
+        //UFE_Config.player1Character.moves[];
     }
 
     // Update is called once per frame
