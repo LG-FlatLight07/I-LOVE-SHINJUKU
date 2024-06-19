@@ -154,7 +154,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 34
-    activeFramesEnds: 36
+    activeFramesEnds: 35
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -642,7 +642,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 1
-    activeFramesEnds: 36
+    activeFramesEnds: 35
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 1
@@ -656,7 +656,7 @@ MonoBehaviour:
       _x:
         _serializedValue: 0
       _y:
-        _serializedValue: 0
+        _serializedValue: -12884901888
       topRight:
         x:
           _serializedValue: 21474836480

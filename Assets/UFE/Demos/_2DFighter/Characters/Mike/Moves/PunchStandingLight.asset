@@ -51,8 +51,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 18
   startUpFrames: 7
-  activeFrames: 1
-  recoveryFrames: 10
+  activeFrames: 2
+  recoveryFrames: 9
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -139,8 +139,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 4
-    activeFramesEnds: 13
+    activeFramesBegins: 10
+    activeFramesEnds: 10
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -150,16 +150,13 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
+    ignoreInputs: 1
     ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: 2200eb3c44e8d124e95f20d6a4e1a005, type: 2}
-    - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
-    - {fileID: 11400000, guid: 6713053791658224b9ba2423839bb21e, type: 2}
-    - {fileID: 11400000, guid: 5444367db5d545d47868869e1a091fcd, type: 2}
-    - {fileID: 11400000, guid: cccdfa34dc64a614193a8ff42a3fc2c8, type: 2}
+    - {fileID: 11400000, guid: 74dbc0b5bb182b84980cb5441a1b901f, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
@@ -617,9 +614,9 @@ MonoBehaviour:
       height: 6.81
     _rect:
       _x:
-        _serializedValue: 0
+        _serializedValue: -3307124736
       _y:
-        _serializedValue: 0
+        _serializedValue: -17695264768
       topRight:
         x:
           _serializedValue: 34016139264

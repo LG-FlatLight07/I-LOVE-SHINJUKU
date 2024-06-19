@@ -51,8 +51,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 22
   startUpFrames: 12
-  activeFrames: 3
-  recoveryFrames: 7
+  activeFrames: 4
+  recoveryFrames: 6
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 6
+    activeFramesBegins: 14
     activeFramesEnds: 21
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
@@ -150,13 +150,12 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
+    ignoreInputs: 1
     ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: dfb09fc449cbab64780b2da4b8545e05, type: 2}
-    - {fileID: 11400000, guid: 37ef3a67cfb6104478f9ab91b5706804, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
@@ -206,7 +205,26 @@ MonoBehaviour:
     soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
-  cameraMovements: []
+  cameraMovements:
+  - cinematicType: 0
+    animationClip: {fileID: 0}
+    prefab: {fileID: 0}
+    camAnimationSpeed: 1
+    blendSpeed: 100
+    gameObjectPosition: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    castingFrame: 1
+    _duration:
+      _serializedValue: 429496736
+    fieldOfView: 1
+    camSpeed: 2
+    freezePhysics: 0
+    _myAnimationSpeed:
+      _serializedValue: 85899345920
+    _opAnimationSpeed:
+      _serializedValue: 4294967296
+    previewToggle: 0
   hits:
   - activeFramesBegin: 12
     activeFramesEnds: 15
@@ -320,16 +338,16 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 34359738368
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 34359738368
+        _serializedValue: 0
       y:
-        _serializedValue: 42949672960
+        _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -420,7 +438,7 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0

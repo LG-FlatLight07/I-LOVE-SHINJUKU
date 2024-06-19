@@ -51,8 +51,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 36
   startUpFrames: 6
-  activeFrames: 11
-  recoveryFrames: 19
+  activeFrames: 12
+  recoveryFrames: 18
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -147,7 +147,34 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks: []
+  frameLinks:
+  - linkType: 0
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 25
+    activeFramesEnds: 35
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 74dbc0b5bb182b84980cb5441a1b901f, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
+    useCharacterMoves: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -204,7 +231,26 @@ MonoBehaviour:
     soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
-  cameraMovements: []
+  cameraMovements:
+  - cinematicType: 0
+    animationClip: {fileID: 0}
+    prefab: {fileID: 0}
+    camAnimationSpeed: 1
+    blendSpeed: 100
+    gameObjectPosition: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    castingFrame: 18
+    _duration:
+      _serializedValue: 429496736
+    fieldOfView: 1
+    camSpeed: 1
+    freezePhysics: 0
+    _myAnimationSpeed:
+      _serializedValue: 429496729600
+    _opAnimationSpeed:
+      _serializedValue: 429496729600
+    previewToggle: 0
   hits:
   - activeFramesBegin: 6
     activeFramesEnds: 17

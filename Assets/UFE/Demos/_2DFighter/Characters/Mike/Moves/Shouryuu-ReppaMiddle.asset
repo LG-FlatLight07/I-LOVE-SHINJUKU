@@ -148,13 +148,40 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks:
+  - linkType: 0
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 25
+    activeFramesEnds: 35
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: a1c40a7517d836b45ad094cf9a454b8a, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
+    useCharacterMoves: 0
   - linkType: 2
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 34
-    activeFramesEnds: 36
+    activeFramesBegins: 26
+    activeFramesEnds: 35
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -343,14 +370,14 @@ MonoBehaviour:
       x:
         _serializedValue: 42949672960
       y:
-        _serializedValue: 0
+        _serializedValue: 21474836480
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
         _serializedValue: 34359738368
       y:
-        _serializedValue: 68719476736
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -441,7 +468,7 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0

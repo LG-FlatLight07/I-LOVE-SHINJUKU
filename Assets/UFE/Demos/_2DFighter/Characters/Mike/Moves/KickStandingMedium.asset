@@ -51,8 +51,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 27
   startUpFrames: 14
-  activeFrames: 5
-  recoveryFrames: 8
+  activeFrames: 6
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
+    ignoreInputs: 1
     ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
@@ -159,6 +159,33 @@ MonoBehaviour:
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
+    counterMoveToggle: 0
+    useCharacterMoves: 0
+  - linkType: 0
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 3
+    activeFramesEnds: 3
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: a421cbfbf03bd364fa9167deacb5cf15, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 1
     counterMoveToggle: 0
     useCharacterMoves: 0
   gauges:
@@ -319,7 +346,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 77309411328
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:
@@ -419,7 +446,7 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
