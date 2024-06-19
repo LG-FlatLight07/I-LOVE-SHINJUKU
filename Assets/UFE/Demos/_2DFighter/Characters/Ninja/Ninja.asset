@@ -115,6 +115,6 @@ MonoBehaviour:
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _2DFighter/MoveSets/Popeye
+  - _2DFighter/MoveSets/Ninja
   moves: []
   aiInstructionsSet: []
