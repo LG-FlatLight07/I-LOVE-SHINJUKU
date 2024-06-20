@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.67935973, g: 0.73288846, b: 0.8046861, a: 1}
+  m_IndirectSpecularColor: {r: 0.6793613, g: 0.7328877, b: 0.80468684, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315360516}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75d2c6962b05d0740b7f70945dda5cf4, type: 3}
   m_Name: 
@@ -188,7 +188,7 @@ MonoBehaviour:
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
+    prefab: {fileID: 100000, guid: 1d3be7d261628fd468ce193042fa63f8, type: 3}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600

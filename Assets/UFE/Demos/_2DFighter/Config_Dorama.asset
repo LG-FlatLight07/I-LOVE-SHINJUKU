@@ -24,19 +24,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Map1
+    stageName: Stages/TrainingRoom2D/TrainingRoom
     stageLoadingMethod: 0
-    stagePath: _2DFighter/Map1
-    screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
-    prefab: {fileID: 3407077100237797795, guid: 1942264fbb0615f4c8d7b703d4ae8770,
-      type: 3}
-    music: {fileID: 0}
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
+    prefab: {fileID: 100000, guid: 1d3be7d261628fd468ce193042fa63f8, type: 3}
+    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -128849018880
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 128849018880
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -1221,6 +1220,25 @@ MonoBehaviour:
       _serializedValue: -128849018880
     _rightBoundary:
       _serializedValue: 128849018880
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: TamaMap
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 2ad4832867ab7e14f938908f0e2ae861, type: 3}
+    prefab: {fileID: 100000, guid: 1d3be7d261628fd468ce193042fa63f8, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -163208757248
+    _rightBoundary:
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
