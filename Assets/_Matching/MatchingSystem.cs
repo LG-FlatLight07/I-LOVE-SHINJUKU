@@ -13,11 +13,11 @@ public class MatchingSystem : MonoBehaviour
     public bool Out = false;
     public bool In = false;
 
-    public Image fadeImage;
+    public SpriteRenderer fadeImage;
 
     void Start()
     {
-        fadeImage = GetComponent<Image>();
+        fadeImage = GetComponent<SpriteRenderer>();
         red = fadeImage.color.r;
         green = fadeImage.color.g;
         blue = fadeImage.color.b;
