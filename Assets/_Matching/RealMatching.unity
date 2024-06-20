@@ -496,7 +496,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574392560}
-  - component: {fileID: 1574392559}
   m_Layer: 0
   m_Name: MatchingSystem
   m_TagString: Untagged
@@ -504,21 +503,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1574392559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574392558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78329eeb097add4cb780c6ca9ee3708, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Out: 0
-  In: 0
-  fadeImage: {fileID: 0}
 --- !u!4 &1574392560
 Transform:
   m_ObjectHideFlags: 0
@@ -544,8 +528,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1919265691}
   - component: {fileID: 1919265693}
-  - component: {fileID: 1919265694}
   - component: {fileID: 1919265692}
+  - component: {fileID: 1919265694}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
