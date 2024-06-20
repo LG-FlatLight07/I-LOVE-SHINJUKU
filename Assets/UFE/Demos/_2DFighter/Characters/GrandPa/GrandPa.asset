@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: GrandPa
+  m_EditorClassIdentifier: 
+  gameplayType: 0
+  profilePictureSmall: {fileID: 2800000, guid: 2ad4832867ab7e14f938908f0e2ae861, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
+  characterName: GrandPa
+  gender: 1
+  characterDescription: 
+  selectionAnimation: {fileID: 7400000, guid: 1c56c5bfd88a6a04bb9bdb8bd1b50c03, type: 2}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 160
+  age: 78
+  bloodType: Unknown
+  lifePoints: 1000
+  maxGaugePoints: 1000
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 4944717478781675473, guid: d7b58455e3285ee41a046ef2e0b8b974,
+    type: 3}
+  prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
+  alternativeCostumes:
+  - name: GrandPa
+    characterPrefabStorage: 0
+    prefab: {fileID: 4944717478781675473, guid: d7b58455e3285ee41a046ef2e0b8b974,
+      type: 3}
+    prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
+    enableColorMask: 0
+    colorMask: {r: 0.9578586, g: 0.9877442, b: 0.990566, a: 0}
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 38654705664
+    _moveBackSpeed:
+      _serializedValue: 30064771072
+    _moveSidewaysSpeed:
+      _serializedValue: 17179869184
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 429496729600
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 1
+    _jumpForce:
+      _serializedValue: 171798691840
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 60129542144
+    _jumpBackDistance:
+      _serializedValue: 42949672960
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 1632087572480
+    jumpDelay: 5
+    landingDelay: 7
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 0
+    disableCrouch: 0
+    jumpButton: 2
+    crouchButton: 3
+  hideGauges: 00000000000000000000
+  _executionTiming:
+    _serializedValue: 1288490240
+  possibleAirMoves: 10
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 957687a1a6c093a47b3046ad2d2534b7, type: 3}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 0
+  normalizeAnimationFrames: 0
+  stanceResourcePath:
+  - _2DFighter/MoveSets/Ninja
+  moves: []
+  aiInstructionsSet: []
