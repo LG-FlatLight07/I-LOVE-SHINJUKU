@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.67935973, g: 0.73288846, b: 0.8046861, a: 1}
+  m_IndirectSpecularColor: {r: 0.6793613, g: 0.7328877, b: 0.80468684, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315360516}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75d2c6962b05d0740b7f70945dda5cf4, type: 3}
   m_Name: 
@@ -188,8 +188,7 @@ MonoBehaviour:
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
-    prefab: {fileID: 3407077100237797795, guid: 1942264fbb0615f4c8d7b703d4ae8770,
-      type: 3}
+    prefab: {fileID: 100000, guid: 0a4478d24f02b544dae446f978d64317, type: 3}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
@@ -356,13 +355,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072733962}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.29714057, y: -0.1472412, z: 0.18458647, w: 0.9251786}
+  m_LocalRotation: {x: 0.2469139, y: 0.9345316, z: 0.24778649, w: -0.06546801}
   m_LocalPosition: {x: 17.596571, y: 4.000001, z: 12.585842}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -29.7, y: 180, z: 29.6}
 --- !u!82 &2072733966
 AudioSource:
   m_ObjectHideFlags: 0
