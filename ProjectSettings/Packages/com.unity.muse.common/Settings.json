@@ -4,22 +4,17 @@
             {
                 "type": "Unity.Muse.Common.PreferenceDataWrapper`1[[System.Collections.Generic.List`1[[Unity.Muse.Common.Account.OrganizationInfo, Unity.Muse.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
                 "key": "Unity.Muse.Common.Preferences.organizations",
-                "value": "{\"value\":[{\"rid\":1000}],\"references\":{\"version\":2,\"RefIds\":[{\"rid\":1000,\"type\":{\"class\":\"OrganizationInfo\",\"ns\":\"Unity.Muse.Common.Account\",\"asm\":\"Unity.Muse.Common\"},\"data\":{\"org_id\":\"15668133957247\",\"org_name\":\"unity_0127kirby\",\"status\":\"free-trial\"}}]}}"
+                "value": "{\"value\":[{\"rid\":1000}],\"references\":{\"version\":2,\"RefIds\":[{\"rid\":1000,\"type\":{\"class\":\"OrganizationInfo\",\"ns\":\"Unity.Muse.Common.Account\",\"asm\":\"Unity.Muse.Common\"},\"data\":{\"org_id\":\"15668675183815\",\"org_name\":\"buruzonniemi\",\"status\":\"not-entitled\"}}]}}"
             },
             {
                 "type": "Unity.Muse.Common.PreferenceDataWrapper`1[[Unity.Muse.Common.Account.OrganizationInfo, Unity.Muse.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
                 "key": "Unity.Muse.Common.Preferences.organization",
-                "value": "{\"value\":{\"rid\":1000},\"references\":{\"version\":2,\"RefIds\":[{\"rid\":1000,\"type\":{\"class\":\"OrganizationInfo\",\"ns\":\"Unity.Muse.Common.Account\",\"asm\":\"Unity.Muse.Common\"},\"data\":{\"org_id\":\"15668133957247\",\"org_name\":\"unity_0127kirby\",\"status\":\"free-trial\"}}]}}"
+                "value": "{\"value\":{\"rid\":1000},\"references\":{\"version\":2,\"RefIds\":[{\"rid\":1000,\"type\":{\"class\":\"OrganizationInfo\",\"ns\":\"Unity.Muse.Common.Account\",\"asm\":\"Unity.Muse.Common\"},\"data\":{\"org_id\":\"15668675183815\",\"org_name\":\"buruzonniemi\",\"status\":\"not-entitled\"}}]}}"
             },
             {
                 "type": "Unity.Muse.Common.PreferenceDataWrapper`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
                 "key": "Unity.Muse.Common.Preferences.trialDialogShown",
                 "value": "{\"value\":false}"
-            },
-            {
-                "type": "Unity.Muse.Common.PreferenceDataWrapper`1[[Unity.Muse.Common.Account.UsageInfo, Unity.Muse.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-                "key": "Unity.Muse.Common.Preferences.usage",
-                "value": "{\"value\":{\"rid\":1000},\"references\":{\"version\":2,\"RefIds\":[{\"rid\":1000,\"type\":{\"class\":\"UsageInfo\",\"ns\":\"Unity.Muse.Common.Account\",\"asm\":\"Unity.Muse.Common\"},\"data\":{\"used\":0,\"total\":1000}}]}}"
             }
         ]
     }
