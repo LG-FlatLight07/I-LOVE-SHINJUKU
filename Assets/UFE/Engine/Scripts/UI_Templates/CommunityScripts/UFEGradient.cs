@@ -23,6 +23,9 @@ namespace UFE3D
         private Color32 StartColor = Color.white;
         [SerializeField]
         private Color32 EndColor = Color.black;
+        
+        [SerializeField] 
+        Sprite[] m_uiTimeSprite = new Sprite[10];
 
         public override void ModifyMesh(VertexHelper helper)
         {

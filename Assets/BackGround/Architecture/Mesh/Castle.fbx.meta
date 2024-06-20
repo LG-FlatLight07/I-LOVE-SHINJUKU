@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 9a8a1a85935eb2f49ab92e08882f86b5, type: 2}
+    second: {fileID: 2100000, guid: fa2bda03f43ced142b0116d1cf4760ca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -38,7 +38,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: roof
-    second: {fileID: 2100000, guid: ad783081482d8874db637fa71122eb5f, type: 2}
+    second: {fileID: 2100000, guid: 7cfa099267d92464e9391dcf143bac87, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

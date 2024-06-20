@@ -184,18 +184,19 @@ MonoBehaviour:
   p1CharAsset: {fileID: 11400000, guid: f96eee7873a8782478ddd82929665d78, type: 2}
   p2CharAsset: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   stagePrefab:
-    stageName: Stages/TrainingRoom2D/TrainingRoom
+    stageName: 
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 1d3be7d261628fd468ce193042fa63f8, type: 3}
+    screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
+    prefab: {fileID: 3407077100237797795, guid: 1942264fbb0615f4c8d7b703d4ae8770,
+      type: 3}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -163208757248
+      _serializedValue: -125000000000
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 125000000000
     position:
       x:
         _serializedValue: 0
@@ -280,6 +281,7 @@ GameObject:
   - component: {fileID: 2072733964}
   - component: {fileID: 2072733963}
   - component: {fileID: 2072733966}
+  - component: {fileID: 2072733967}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -457,6 +459,50 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &2072733967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072733962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

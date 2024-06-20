@@ -4,155 +4,155 @@ using System;
 using System.Collections.Generic;
 using UFE3D;
 
-public class DefaultBattleGUI : BattleGUI{
-	#region public class definitions
-	[Serializable]
-	public class PlayerGUI{
-		public Text name;
-		public Image portrait;
-		public Image lifeBar;
-		public Image[] gauges;
-		public Image[] wonRoundsImages;
-		public AlertGUI alert = new AlertGUI();
-	}
+public class DefaultBattleGUI : BattleGUI {
+    #region public class definitions
+    [Serializable]
+    public class PlayerGUI {
+        public Text name;
+        public Image portrait;
+        public Image lifeBar;
+        public Image[] gauges;
+        public Image[] wonRoundsImages;
+        public AlertGUI alert = new AlertGUI();
+    }
 
-	[Serializable]
-	public class AlertGUI{
-		public Text text;
-		public Vector3 initialPosition;
-		public Vector3 finalPosition;
-		public float movementSpeed = 15f;
-	}
+    [Serializable]
+    public class AlertGUI {
+        public Text text;
+        public Vector3 initialPosition;
+        public Vector3 finalPosition;
+        public float movementSpeed = 15f;
+    }
 
-	[Serializable]
-	public class WonRoundsGUI{
-		public Sprite NotFinishedRounds;
-		public Sprite WonRounds;
-		public Sprite LostRounds;
-		public DefaultBattleGUI.VisibleImages VisibleImages = DefaultBattleGUI.VisibleImages.WonRounds;
+    [Serializable]
+    public class WonRoundsGUI {
+        public Sprite NotFinishedRounds;
+        public Sprite WonRounds;
+        public Sprite LostRounds;
+        public DefaultBattleGUI.VisibleImages VisibleImages = DefaultBattleGUI.VisibleImages.WonRounds;
 
-		public int GetNumberOfRoundsImages(){
-			// To calculate the target number of images, check if the "Lost Rounds" Sprite is defined or not
-			if (this.VisibleImages == VisibleImages.AllRounds){
-				return UFE.config.roundOptions.totalRounds;
-			}
-			return (UFE.config.roundOptions.totalRounds + 1) / 2;
-		}
-	}
+        public int GetNumberOfRoundsImages() {
+            // To calculate the target number of images, check if the "Lost Rounds" Sprite is defined or not
+            if (this.VisibleImages == VisibleImages.AllRounds) {
+                return UFE.config.roundOptions.totalRounds;
+            }
+            return (UFE.config.roundOptions.totalRounds + 1) / 2;
+        }
+    }
 
-	public enum VisibleImages{
-		WonRounds,
-		AllRounds,
-	}
-	#endregion
+    public enum VisibleImages {
+        WonRounds,
+        AllRounds,
+    }
+    #endregion
 
-	#region public instance properties
-	public bool muteAnnouncer = false;
+    #region public instance properties
+    public bool muteAnnouncer = false;
     public AnnouncerOptions announcer;
-	public WonRoundsGUI wonRounds = new WonRoundsGUI();
-	public PlayerGUI player1GUI = new PlayerGUI();
-	public PlayerGUI player2GUI = new PlayerGUI();
-	public AlertGUI mainAlert = new AlertGUI();
-	public Text info;
-	public Text timer;
-	public float lifeDownSpeed = 500f;
-	public float lifeUpSpeed = 900f;
+    public WonRoundsGUI wonRounds = new WonRoundsGUI();
+    public PlayerGUI player1GUI = new PlayerGUI();
+    public PlayerGUI player2GUI = new PlayerGUI();
+    public AlertGUI mainAlert = new AlertGUI();
+    public Text info;
+    public Text timer;
+    public float lifeDownSpeed = 500f;
+    public float lifeUpSpeed = 900f;
     public Sprite networkPlayerPointer;
     public float pointerTimer = 4f;
-	#endregion
+    #endregion
 
-	#region protected instance properties
-	protected bool showInputs = true;
-	protected bool hiding = false;
+    #region protected instance properties
+    protected bool showInputs = true;
+    protected bool hiding = false;
 
-	protected float player1AlertTimer = 0f;
-	protected float player2AlertTimer = 0f;
-	protected float mainAlertTimer = 0f;
-	protected UFEScreen pause = null;
-	#endregion
+    protected float player1AlertTimer = 0f;
+    protected float player2AlertTimer = 0f;
+    protected float mainAlertTimer = 0f;
+    protected UFEScreen pause = null;
+    #endregion
 
-	#region public instance methods
-	public void AddInput (InputReferences[] inputReferences, int player){
-		this.OnInput(inputReferences, player);
-	}
-	#endregion
+    #region public instance methods
+    public void AddInput(InputReferences[] inputReferences, int player) {
+        this.OnInput(inputReferences, player);
+    }
+    #endregion
 
-	#region public override methods
-	public override void DoFixedUpdate(
-		IDictionary<InputReferences, InputEvents> player1PreviousInputs,
-		IDictionary<InputReferences, InputEvents> player1CurrentInputs,
-		IDictionary<InputReferences, InputEvents> player2PreviousInputs,
-		IDictionary<InputReferences, InputEvents> player2CurrentInputs
-	){
-		base.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
+    #region public override methods
+    public override void DoFixedUpdate(
+        IDictionary<InputReferences, InputEvents> player1PreviousInputs,
+        IDictionary<InputReferences, InputEvents> player1CurrentInputs,
+        IDictionary<InputReferences, InputEvents> player2PreviousInputs,
+        IDictionary<InputReferences, InputEvents> player2CurrentInputs
+    ) {
+        base.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
 
-		if (this.isRunning){
-			float deltaTime = (float)UFE.fixedDeltaTime;
+        if (this.isRunning) {
+            float deltaTime = (float)UFE.fixedDeltaTime;
 
-			// Animate the alert messages if they exist
-			if (this.player1GUI != null && this.player1GUI.alert != null && this.player1GUI.alert.text != null){
-				this.player1GUI.alert.text.rectTransform.anchoredPosition = Vector3.Lerp(
-					this.player1GUI.alert.text.rectTransform.anchoredPosition, 
-					this.player1GUI.alert.finalPosition, 
-					this.player1GUI.alert.movementSpeed * deltaTime
-				);
+            // Animate the alert messages if they exist
+            if (this.player1GUI != null && this.player1GUI.alert != null && this.player1GUI.alert.text != null) {
+                this.player1GUI.alert.text.rectTransform.anchoredPosition = Vector3.Lerp(
+                    this.player1GUI.alert.text.rectTransform.anchoredPosition,
+                    this.player1GUI.alert.finalPosition,
+                    this.player1GUI.alert.movementSpeed * deltaTime
+                );
 
-				if (this.player1AlertTimer > 0f){
-					this.player1AlertTimer -= deltaTime;
-				}else if (!string.IsNullOrEmpty(this.player1GUI.alert.text.text)){
-					this.player1GUI.alert.text.text = string.Empty;
-				}
-			}
+                if (this.player1AlertTimer > 0f) {
+                    this.player1AlertTimer -= deltaTime;
+                } else if (!string.IsNullOrEmpty(this.player1GUI.alert.text.text)) {
+                    this.player1GUI.alert.text.text = string.Empty;
+                }
+            }
 
-			if (this.player2GUI != null && this.player2GUI.alert != null && this.player2GUI.alert.text != null){
-				this.player2GUI.alert.text.rectTransform.anchoredPosition = Vector3.Lerp(
-					this.player2GUI.alert.text.rectTransform.anchoredPosition, 
-					this.player2GUI.alert.finalPosition, 
-					this.player2GUI.alert.movementSpeed * deltaTime
-				);
+            if (this.player2GUI != null && this.player2GUI.alert != null && this.player2GUI.alert.text != null) {
+                this.player2GUI.alert.text.rectTransform.anchoredPosition = Vector3.Lerp(
+                    this.player2GUI.alert.text.rectTransform.anchoredPosition,
+                    this.player2GUI.alert.finalPosition,
+                    this.player2GUI.alert.movementSpeed * deltaTime
+                );
 
-				if (this.player2AlertTimer > 0f){
-					this.player2AlertTimer -= deltaTime;
-				}else if (!string.IsNullOrEmpty(this.player2GUI.alert.text.text)){
-					this.player2GUI.alert.text.text = string.Empty;
-				}
-			}
+                if (this.player2AlertTimer > 0f) {
+                    this.player2AlertTimer -= deltaTime;
+                } else if (!string.IsNullOrEmpty(this.player2GUI.alert.text.text)) {
+                    this.player2GUI.alert.text.text = string.Empty;
+                }
+            }
 
-			if (this.mainAlert != null && this.mainAlert.text != null){
-				if (this.mainAlertTimer > 0f){
-					this.mainAlertTimer -= deltaTime;
-				}else if (!string.IsNullOrEmpty(this.mainAlert.text.text)){
-					this.mainAlert.text.text = string.Empty;
-				}
-			}
+            if (this.mainAlert != null && this.mainAlert.text != null) {
+                if (this.mainAlertTimer > 0f) {
+                    this.mainAlertTimer -= deltaTime;
+                } else if (!string.IsNullOrEmpty(this.mainAlert.text.text)) {
+                    this.mainAlert.text.text = string.Empty;
+                }
+            }
 
-			
-			// Animate life points when it goes down (P1)
-			if (this.player1.targetLife > UFE.GetPlayer1ControlsScript().currentLifePoints){
-				this.player1.targetLife -= this.lifeDownSpeed * deltaTime;
+
+            // Animate life points when it goes down (P1)
+            if (this.player1.targetLife > UFE.GetPlayer1ControlsScript().currentLifePoints) {
+                this.player1.targetLife -= this.lifeDownSpeed * deltaTime;
                 if (this.player1.targetLife < UFE.GetPlayer1ControlsScript().currentLifePoints)
                     this.player1.targetLife = (float)UFE.GetPlayer1ControlsScript().currentLifePoints;
-			}
-			if (this.player1.targetLife < UFE.GetPlayer1ControlsScript().currentLifePoints){
+            }
+            if (this.player1.targetLife < UFE.GetPlayer1ControlsScript().currentLifePoints) {
                 this.player1.targetLife += this.lifeUpSpeed * deltaTime;
                 if (this.player1.targetLife > UFE.GetPlayer1ControlsScript().currentLifePoints)
                     this.player1.targetLife = (float)UFE.GetPlayer1ControlsScript().currentLifePoints;
-			}
-			
-			// Animate life points when it goes down (P2)
-			if (this.player2.targetLife > UFE.GetPlayer2ControlsScript().currentLifePoints){
+            }
+
+            // Animate life points when it goes down (P2)
+            if (this.player2.targetLife > UFE.GetPlayer2ControlsScript().currentLifePoints) {
                 this.player2.targetLife -= this.lifeDownSpeed * deltaTime;
                 if (this.player2.targetLife < UFE.GetPlayer2ControlsScript().currentLifePoints)
                     this.player2.targetLife = (float)UFE.GetPlayer2ControlsScript().currentLifePoints;
-			}
-			if (this.player2.targetLife < UFE.GetPlayer2ControlsScript().currentLifePoints){
+            }
+            if (this.player2.targetLife < UFE.GetPlayer2ControlsScript().currentLifePoints) {
                 this.player2.targetLife += this.lifeUpSpeed * deltaTime;
                 if (this.player2.targetLife > UFE.GetPlayer2ControlsScript().currentLifePoints)
                     this.player2.targetLife = (float)UFE.GetPlayer2ControlsScript().currentLifePoints;
-			}
+            }
 
 
-			bool player1CurrentStartButton = false;
+            bool player1CurrentStartButton = false;
             bool player1PreviousStartButton = false;
             bool player2CurrentStartButton = false;
             bool player2PreviousStartButton = false;
@@ -201,33 +201,33 @@ public class DefaultBattleGUI : BattleGUI{
                 }
             }
 
-			if(
-				// Check if both players have their life points above zero...
-				UFE.GetPlayer1ControlsScript().currentLifePoints > 0 &&
-				UFE.GetPlayer2ControlsScript().currentLifePoints > 0 &&
-				UFE.gameMode != GameMode.NetworkGame &&
-				(
-					// and at least one of the players have pressed the Start button...
-					player1CurrentStartButton && !player1PreviousStartButton ||
-					player2CurrentStartButton && !player2PreviousStartButton 
-				)
-			){
-				// In that case, we can process pause menu events
-				UFE.PauseGame(!UFE.IsPaused());
-			}
+            if (
+                // Check if both players have their life points above zero...
+                UFE.GetPlayer1ControlsScript().currentLifePoints > 0 &&
+                UFE.GetPlayer2ControlsScript().currentLifePoints > 0 &&
+                UFE.gameMode != GameMode.NetworkGame &&
+                (
+                    // and at least one of the players have pressed the Start button...
+                    player1CurrentStartButton && !player1PreviousStartButton ||
+                    player2CurrentStartButton && !player2PreviousStartButton
+                )
+            ) {
+                // In that case, we can process pause menu events
+                UFE.PauseGame(!UFE.IsPaused());
+            }
 
 
-			// Draw the Life Bars and Gauge Meters using the data stored in UFE.config.guiOptions
-			if (this.player1GUI != null && this.player1GUI.lifeBar != null){
-				this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife;
-			}
-			
-			if (this.player2GUI != null && this.player2GUI.lifeBar != null){
-				this.player2GUI.lifeBar.fillAmount = this.player2.targetLife / this.player2.totalLife;
-			}
+            // Draw the Life Bars and Gauge Meters using the data stored in UFE.config.guiOptions
+            if (this.player1GUI != null && this.player1GUI.lifeBar != null) {
+                this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife;
+            }
 
-			if (UFE.config.gameGUI.hasGauge){
-                for (int i = 0; i < this.player1GUI.gauges.Length; i ++)
+            if (this.player2GUI != null && this.player2GUI.lifeBar != null) {
+                this.player2GUI.lifeBar.fillAmount = this.player2.targetLife / this.player2.totalLife;
+            }
+
+            if (UFE.config.gameGUI.hasGauge) {
+                for (int i = 0; i < this.player1GUI.gauges.Length; i++)
                 {
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
@@ -241,14 +241,14 @@ public class DefaultBattleGUI : BattleGUI{
                         this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
                     }
                 }
-			}
+            }
 
-			if (this.pause != null){
-				this.pause.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
-			}
+            if (this.pause != null) {
+                this.pause.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
+            }
 
 
-			/*
+            /*
 			if (Debug.isDebugBuild){
 				player1NameGO.guiText.text = string.Format(
 					"{0}\t\t({1},\t{2},\t{3})",
@@ -267,10 +267,16 @@ public class DefaultBattleGUI : BattleGUI{
 				);
 			}
 			*/
-		}
-	}
+        }
+    }
 
-	public override void OnHide ()
+    public bool GetIsRunning()
+    {
+        return isRunning;
+    }
+
+
+    public override void OnHide ()
     {
 		if (UFE.debugger1 != null) UFE.debugger1.enabled = false;
 		if (UFE.debugger2 != null) UFE.debugger2.enabled = false;
