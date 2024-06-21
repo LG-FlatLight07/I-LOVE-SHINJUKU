@@ -193,9 +193,9 @@ MonoBehaviour:
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -125000000000
+      _serializedValue: -110000000000
     _rightBoundary:
-      _serializedValue: 125000000000
+      _serializedValue: 145000000000
     position:
       x:
         _serializedValue: 0
