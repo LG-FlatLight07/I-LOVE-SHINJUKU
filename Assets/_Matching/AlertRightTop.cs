@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,25 +6,21 @@ using UnityEngine.UI;
 public class AlertRightTop : MonoBehaviour
 {
     //アラートイメージ
-    public Image alertImage;
+    public SpriteRenderer alertSprite;
+
+    private Animator anim = null;
 
     private void Start()
     {
-        alertImage.enabled = false;
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        //3番キー
-        if (Input.GetKeyDown("3"))
+        //挑戦状通知
+        if (Input.GetKeyDown("6"))
         {
-            Debug.Log("3");
-            ActivateAlert();
+            anim.SetTrigger("Activate");
         }
-    }
-    //通知有効化
-    public void ActivateAlert()
-    {
-        alertImage.enabled = true;
     }
 }

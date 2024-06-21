@@ -26,33 +26,33 @@ public class MatchingSystem : MonoBehaviour
 
     void Update()
     {
-        //フェードアウト
-        if (Input.GetKey("1"))
-        {
-            Out = true;
-            FadeOut();
-            Debug.Log("1");
-        }
-
-        //フェードイン
-        if (Input.GetKey("2"))
-        {
-            In = true;
-            FadeIn();
-            Debug.Log("2");
-        }
-
-        //3番キー
-        if (Input.GetKeyDown("3"))
-        {
-            Debug.Log("3");
-        }
-
-        //4番キー
-        if (Input.GetKeyDown("4"))
-        {
-            Debug.Log("4");
-        }
+        // //フェードアウト
+        // if (Input.GetKey("1"))
+        // {
+        //     Out = true;
+        //     FadeOut();
+        //     Debug.Log("1");
+        // }
+        //
+        // //フェードイン
+        // if (Input.GetKey("2"))
+        // {
+        //     In = true;
+        //     FadeIn();
+        //     Debug.Log("2");
+        // }
+        //
+        // //3番キー
+        // if (Input.GetKeyDown("3"))
+        // {
+        //     Debug.Log("3");
+        // }
+        //
+        // //4番キー
+        // if (Input.GetKeyDown("4"))
+        // {
+        //     Debug.Log("4");
+        // }
     }
 
     void FadeIn()
