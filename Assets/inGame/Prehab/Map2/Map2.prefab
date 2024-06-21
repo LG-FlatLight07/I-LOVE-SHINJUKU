@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe0a5a9aa990294fb9c1578466ce725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: 
+  NextScene: 6_VSKagami1Result
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0

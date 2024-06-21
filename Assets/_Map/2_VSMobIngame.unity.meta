@@ -1,12 +1,4 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/_Result/anim.meta
-guid: 5e1372330d149d941b5e788d4c9f7712
-folderAsset: yes
-========
-guid: 4cec1c2c4b9cff54fa0541ea4993fb62
->>>>>>>> ed778d4 (一旦ねマップ追加 2,5,8がインゲーム用シーン):Assets/_Map/2_VSMobIngame.unity.meta
+guid: 555dc23d6ea280b49bcd6887f2fb634e
 DefaultImporter:
-  externalObjects: {}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
