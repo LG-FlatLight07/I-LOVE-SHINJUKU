@@ -28,15 +28,14 @@ MonoBehaviour:
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
-    prefab: {fileID: 3407077100237797795, guid: 1942264fbb0615f4c8d7b703d4ae8770,
-      type: 3}
+    prefab: {fileID: 100000, guid: 1d3be7d261628fd468ce193042fa63f8, type: 3}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -125000000000
+      _serializedValue: -120000000000
     _rightBoundary:
-      _serializedValue: 125000000000
+      _serializedValue: 130000000000
     position:
       x:
         _serializedValue: 0
@@ -290,7 +289,7 @@ MonoBehaviour:
     selectedTeamMode: 0
     skipLoadingScreen: 0
   cameraOptions:
-    initialDistance: {x: 0, y: 9, z: -53}
+    initialDistance: {x: 0, y: 5, z: -53}
     initialRotation: {x: 7, y: 0, z: 0}
     enableLookAt: 1
     dollyAngle: 0

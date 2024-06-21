@@ -15,7 +15,7 @@ public class StartInGame : MonoBehaviour
     [SerializeField]
     private float gameFadeDuration;
 
-    private void Awake()
+    private void Start()
     {
         UFE.gameMode = GameMode.VersusMode; // or GameMode.TrainingMode if you want Training.
         UFE.config.player1Character = p1CharAsset; // or whatever variable you have the Character Asset file set 
