@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //マッチングシステム 
 public class MatchingSystem : MonoBehaviour
@@ -15,46 +15,65 @@ public class MatchingSystem : MonoBehaviour
 
     public SpriteRenderer fadeImage;
 
+    [SerializeField] //開始時ディレイ
+    private float StartDelayTime = 3;
+    [SerializeField] //終了時ディレイ
+    private float EndDelayTime = 6;
+    [SerializeField] //シーンのテキスト
+    private String SceneString;
+    
     void Start()
     {
+        //スプライトレンダラー
         fadeImage = GetComponent<SpriteRenderer>();
         red = fadeImage.color.r;
         green = fadeImage.color.g;
         blue = fadeImage.color.b;
         alfa = fadeImage.color.a;
+        
     }
 
     void Update()
     {
-        // //フェードアウト
-        // if (Input.GetKey("1"))
-        // {
-        //     Out = true;
-        //     FadeOut();
-        //     Debug.Log("1");
-        // }
-        //
-        // //フェードイン
-        // if (Input.GetKey("2"))
-        // {
-        //     In = true;
-        //     FadeIn();
-        //     Debug.Log("2");
-        // }
-        //
-        // //3番キー
-        // if (Input.GetKeyDown("3"))
-        // {
-        //     Debug.Log("3");
-        // }
-        //
-        // //4番キー
-        // if (Input.GetKeyDown("4"))
-        // {
-        //     Debug.Log("4");
-        // }
+        //フェードイン
+        if (Input.GetKey("4"))
+        {
+            StartCoroutine(StartDelay());
+        }
+
+        if (In)
+        {
+            FadeIn();
+        }
+
+        if (Out)
+        {
+            FadeOut();
+        }
+    }
+    
+
+    IEnumerator StartDelay()
+    {
+        yield return new WaitForSeconds(StartDelayTime);
+        In = true;
+        StartCoroutine(EndDelay());
+    }
+    
+    IEnumerator EndDelay()
+    {
+        yield return new WaitForSeconds(EndDelayTime);
+        Out = true;
+        
+        //マップを開く
+        Invoke("ChangeScene", 3f);
     }
 
+    void ChangeScene()
+    {
+        SceneManager.LoadScene(SceneString);
+    }
+    
     void FadeIn()
     {
         alfa -= Speed;

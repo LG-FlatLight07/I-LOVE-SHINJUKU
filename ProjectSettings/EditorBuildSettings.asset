@@ -28,7 +28,10 @@ EditorBuildSettings:
     guid: 932678a643abbec4394ad92242da150f
   - enabled: 1
     path: Assets/_Map/1_VSMobMatching.unity
-    guid: 36c8f87709691914684794d307b61557
+    guid: ded89c8c9f06e0746b27098c0fdf7c07
+  - enabled: 1
+    path: Assets/_Map/2_VSMobIngame.unity
+    guid: 5e1372330d149d941b5e788d4c9f7712
   - enabled: 1
     path: Assets/_Map/3_VSMobResult.unity
     guid: 89d2d3c3882240540b45115794060019
@@ -36,11 +39,17 @@ EditorBuildSettings:
     path: Assets/_Map/4_VSKagami1Matching.unity
     guid: 6e5f605a09c188d4a83e6d5f26fe974e
   - enabled: 1
+    path: Assets/_Map/5_VSKagami1InGame.unity
+    guid: e33784d375e881346b256a22a90c66b5
+  - enabled: 1
     path: Assets/_Map/6_VSKagami1Result.unity
     guid: 16a40e07e15d1174d92db622fc39c640
   - enabled: 1
     path: Assets/_Map/7_VSKagami2Matching.unity
     guid: 3eb5805b5f06445479313fb56656f6dc
+  - enabled: 1
+    path: Assets/_Map/8_VSKagami2InGame.unity
+    guid: 10aad888ad41f05409720e255e53c0e6
   - enabled: 1
     path: Assets/_Map/9_VSKagami2Result.unity
     guid: b445c170a265dfc40a3298673bf8e233
