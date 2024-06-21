@@ -70,6 +70,13 @@ public class DefaultBattleGUI : BattleGUI {
     protected float mainAlertTimer = 0f;
     protected UFEScreen pause = null;
     #endregion
+    [SerializeField]
+    private InGameSceneChange inGameSceneChange;
+
+    private void Start()
+    {
+        inGameSceneChange = GameObject.FindGameObjectWithTag("Map").GetComponent<InGameSceneChange>();
+    }
 
     #region public instance methods
     public void AddInput(InputReferences[] inputReferences, int player) {
@@ -749,10 +756,13 @@ public class DefaultBattleGUI : BattleGUI {
 			this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.perfect, winner), null);
 		}
 
+        //たしろくんがいじったとこCharaName Winが出ないようにしています
+        //それとシーンを切り替えてます
         if (UFE.gameMode != GameMode.ChallengeMode 
             && winner.roundsWon > Mathf.Ceil(UFE.config.roundOptions.totalRounds / 2)) {
-			this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.victory, winner), null);
-			UFE.PlayMusic(UFE.config.roundOptions.victoryMusic);
+            //this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.victory, winner), null);
+            inGameSceneChange.ChangeScene();
+            UFE.PlayMusic(UFE.config.roundOptions.victoryMusic);
 		}else if (UFE.gameMode == GameMode.ChallengeMode) {
             this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.challengeEnds, winner), null);
             UFE.PlayMusic(UFE.config.roundOptions.victoryMusic);

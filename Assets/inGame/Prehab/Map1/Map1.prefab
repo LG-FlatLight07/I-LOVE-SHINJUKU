@@ -103,9 +103,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132353758834790743}
+  - component: {fileID: -6268516311269213840}
+  - component: {fileID: 2873484100534623723}
+  - component: {fileID: -309126999405695935}
   m_Layer: 0
   m_Name: Map1
-  m_TagString: Untagged
+  m_TagString: Map
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +136,50 @@ Transform:
   - {fileID: 1795941901255346311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6268516311269213840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407077100237797795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe0a5a9aa990294fb9c1578466ce725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextScene: 
+--- !u!114 &2873484100534623723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407077100237797795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770a4ed5e8c695445a1e0c4fb1132af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyBoxMaterial: {fileID: 0}
+--- !u!114 &-309126999405695935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407077100237797795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab1001583b7ce984cb2b4da11e3a3b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageCammeraFarClipPlane: 100
+  stageCameraTransform: {x: 0, y: 9, z: -53}
+  stageCameraRotation: {x: 7, y: 0, z: 0}
+  stageCamMinimumZoom: 40
+  stageCamMaximumZoom: 60
+  stageCamMaximumPlayerDistance: 18
 --- !u!1 &8851110429931640115
 GameObject:
   m_ObjectHideFlags: 0

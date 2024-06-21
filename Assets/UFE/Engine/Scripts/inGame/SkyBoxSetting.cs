@@ -9,6 +9,8 @@ public class SkyBoxSetting : MonoBehaviour
 
     private void Awake()
     {
+        if (skyBoxMaterial == null) return
+                ;
         //スカイボックスのマテリアル変更
         RenderSettings.skybox = skyBoxMaterial;
     }
