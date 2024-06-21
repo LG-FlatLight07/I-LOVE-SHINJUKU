@@ -50,8 +50,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 20
   startUpFrames: 7
-  activeFrames: 3
-  recoveryFrames: 10
+  activeFrames: 4
+  recoveryFrames: 9
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 05000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   altInputs:
@@ -93,7 +93,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
