@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770a4ed5e8c695445a1e0c4fb1132af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skyBoxMaterial: {fileID: 0}
+  skyBoxMaterial: {fileID: 2100000, guid: 5d133deeaa66ed445853e946ff25e073, type: 2}
 --- !u!114 &-309126999405695935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1001583b7ce984cb2b4da11e3a3b4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageCammeraFarClipPlane: 100
+  stageCammeraFarClipPlane: 2000
   stageCameraTransform: {x: 0, y: 9, z: -53}
   stageCameraRotation: {x: 7, y: 0, z: 0}
   stageCamMinimumZoom: 40
