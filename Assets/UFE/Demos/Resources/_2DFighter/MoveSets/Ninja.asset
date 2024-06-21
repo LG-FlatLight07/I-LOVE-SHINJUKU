@@ -373,7 +373,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 50
       editorToggle: 0
       soundEffectsToggle: 0
     crouching:
@@ -714,7 +714,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 6
       editorToggle: 0
       soundEffectsToggle: 0
     jumpForward:
@@ -799,7 +799,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 7
       editorToggle: 0
       soundEffectsToggle: 0
     fallStraight:
@@ -969,7 +969,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 9
       editorToggle: 0
       soundEffectsToggle: 0
     fallForward:
@@ -1054,7 +1054,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 10
       editorToggle: 0
       soundEffectsToggle: 0
     landing:
@@ -1564,7 +1564,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 14
       editorToggle: 0
       soundEffectsToggle: 0
     blockingAirPose:
@@ -1649,7 +1649,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 17
       editorToggle: 0
       soundEffectsToggle: 0
     blockingAirHit:
@@ -1734,7 +1734,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 18
       editorToggle: 0
       soundEffectsToggle: 0
     parryCrouching:
@@ -1989,7 +1989,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 20
       editorToggle: 0
       soundEffectsToggle: 0
     parryAir:
@@ -2074,7 +2074,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 22
       editorToggle: 0
       soundEffectsToggle: 0
     groundBounce:
@@ -2244,7 +2244,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 33
       editorToggle: 0
       soundEffectsToggle: 0
     standingWallBounceKnockdown:
@@ -2329,7 +2329,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 34
       editorToggle: 0
       soundEffectsToggle: 0
     airWallBounce:
@@ -2499,7 +2499,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 38
+      reference: 36
       editorToggle: 0
       soundEffectsToggle: 0
     fallingFromAirHit:
@@ -2584,7 +2584,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 37
       editorToggle: 0
       soundEffectsToggle: 0
     fallDown:
@@ -2669,7 +2669,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 36
+      reference: 38
       editorToggle: 0
       soundEffectsToggle: 0
     airRecovery:
@@ -3200,7 +3200,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 29
       editorToggle: 0
       soundEffectsToggle: 0
     getHitAir:
@@ -3710,7 +3710,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 41
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromKnockBack:
@@ -3795,7 +3795,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 42
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
@@ -3880,7 +3880,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 43
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
@@ -3965,7 +3965,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 44
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromCrumple:
@@ -4050,7 +4050,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 46
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromSweep:
@@ -4135,7 +4135,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 45
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
@@ -4390,7 +4390,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
+      reference: 49
       editorToggle: 0
       soundEffectsToggle: 0
     intro:
@@ -4828,16 +4828,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 44d4c4fbbdc1ca74384ec8d2d4d10b81, type: 2}
   - {fileID: 11400000, guid: 808b3b857bf898d41a8ead81672776c8, type: 2}
   - {fileID: 11400000, guid: 2b4b56608d8720643870bf5279451a68, type: 2}
-  - {fileID: 11400000, guid: 323c6b97238aecf4183ea690a681635a, type: 2}
+  - {fileID: 11400000, guid: 8ae06852014426949b468a9b05751863, type: 2}
   - {fileID: 11400000, guid: 3a6b1321720e6ed4e8dd777e899fff59, type: 2}
   - {fileID: 11400000, guid: 5bae5c2d681fa5847a12e18677e8a6c0, type: 2}
-  - {fileID: 11400000, guid: ccf4ef19b6d5131448264a33d2a78f9b, type: 2}
+  - {fileID: 11400000, guid: 9da1125128da97b47932ea434a93bdff, type: 2}
   - {fileID: 11400000, guid: 50091ccf7790fc041b1348f8f47f9056, type: 2}
   - {fileID: 11400000, guid: e181327f5f2e27e45abdbd912ae82758, type: 2}
   - {fileID: 11400000, guid: 304fc07e190e22248901f8df3867899e, type: 2}
   - {fileID: 11400000, guid: bafe500d7b7fded49b6d700b41b05fcd, type: 2}
   - {fileID: 11400000, guid: e2d55f65ba33fce4eac62f440f5d167d, type: 2}
-  - {fileID: 11400000, guid: 8ae06852014426949b468a9b05751863, type: 2}
+  - {fileID: 11400000, guid: 8667ca4bafc543442a48a19c694ec7cf, type: 2}
   - {fileID: 11400000, guid: 4b9d5ea5671119d4880ef55ab362d82f, type: 2}
   - {fileID: 11400000, guid: 606f9b5f2f9e5314e953190dfab8352c, type: 2}
   - {fileID: 11400000, guid: 8d9defa77c9024c439672d309bea025a, type: 2}
@@ -4845,10 +4845,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed8fe64afd430fb40a6208419e3df4f8, type: 2}
   - {fileID: 11400000, guid: afaa09e1dbb5b294eaf784105d66e5e7, type: 2}
   - {fileID: 11400000, guid: 4b0dbcf91e7567c4aa66c97d4f0f5805, type: 2}
+  - {fileID: 11400000, guid: 6dbc5d67f9b2a1a48afa536346574b5f, type: 2}
+  - {fileID: 11400000, guid: 323c6b97238aecf4183ea690a681635a, type: 2}
   - {fileID: 11400000, guid: f178f5162818cb7468ec0586fcc70e7f, type: 2}
   - {fileID: 11400000, guid: 6cfc554ea6f2528478dfd85323195161, type: 2}
-  - {fileID: 11400000, guid: 8667ca4bafc543442a48a19c694ec7cf, type: 2}
-  - {fileID: 11400000, guid: 6dbc5d67f9b2a1a48afa536346574b5f, type: 2}
-  - {fileID: 11400000, guid: 9da1125128da97b47932ea434a93bdff, type: 2}
   - {fileID: 11400000, guid: 74687a7937f1d714094d7b5f00e31ee2, type: 2}
   AM_File: {fileID: 0}

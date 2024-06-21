@@ -50,8 +50,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 16
   startUpFrames: 6
-  activeFrames: 2
-  recoveryFrames: 8
+  activeFrames: 3
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -77,9 +77,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 07000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -93,7 +93,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -139,7 +139,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 9
-    activeFramesEnds: 16
+    activeFramesEnds: 15
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1

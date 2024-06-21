@@ -138,8 +138,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 1
-    activeFramesEnds: 30
+    activeFramesBegins: 26
+    activeFramesEnds: 29
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -149,47 +149,16 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
+    ignoreInputs: 1
     ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 304fc07e190e22248901f8df3867899e, type: 2}
     - {fileID: 11400000, guid: 5bae5c2d681fa5847a12e18677e8a6c0, type: 2}
-    - {fileID: 11400000, guid: 44d4c4fbbdc1ca74384ec8d2d4d10b81, type: 2}
-    - {fileID: 11400000, guid: 61605bd8baf05b041a05edd5c2b6c2a3, type: 2}
-    - {fileID: 11400000, guid: ad8e56a260bd08b41865c65791498d28, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
-    hitConfirmToggle: 0
+    hitConfirmToggle: 1
     counterMoveToggle: 1
-    useCharacterMoves: 0
-  - linkType: 0
-    allowBuffer: 0
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 10
-    activeFramesEnds: 24
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: e2d55f65ba33fce4eac62f440f5d167d, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
     useCharacterMoves: 0
   gauges:
   - castingFrame: 0
@@ -356,9 +325,9 @@ MonoBehaviour:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 68719476736
+        _serializedValue: 0
       y:
-        _serializedValue: 34359738368
+        _serializedValue: 21474836480
       z:
         _serializedValue: 0
     _pushForceBlock:

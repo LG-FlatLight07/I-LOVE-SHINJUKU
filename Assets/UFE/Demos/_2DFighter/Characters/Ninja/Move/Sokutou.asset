@@ -45,7 +45,7 @@ MonoBehaviour:
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
-  disableHeadLook: 1
+  disableHeadLook: 0
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
@@ -53,7 +53,7 @@ MonoBehaviour:
   startUpFrames: 10
   activeFrames: 35
   recoveryFrames: 15
-  applyRootMotion: 1
+  applyRootMotion: 0
   lockXMotion: 1
   lockYMotion: 1
   lockZMotion: 1

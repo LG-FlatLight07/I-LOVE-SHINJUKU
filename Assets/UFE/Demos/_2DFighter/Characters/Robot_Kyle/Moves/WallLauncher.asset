@@ -49,9 +49,9 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 58
-  startUpFrames: 16
-  activeFrames: 5
-  recoveryFrames: 37
+  startUpFrames: 19
+  activeFrames: 12
+  recoveryFrames: 27
   applyRootMotion: 1
   lockXMotion: 0
   lockYMotion: 0
@@ -138,35 +138,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 0
     onParry: 0
-    activeFramesBegins: 45
-    activeFramesEnds: 58
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 304fc07e190e22248901f8df3867899e, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 0
-    useCharacterMoves: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 0
-    onParry: 0
-    activeFramesBegins: 48
-    activeFramesEnds: 58
+    activeFramesBegins: 54
+    activeFramesEnds: 57
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -220,7 +193,12 @@ MonoBehaviour:
   particleEffects: []
   appliedForces: []
   opAppliedForces: []
-  slowMoEffects: []
+  slowMoEffects:
+  - castingFrame: 0
+    _duration:
+      _serializedValue: 4294967296
+    _percentage:
+      _serializedValue: 107374182400
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
@@ -231,10 +209,29 @@ MonoBehaviour:
     soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
-  cameraMovements: []
+  cameraMovements:
+  - cinematicType: 0
+    animationClip: {fileID: 0}
+    prefab: {fileID: 0}
+    camAnimationSpeed: 1
+    blendSpeed: 100
+    gameObjectPosition: {x: 0, y: 0, z: 0}
+    position: {x: 2, y: 9, z: -25}
+    rotation: {x: 7, y: 0, z: 0}
+    castingFrame: 8
+    _duration:
+      _serializedValue: 429496736
+    fieldOfView: 1
+    camSpeed: 1
+    freezePhysics: 0
+    _myAnimationSpeed:
+      _serializedValue: 429496729600
+    _opAnimationSpeed:
+      _serializedValue: 429496729600
+    previewToggle: 0
   hits:
-  - activeFramesBegin: 16
-    activeFramesEnds: 21
+  - activeFramesBegin: 19
+    activeFramesEnds: 30
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -443,16 +440,16 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 1
     groundBounceToggle: 0
     hurtBoxes:

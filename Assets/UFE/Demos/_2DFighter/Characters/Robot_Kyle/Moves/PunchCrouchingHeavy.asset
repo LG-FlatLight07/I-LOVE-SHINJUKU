@@ -79,7 +79,7 @@ MonoBehaviour:
     buttonExecution: 05000000
     editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -139,7 +139,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 10
-    activeFramesEnds: 20
+    activeFramesEnds: 19
     counterMoveType: 1
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1

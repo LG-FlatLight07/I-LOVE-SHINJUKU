@@ -50,8 +50,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 81
   startUpFrames: 19
-  activeFrames: 3
-  recoveryFrames: 59
+  activeFrames: 4
+  recoveryFrames: 58
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -76,10 +76,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 0000000008000000
-    editorToggle: 0
+    buttonExecution: 0000000009000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -93,7 +93,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -155,33 +155,6 @@ MonoBehaviour:
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: 808b3b857bf898d41a8ead81672776c8, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 0
-    useCharacterMoves: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 0
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 4
-    activeFramesEnds: 80
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 323c6b97238aecf4183ea690a681635a, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1

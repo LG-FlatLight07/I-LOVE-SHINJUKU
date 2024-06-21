@@ -16,10 +16,10 @@ MonoBehaviour:
   gameplayType: 1
   animData:
     id: b49db9b2-5987-462b-92b6-d17a266d39b5
-    clip: {fileID: 7400000, guid: 10ae20f92162f5f41a730b9a1fed3b63, type: 2}
+    clip: {fileID: 7400000, guid: e269420dcaae20f4c80e4017addd965c, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 6299285504
+      _serializedValue: 1717987072
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -49,10 +49,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 58
+  totalFrames: 16
   startUpFrames: 6
-  activeFrames: 2
-  recoveryFrames: 6
+  activeFrames: 3
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -78,9 +78,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 04000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -94,7 +94,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -140,7 +140,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 0
     activeFramesBegins: 7
-    activeFramesEnds: 13
+    activeFramesEnds: 12
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -167,7 +167,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 0
     activeFramesBegins: 1
-    activeFramesEnds: 13
+    activeFramesEnds: 12
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
