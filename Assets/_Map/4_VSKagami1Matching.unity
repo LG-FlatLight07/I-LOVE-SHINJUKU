@@ -7246,7 +7246,7 @@ MonoBehaviour:
   fadeImage: {fileID: 1059050578}
   StartDelayTime: 3
   EndDelayTime: 6
-  SceneString: 2_VSMobIngame
+  SceneString: 5_VSKagami1InGame
 --- !u!212 &1059050578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12604,7 +12604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1820073331
 Transform:
   m_ObjectHideFlags: 0
