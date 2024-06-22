@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: GrandPa
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 2ad4832867ab7e14f938908f0e2ae861, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: a8aa287c505c4164489570ec13a8867b, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: a8aa287c505c4164489570ec13a8867b, type: 3}
   characterName: GrandPa
   gender: 1
   characterDescription: 

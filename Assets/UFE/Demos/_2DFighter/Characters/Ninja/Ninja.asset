@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Ninja
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: b9fa91e94fa9fd74d97e8c7c724aedfc, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 0417f241926129b4b826c75622d4f060, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 0417f241926129b4b826c75622d4f060, type: 3}
   characterName: Ninja
   gender: 1
   characterDescription: 

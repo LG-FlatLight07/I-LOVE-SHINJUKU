@@ -32,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Mat_Ninja_Hand
+    second: {fileID: 2100000, guid: 45ae14f04495c164ba7536589eac59a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Mat_Ninja_Helm
     second: {fileID: 2100000, guid: e3d3515621ef59f4bb374dbbf419b4b3, type: 2}
   - first:

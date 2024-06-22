@@ -70,12 +70,32 @@ public class DefaultBattleGUI : BattleGUI {
     protected float mainAlertTimer = 0f;
     protected UFEScreen pause = null;
     #endregion
+    //田代君が勝手に追加したもの(ドラマ用)
+    private enum MainAlertImage
+    {
+        round1,
+        round2,
+        round3,
+        Fight,
+        KO
+    }
+    [SerializeField]
+    private GameObject roundImage;
+    [SerializeField]
+    private GameObject fightImage;
+    [SerializeField]
+    private GameObject koImage;
+    [SerializeField]
+    private Sprite[] mainAlertSprite;
     [SerializeField]
     private InGameSceneChange inGameSceneChange;
 
     private void Start()
     {
         inGameSceneChange = GameObject.FindGameObjectWithTag("Map").GetComponent<InGameSceneChange>();
+        roundImage.SetActive(false);
+        fightImage.SetActive(false);
+        koImage.SetActive(false);
     }
 
     #region public instance methods
@@ -130,6 +150,8 @@ public class DefaultBattleGUI : BattleGUI {
                     this.mainAlertTimer -= deltaTime;
                 } else if (!string.IsNullOrEmpty(this.mainAlert.text.text)) {
                     this.mainAlert.text.text = string.Empty;
+                    fightImage.SetActive(false);
+                    koImage.SetActive(false);
                 }
             }
 
@@ -347,11 +369,16 @@ public class DefaultBattleGUI : BattleGUI {
 			}
 		}else if (msg == UFE.config.selectedLanguage.fight){
 			if (this.announcer != null && !this.muteAnnouncer){
-				UFE.PlaySound(this.announcer.fight);
+                fightImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.Fight];
+                roundImage.SetActive(false);
+                fightImage.SetActive(true);
+                UFE.PlaySound(this.announcer.fight);
 			}
 		}else if (msg == UFE.config.selectedLanguage.ko){
 			if (this.announcer != null && !this.muteAnnouncer && this.announcer.ko != null){
-				UFE.PlaySound(this.announcer.ko);
+                koImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.KO];
+                koImage.SetActive(true);
+                UFE.PlaySound(this.announcer.ko);
 			}
 		}else{
 			return this.SetStringValues(msg, null);
@@ -623,11 +650,26 @@ public class DefaultBattleGUI : BattleGUI {
 
         } else if (roundNumber < UFE.config.roundOptions.totalRounds) {
 			this.OnNewAlert(UFE.config.selectedLanguage.round, null);
-
+            //各ラウンドに画像を無理やりTextの前に出します
 			if (this.announcer != null && !this.muteAnnouncer){
-				if (roundNumber == 1) UFE.PlaySound(this.announcer.round1);
-				if (roundNumber == 2) UFE.PlaySound(this.announcer.round2);
-				if (roundNumber == 3) UFE.PlaySound(this.announcer.round3);
+                if (roundNumber == 1)
+                {
+                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round1];
+                    roundImage.SetActive(true);
+                    UFE.PlaySound(this.announcer.round1);
+                }
+                if (roundNumber == 2)
+                {
+                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round2];
+                    roundImage.SetActive(true);
+                    UFE.PlaySound(this.announcer.round2);
+                }
+                if (roundNumber == 3)
+                {
+                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round3];
+                    roundImage.SetActive(true);
+                    UFE.PlaySound(this.announcer.round3);
+                }
 				if (roundNumber > 3) UFE.PlaySound(this.announcer.otherRounds);
 			}
 			
