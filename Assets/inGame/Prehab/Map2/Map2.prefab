@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770a4ed5e8c695445a1e0c4fb1132af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skyBoxMaterial: {fileID: 0}
+  skyBoxMaterial: {fileID: 2100000, guid: f15c336556dd74f40aaca655f7767970, type: 2}
 --- !u!114 &-8822877236236591843
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,8 +6,4 @@ using UFE3D;
 public class DebugPlayerMove : MonoBehaviour
 {
 
-    void OnMove(MoveInfo moveInfo, ControlsScript player)
-    {
-        Debug.Log(moveInfo);
-    }
 }

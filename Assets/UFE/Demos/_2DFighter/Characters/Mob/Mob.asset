@@ -104,7 +104,7 @@ MonoBehaviour:
     crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
-    _serializedValue: 1288490188
+    _serializedValue: 1288490240
   possibleAirMoves: 1
   _blendingTime:
     _serializedValue: 429496736
@@ -116,6 +116,6 @@ MonoBehaviour:
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _2DFighter/MoveSets/Girl
+  - _2DFighter/MoveSets/Ethan_Stance_1
   moves: []
   aiInstructionsSet: []

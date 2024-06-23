@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p1CharAsset: {fileID: 11400000, guid: f7c338a04ec6a7540a33c947e30e9cf8, type: 2}
-  p2CharAsset: {fileID: 11400000, guid: 13a272f242508a145a8b5ce8dce03520, type: 2}
+  p2CharAsset: {fileID: 11400000, guid: cbf625a9ac0d38d41b1856eaa7c4f994, type: 2}
   stagePrefab:
     stageName: 
     stageLoadingMethod: 0
