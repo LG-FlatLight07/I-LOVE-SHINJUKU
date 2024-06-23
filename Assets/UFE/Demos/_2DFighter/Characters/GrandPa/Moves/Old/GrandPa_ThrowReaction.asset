@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Counter
+  m_Name: GrandPa_ThrowReaction
   m_EditorClassIdentifier: 
-  id: 83144d54-f060-49f5-b758-a781b969915e
+  id: d8f1fca1-c8bd-41c7-9d6f-6c1f660ca6ac
   gameplayType: 0
   animData:
-    id: 
-    clip: {fileID: 7400000, guid: 3a48688ef36f42d44b85984ef29cce4d, type: 2}
+    id: d8f1fca1-c8bd-41c7-9d6f-6c1f660ca6ac
+    clip: {fileID: 7400000, guid: feb014c38863dac49b89123e67e411fc, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 357914112
-    bakeSpeed: 0
+      _serializedValue: 7373027840
+    bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 858993472
-  wrapMode: 0
+    _serializedValue: 4294967296
+  wrapMode: 1
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
-  moveName: Counter
-  description: Counter
+  moveName: Throw Reaction
+  description: Throw Reaction
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -41,33 +41,33 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   allowSideSwitch: 0
-  frameWindowRotation: 0
+  frameWindowRotation: 3
   cooldown: 0
   cooldownFrames: 0
   disableHeadLook: 1
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 25
-  startUpFrames: 19
-  activeFrames: -18
-  recoveryFrames: 23
-  applyRootMotion: 0
+  totalFrames: 103
+  startUpFrames: 7
+  activeFrames: 3
+  recoveryFrames: 5
+  applyRootMotion: 1
   lockXMotion: 0
-  lockYMotion: 0
-  lockZMotion: 0
+  lockYMotion: 1
+  lockZMotion: 1
   forceGrounded: 0
-  rootMotionNode: 0
-  overrideBlendingIn: 1
+  rootMotionNode: 2
+  overrideBlendingIn: 0
   overrideBlendingOut: 1
   _blendingIn:
-    _serializedValue: 4294967
+    _serializedValue: 429496736
   _blendingOut:
-    _serializedValue: 2147483648
+    _serializedValue: 858993472
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
-      _serializedValue: 3006477107
+      _serializedValue: 3006477056
     allowInputLeniency: 0
     allowNegativeEdge: 1
     forceAxisPrecision: 0
@@ -104,35 +104,7 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates:
-    - possibleState: 0
-      jumpArc: 0
-      jumpArcBegins: 0
-      jumpArcEnds: 100
-      opponentDistance: 0
-      proximityRangeBegins: 0
-      proximityRangeEnds: 100
-      movingForward: 1
-      movingBack: 1
-      standBy: 1
-      blocking: 0
-      blockStunned: 0
-      stunned: 0
-      resetStunValue: 0
-    - possibleState: 1
-      jumpArc: 0
-      jumpArcBegins: 0
-      jumpArcEnds: 100
-      opponentDistance: 0
-      proximityRangeBegins: 0
-      proximityRangeEnds: 100
-      movingForward: 1
-      movingBack: 1
-      standBy: 1
-      blocking: 0
-      blockStunned: 0
-      stunned: 0
-      resetStunValue: 0
+    possibleMoveStates: []
     basicMovesToggle: 0
     statesToggle: 0
   moveClassification:
@@ -146,38 +118,51 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 1
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 25
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 1
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 3a6b1321720e6ed4e8dd777e899fff59, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 1
-    useCharacterMoves: 0
-  gauges: []
+  frameLinks: []
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 0
+    _gaugeUsage:
+      _serializedValue: 0
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 0
+    _gaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnParry:
+      _serializedValue: 0
+    _opGaugeGainOnHit:
+      _serializedValue: 0
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 0
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -190,9 +175,9 @@ MonoBehaviour:
   hits: []
   blockableArea:
     enabled: 1
-    activeFramesBegin: 14
-    activeFramesEnds: 52
-    bodyPart: 2
+    activeFramesBegin: 1
+    activeFramesEnds: 15
+    bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0
     rect:
@@ -286,8 +271,8 @@ MonoBehaviour:
   invincibleBodyParts: []
   stateOverride: []
   armorOptions:
-    activeFramesBegin: 0
-    activeFramesEnds: 50
+    activeFramesBegin: 1
+    activeFramesEnds: 2
     overrideHitEffects: 0
     blockHits: 0
     hitEffects:
@@ -311,7 +296,7 @@ MonoBehaviour:
       _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
-    hitAbsorption: 1
+    hitAbsorption: 0
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []

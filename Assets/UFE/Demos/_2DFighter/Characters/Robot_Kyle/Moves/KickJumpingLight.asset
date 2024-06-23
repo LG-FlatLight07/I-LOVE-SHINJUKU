@@ -712,11 +712,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -4334046208
+        _serializedValue: -4185674240
       y:
-        _serializedValue: 20028256256
+        _serializedValue: 19951017984
       z:
-        _serializedValue: 1001727488
+        _serializedValue: 1069236224
     prevPosition:
       x:
         _serializedValue: 0

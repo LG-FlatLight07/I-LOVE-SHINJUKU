@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Launcher
+  m_Name: GrandPa_Focus Light
   m_EditorClassIdentifier: 
-  id: e447baa6-16fe-4d59-94a2-bb6a99678c6c
+  id: c6cbe359-4750-4f45-863b-44d5ee276db9
   gameplayType: 0
   animData:
-    id: e447baa6-16fe-4d59-94a2-bb6a99678c6c
-    clip: {fileID: 7400000, guid: 3c83f7d1a4657e54fba8bf74732a62d5, type: 2}
+    id: c6cbe359-4750-4f45-863b-44d5ee276db9
+    clip: {fileID: 7400000, guid: fa9b4464d357cde46ad656f1aec5e745, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 5726633984
+      _serializedValue: 4581294080
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -28,8 +28,8 @@ MonoBehaviour:
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
-  moveName: Launcher
-  description: Launcher
+  moveName: Focus Light
+  description: Focus Light
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -48,10 +48,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 81
-  startUpFrames: 19
-  activeFrames: 4
-  recoveryFrames: 58
+  totalFrames: 63
+  startUpFrames: 4
+  activeFrames: 3
+  recoveryFrames: 56
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -68,15 +68,15 @@ MonoBehaviour:
     chargeMove: 0
     _chargeTiming:
       _serializedValue: 3006477056
-    allowInputLeniency: 0
+    allowInputLeniency: 1
     allowNegativeEdge: 1
     forceAxisPrecision: 0
-    leniencyBuffer: 3
-    onReleaseExecution: 0
-    requireButtonPress: 1
-    onPressExecution: 1
+    leniencyBuffer: 1
+    onReleaseExecution: 1
+    requireButtonPress: 0
+    onPressExecution: 0
     buttonSequence: 
-    buttonExecution: 0000000009000000
+    buttonExecution: 09000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -93,10 +93,11 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 1
+    editorToggle: 0
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
-  previousMoves: []
+  previousMoves:
+  - {fileID: 11400000, guid: afaa09e1dbb5b294eaf784105d66e5e7, type: 2}
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -134,12 +135,12 @@ MonoBehaviour:
     anyHitConfirmType: 1
   frameLinks:
   - linkType: 0
-    allowBuffer: 0
+    allowBuffer: 1
     onStrike: 1
-    onBlock: 0
-    onParry: 0
+    onBlock: 1
+    onParry: 1
     activeFramesBegins: 1
-    activeFramesEnds: 80
+    activeFramesEnds: 63
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -149,12 +150,12 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 1
+    ignoreInputs: 0
     ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 808b3b857bf898d41a8ead81672776c8, type: 2}
+    - {fileID: 11400000, guid: 2b4b56608d8720643870bf5279451a68, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1
@@ -177,9 +178,9 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 21474836480
-    _gaugeGainOnBlock:
       _serializedValue: 25769803776
+    _gaugeGainOnBlock:
+      _serializedValue: 30064771072
     _opGaugeGainOnBlock:
       _serializedValue: 8589934592
     _opGaugeGainOnParry:
@@ -191,19 +192,7 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces:
-  - castingFrame: 16
-    resetPreviousVertical: 0
-    resetPreviousHorizontal: 1
-    affectAssists: 0
-    affectCharacter: 1
-    _force:
-      x:
-        _serializedValue: 111669149696
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
+  appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -218,15 +207,15 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 19
-    activeFramesEnds: 22
+  - activeFramesBegin: 4
+    activeFramesEnds: 7
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 0
+    fixRotation: 1
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -297,15 +286,15 @@ MonoBehaviour:
     overrideJuggleWeight: 0
     _newJuggleWeight:
       _serializedValue: 0
-    overrideAirRecoveryType: 1
-    newAirRecoveryType: 2
+    overrideAirRecoveryType: 0
+    newAirRecoveryType: 0
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 85899345920
+      _serializedValue: 107374182400
     _hitStunOnBlock:
       _serializedValue: 42949672960
     frameAdvantageOnHit: 0
@@ -313,7 +302,7 @@ MonoBehaviour:
     damageScaling: 1
     damageType: 1
     _damageOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 257698037760
     _minDamageOnHit:
       _serializedValue: 0
     _damageOnBlock:
@@ -325,26 +314,26 @@ MonoBehaviour:
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
-    applyDifferentBlockForce: 1
+    applyDifferentBlockForce: 0
     applyDifferentSelfAirForce: 0
     applyDifferentSelfBlockForce: 0
     _pushForce:
-      x:
-        _serializedValue: 21474836480
-      y:
-        _serializedValue: 236223201280
-      z:
-        _serializedValue: 0
-    _pushForceAir:
       x:
         _serializedValue: 42949672960
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
+    _pushForceAir:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
     _pushForceBlock:
       x:
-        _serializedValue: 85899345920
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:
@@ -428,20 +417,20 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
-    opponentForceToggle: 1
+    forceOptionsToggle: 0
+    opponentForceToggle: 0
     selfForceToggle: 0
     stageReactionsToggle: 0
-    overrideEventsToggle: 1
-    hitConditionsToggle: 1
+    overrideEventsToggle: 0
+    hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 15
+    - bodyPart: 13
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -456,162 +445,50 @@ MonoBehaviour:
         _serializedValue: 5153960960
       _rect:
         _x:
-          _serializedValue: -9062380544
+          _serializedValue: -3607772416
         _y:
-          _serializedValue: -11209864192
+          _serializedValue: -16621522944
         topRight:
           x:
-            _serializedValue: 2061584384
+            _serializedValue: 8504035328
           y:
-            _serializedValue: -11209864192
+            _serializedValue: -16621522944
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: -9062380544
+            _serializedValue: -3607772416
           y:
-            _serializedValue: -11209864192
+            _serializedValue: -16621522944
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 2061584384
+            _serializedValue: 8504035328
           y:
-            _serializedValue: 5970004992
+            _serializedValue: 9148280832
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: -9062380544
+            _serializedValue: -3607772416
           y:
-            _serializedValue: 5970004992
+            _serializedValue: 9148280832
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 11123964928
+          _serializedValue: 12111807488
         height:
-          _serializedValue: 17179869184
+          _serializedValue: 25769803776
         xMax:
-          _serializedValue: 2061584384
+          _serializedValue: 8504035328
         yMax:
-          _serializedValue: 5970004992
+          _serializedValue: 9148280832
       shape: 1
-      type: 0
-    - bodyPart: 13
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 4724464128
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 17179869184
-        height:
-          _serializedValue: 17179869184
-        xMax:
-          _serializedValue: 17179869184
-        yMax:
-          _serializedValue: 17179869184
-      shape: 0
-      type: 0
-    - bodyPart: 11
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 4294967296
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 17179869184
-        height:
-          _serializedValue: 17179869184
-        xMax:
-          _serializedValue: 17179869184
-        yMax:
-          _serializedValue: 17179869184
-      shape: 0
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 1
+    activeFramesBegin: 0
     activeFramesEnds: 31
     bodyPart: 2
     hitBoxDefinitionIndex: 0
@@ -690,11 +567,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 632380288
+        _serializedValue: -10570127360
       y:
-        _serializedValue: 13449198592
+        _serializedValue: 26681266176
       z:
-        _serializedValue: -621506496
+        _serializedValue: -658859008
     prevPosition:
       x:
         _serializedValue: 0
@@ -704,11 +581,17 @@ MonoBehaviour:
         _serializedValue: 0
   lockOnTargets: []
   switchCharacterOptions: []
-  invincibleBodyParts: []
+  invincibleBodyParts:
+  - bodyParts: 
+    completelyInvincible: 1
+    ignoreBodyColliders: 0
+    activeFramesBegin: 0
+    activeFramesEnds: 6
+    hitBoxes: []
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 17
     overrideHitEffects: 0
     blockHits: 0
     hitEffects:

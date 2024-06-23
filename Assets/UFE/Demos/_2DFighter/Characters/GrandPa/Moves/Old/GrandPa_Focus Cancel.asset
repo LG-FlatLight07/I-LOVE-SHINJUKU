@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Counter
+  m_Name: GrandPa_Focus Cancel
   m_EditorClassIdentifier: 
-  id: 83144d54-f060-49f5-b758-a781b969915e
+  id: f0fb05db-79a3-4806-9438-89eb800b7c09
   gameplayType: 0
   animData:
-    id: 
-    clip: {fileID: 7400000, guid: 3a48688ef36f42d44b85984ef29cce4d, type: 2}
+    id: f0fb05db-79a3-4806-9438-89eb800b7c09
+    clip: {fileID: 7400000, guid: c43c1da6daf74b940a9a979c68b31a64, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 357914112
-    bakeSpeed: 0
+      _serializedValue: 1002160128
+    bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 858993472
+    _serializedValue: 1288490240
   wrapMode: 0
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
-  moveName: Counter
-  description: Counter
+  moveName: Focus Cancel
+  description: Focus Gauge Cancel
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -48,10 +48,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 25
+  totalFrames: 46
   startUpFrames: 19
-  activeFrames: -18
-  recoveryFrames: 23
+  activeFrames: 9
+  recoveryFrames: 16
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -61,13 +61,13 @@ MonoBehaviour:
   overrideBlendingIn: 1
   overrideBlendingOut: 1
   _blendingIn:
-    _serializedValue: 4294967
+    _serializedValue: 0
   _blendingOut:
-    _serializedValue: 2147483648
+    _serializedValue: 214748368
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
-      _serializedValue: 3006477107
+      _serializedValue: 3006477056
     allowInputLeniency: 0
     allowNegativeEdge: 1
     forceAxisPrecision: 0
@@ -76,10 +76,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonExecution: 09000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -96,7 +96,8 @@ MonoBehaviour:
     editorToggle: 0
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
-  previousMoves: []
+  previousMoves:
+  - {fileID: 11400000, guid: 3a6b1321720e6ed4e8dd777e899fff59, type: 2}
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -119,41 +120,108 @@ MonoBehaviour:
       blockStunned: 0
       stunned: 0
       resetStunValue: 0
-    - possibleState: 1
-      jumpArc: 0
-      jumpArcBegins: 0
-      jumpArcEnds: 100
-      opponentDistance: 0
-      proximityRangeBegins: 0
-      proximityRangeEnds: 100
-      movingForward: 1
-      movingBack: 1
-      standBy: 1
-      blocking: 0
-      blockStunned: 0
-      stunned: 0
-      resetStunValue: 0
     basicMovesToggle: 0
     statesToggle: 0
   moveClassification:
-    attackType: 0
+    attackType: 5
     hitType: 0
     startupSpeed: 0
     recoverySpeed: 0
     hitConfirmType: 0
-    preferableDistance: 0
-    gaugeUsage: 0
+    preferableDistance: 2
+    gaugeUsage: 3
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks:
-  - linkType: 1
+  - linkType: 2
+    allowBuffer: 0
+    onStrike: 0
+    onBlock: 0
+    onParry: 0
+    activeFramesBegins: 1
+    activeFramesEnds: 20
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 8ae06852014426949b468a9b05751863, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 1
+    counterMoveToggle: 0
+    useCharacterMoves: 0
+  - linkType: 2
+    allowBuffer: 0
+    onStrike: 0
+    onBlock: 0
+    onParry: 0
+    activeFramesBegins: 20
+    activeFramesEnds: 32
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: f178f5162818cb7468ec0586fcc70e7f, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 1
+    counterMoveToggle: 0
+    useCharacterMoves: 0
+  - linkType: 2
+    allowBuffer: 0
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 32
+    activeFramesEnds: 44
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 6cfc554ea6f2528478dfd85323195161, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
+    useCharacterMoves: 0
+  - linkType: 2
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 25
+    activeFramesBegins: 44
+    activeFramesEnds: 45
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -164,17 +232,72 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 1
+    ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 3a6b1321720e6ed4e8dd777e899fff59, type: 2}
+    - {fileID: 11400000, guid: 8667ca4bafc543442a48a19c694ec7cf, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
-    counterMoveToggle: 1
+    counterMoveToggle: 0
     useCharacterMoves: 0
-  gauges: []
+  - linkType: 2
+    allowBuffer: 0
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 1
+    activeFramesEnds: 44
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 2b4b56608d8720643870bf5279451a68, type: 2}
+    characterSpecificMoves: []
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
+    useCharacterMoves: 0
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 214748364800
+    _gaugeUsage:
+      _serializedValue: 214748364800
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 0
+    _gaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnParry:
+      _serializedValue: 0
+    _opGaugeGainOnHit:
+      _serializedValue: 0
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder: []
   particleEffects: []
   appliedForces: []
@@ -183,15 +306,19 @@ MonoBehaviour:
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
-  soundEffects: []
+  soundEffects:
+  - castingFrame: 0
+    sounds:
+    - {fileID: 8300000, guid: 4d403211f8809934dab7d665b461b0e4, type: 3}
+    soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
   hits: []
   blockableArea:
     enabled: 1
-    activeFramesBegin: 14
-    activeFramesEnds: 52
+    activeFramesBegin: 1
+    activeFramesEnds: 31
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 0
@@ -286,8 +413,8 @@ MonoBehaviour:
   invincibleBodyParts: []
   stateOverride: []
   armorOptions:
-    activeFramesBegin: 0
-    activeFramesEnds: 50
+    activeFramesBegin: 1
+    activeFramesEnds: 35
     overrideHitEffects: 0
     blockHits: 0
     hitEffects:

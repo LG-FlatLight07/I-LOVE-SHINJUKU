@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Launcher
+  m_Name: GrandPa_Launcher
   m_EditorClassIdentifier: 
   id: e447baa6-16fe-4d59-94a2-bb6a99678c6c
   gameplayType: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 808b3b857bf898d41a8ead81672776c8, type: 2}
+    - {fileID: 11400000, guid: db9227000a467a049b299307b5cbe669, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1
@@ -690,11 +690,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 632380288
+        _serializedValue: -12348150784
       y:
-        _serializedValue: 13449198592
+        _serializedValue: 25377480704
       z:
-        _serializedValue: -621506496
+        _serializedValue: -252063744
     prevPosition:
       x:
         _serializedValue: 0

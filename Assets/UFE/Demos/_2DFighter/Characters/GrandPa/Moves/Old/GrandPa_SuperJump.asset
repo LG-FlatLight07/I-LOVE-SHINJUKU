@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: Counter
+  m_Name: GrandPa_SuperJump
   m_EditorClassIdentifier: 
-  id: 83144d54-f060-49f5-b758-a781b969915e
+  id: 130f9069-5951-4e1d-b6dc-39bc0aab5f6b
   gameplayType: 0
   animData:
-    id: 
-    clip: {fileID: 7400000, guid: 3a48688ef36f42d44b85984ef29cce4d, type: 2}
+    id: 130f9069-5951-4e1d-b6dc-39bc0aab5f6b
+    clip: {fileID: 7400000, guid: 33b5f116dfe9b8340aadfd4270f60347, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 357914112
-    bakeSpeed: 0
+      _serializedValue: 1288490368
+    bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 858993472
+    _serializedValue: 4294967296
   wrapMode: 0
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
-  moveName: Counter
-  description: Counter
+  moveName: Super Jump
+  description: Super Jump
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 25
+  totalFrames: 18
   startUpFrames: 19
   activeFrames: -18
   recoveryFrames: 23
@@ -58,16 +58,16 @@ MonoBehaviour:
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 1
+  overrideBlendingIn: 0
   overrideBlendingOut: 1
   _blendingIn:
-    _serializedValue: 4294967
+    _serializedValue: 0
   _blendingOut:
     _serializedValue: 2147483648
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
-      _serializedValue: 3006477107
+      _serializedValue: 3006477056
     allowInputLeniency: 0
     allowNegativeEdge: 1
     forceAxisPrecision: 0
@@ -75,11 +75,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
+    buttonSequence: 03000000
+    buttonExecution: 02000000
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -134,7 +134,7 @@ MonoBehaviour:
       stunned: 0
       resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0
@@ -147,13 +147,13 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks:
-  - linkType: 1
+  - linkType: 2
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 25
+    activeFramesBegins: 8
+    activeFramesEnds: 17
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -164,26 +164,70 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 1
+    ignorePlayerConditions: 0
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 3a6b1321720e6ed4e8dd777e899fff59, type: 2}
+    - {fileID: 11400000, guid: 50091ccf7790fc041b1348f8f47f9056, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
-    counterMoveToggle: 1
+    counterMoveToggle: 0
     useCharacterMoves: 0
-  gauges: []
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 0
+    _gaugeUsage:
+      _serializedValue: 0
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 0
+    _gaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnParry:
+      _serializedValue: 0
+    _opGaugeGainOnHit:
+      _serializedValue: 0
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 4
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 30064771072
+      y:
+        _serializedValue: 257698037760
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
-  soundEffects: []
+  soundEffects:
+  - castingFrame: 0
+    sounds:
+    - {fileID: 0}
+    soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
@@ -287,7 +331,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 50
+    activeFramesEnds: 0
     overrideHitEffects: 0
     blockHits: 0
     hitEffects:
@@ -311,7 +355,7 @@ MonoBehaviour:
       _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
-    hitAbsorption: 1
+    hitAbsorption: 0
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []
