@@ -150,7 +150,7 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 0
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:

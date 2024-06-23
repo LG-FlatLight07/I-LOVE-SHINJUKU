@@ -74,9 +74,9 @@ MonoBehaviour:
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
-    onPressExecution: 1
+    onPressExecution: 0
     buttonSequence: 
-    buttonExecution: 09000000
+    buttonExecution: 
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 44
-    activeFramesEnds: 46
+    activeFramesEnds: 45
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1

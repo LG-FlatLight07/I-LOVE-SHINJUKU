@@ -149,15 +149,12 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 67aeb1212cc4a2a49ab0ae2c36977bf9, type: 2}
-    - {fileID: 11400000, guid: 4b9d5ea5671119d4880ef55ab362d82f, type: 2}
-    - {fileID: 11400000, guid: ed8fe64afd430fb40a6208419e3df4f8, type: 2}
-    - {fileID: 11400000, guid: 304fc07e190e22248901f8df3867899e, type: 2}
+    - {fileID: 11400000, guid: b90e5b1bac7586d4e8976b0ef7941e84, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0

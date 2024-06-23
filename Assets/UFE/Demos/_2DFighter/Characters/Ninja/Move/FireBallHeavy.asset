@@ -91,11 +91,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 
-    buttonExecution: 
-    editorToggle: 0
-    buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonSequence: 03000000
+    buttonExecution: 09000000
+    editorToggle: 1
+    buttonSequenceToggle: 1
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 

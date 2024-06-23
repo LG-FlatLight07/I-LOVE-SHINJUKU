@@ -166,8 +166,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 19
-    activeFramesEnds: 24
+    activeFramesBegins: 27
+    activeFramesEnds: 29
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -179,10 +179,10 @@ MonoBehaviour:
     hitType: 0
     ignoreInputs: 1
     ignorePlayerConditions: 1
-    ignoreGauge: 0
+    ignoreGauge: 1
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 4b9d5ea5671119d4880ef55ab362d82f, type: 2}
+    - {fileID: 11400000, guid: ac4230e63d2eef248acda21e7e0a4c5e, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1

@@ -48,10 +48,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 15
+  totalFrames: 40
   startUpFrames: 0
   activeFrames: 15
-  recoveryFrames: 0
+  recoveryFrames: 25
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -76,9 +76,9 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 070000000800000009000000
+    buttonExecution: 
     editorToggle: 1
-    buttonSequenceToggle: 0
+    buttonSequenceToggle: 1
     buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
@@ -240,7 +240,7 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
       _serializedValue: 214748364800
     _minDamageOnHit:
@@ -519,7 +519,7 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
       _serializedValue: 214748364800
     _minDamageOnHit:
@@ -798,7 +798,7 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
       _serializedValue: 214748364800
     _minDamageOnHit:
@@ -1077,7 +1077,7 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
       _serializedValue: 214748364800
     _minDamageOnHit:
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
       _serializedValue: 214748364800
     _minDamageOnHit:

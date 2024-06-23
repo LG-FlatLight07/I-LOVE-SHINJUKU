@@ -133,13 +133,13 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks:
-  - linkType: 2
+  - linkType: 0
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 0
+    activeFramesBegins: 5
+    activeFramesEnds: 80
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -149,14 +149,14 @@ MonoBehaviour:
     hitBoxType: 0
     anyHitType: 1
     hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 1f9219f6d21787548ab3e86cd54fc7f4, type: 2}
     characterSpecificMoves: []
-    linkableMovesToggle: 0
+    linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
     useCharacterMoves: 0
