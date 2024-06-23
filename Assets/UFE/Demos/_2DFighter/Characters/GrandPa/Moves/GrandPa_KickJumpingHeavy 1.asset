@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa_HighKick
+  m_Name: GrandPa_KickJumpingHeavy 1
   m_EditorClassIdentifier: 
   id: 7082e751-d503-4d8a-bf59-d8493b3fa41e
   gameplayType: 0
   animData:
     id: 
-    clip: {fileID: 7400000, guid: 55f3a15bba52a584b8e0cb047d87d24f, type: 2}
+    clip: {fileID: 7400000, guid: 6e09c3a653ed8bd48a4ef81c14683a3d, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 5726623232
+      _serializedValue: 9592093696
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 6442450944
+    _serializedValue: 6871947776
   wrapMode: 0
   characterPrefabStorage: 0
   characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
     type: 3}
   prefabResourcePath: _2DFighter/Characters/Popeye
-  moveName: HigtKick
-  description: HigtKick
+  moveName: FlyingKicka
+  description: FlyingKick
   fps: 60
   ignoreGravity: 0
-  ignoreFriction: 0
+  ignoreFriction: 1
   cancelMoveWhenLanding: 0
   landingMoveLink: {fileID: 0}
   forceMirrorLeft: 0
@@ -52,22 +52,22 @@ MonoBehaviour:
   - castingFrame: 0
     _speed:
       _serializedValue: 4294967296
-  totalFrames: 53
-  startUpFrames: 18
-  activeFrames: 9
-  recoveryFrames: 26
+  totalFrames: 83
+  startUpFrames: 7
+  activeFrames: 21
+  recoveryFrames: 28
   applyRootMotion: 0
-  lockXMotion: 0
-  lockYMotion: 0
-  lockZMotion: 0
+  lockXMotion: 1
+  lockYMotion: 1
+  lockZMotion: 1
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 1
-  overrideBlendingOut: 0
+  overrideBlendingOut: 1
   _blendingIn:
     _serializedValue: 0
   _blendingOut:
-    _serializedValue: 0
+    _serializedValue: 214748368
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
@@ -80,7 +80,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 05000000
+    buttonExecution: 08000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -122,34 +122,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 20
-    activeFramesEnds: 26
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 0}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -182,16 +155,16 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 0
+  - castingFrame: 1
     resetPreviousVertical: 0
     resetPreviousHorizontal: 0
     affectAssists: 0
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: 85899345920
+        _serializedValue: 150323855360
       y:
-        _serializedValue: 42949672960
+        _serializedValue: 128849018880
       z:
         _serializedValue: 0
   opAppliedForces: []
@@ -204,8 +177,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 18
-    activeFramesEnds: 26
+  - activeFramesBegin: 7
+    activeFramesEnds: 27
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -288,7 +261,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 42949672960
@@ -305,7 +278,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 8589934592
     doesntKill: 0
-    hitType: 1
+    hitType: 2
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -427,7 +400,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 14
+    - bodyPart: 2
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -439,7 +412,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 8589934592
+        _serializedValue: 21474836480
       _rect:
         _x:
           _serializedValue: 0

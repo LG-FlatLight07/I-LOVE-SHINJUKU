@@ -77,7 +77,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 05000000
+    buttonExecution: 04000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -426,7 +426,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
   m_Name: GrandPa
   m_EditorClassIdentifier: 
-  gameplayType: 0
+  gameplayType: 1
   profilePictureSmall: {fileID: 2800000, guid: 7a253759ab61ff54b8c2129c474aaaf0, type: 3}
   profilePictureBig: {fileID: 2800000, guid: a8aa287c505c4164489570ec13a8867b, type: 3}
   characterName: KAGAMI

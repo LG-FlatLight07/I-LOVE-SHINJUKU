@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa_Headbutt
+  m_Name: GrandPa_Headbutt02
   m_EditorClassIdentifier: 
   id: b49db9b2-5987-462b-92b6-d17a266d39b5
   gameplayType: 1
@@ -36,7 +36,7 @@ MonoBehaviour:
   ignoreFriction: 0
   cancelMoveWhenLanding: 0
   landingMoveLink: {fileID: 0}
-  forceMirrorLeft: 1
+  forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
   invertRotationRight: 0
@@ -70,16 +70,16 @@ MonoBehaviour:
     _chargeTiming:
       _serializedValue: 3006477056
     allowInputLeniency: 0
-    allowNegativeEdge: 1
+    allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 07000000
+    buttonExecution: 04000000
     editorToggle: 1
-    buttonSequenceToggle: 0
+    buttonSequenceToggle: 1
     buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -281,7 +281,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 0
+    hitType: 2
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 8
+    - bodyPart: 1
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -457,118 +457,6 @@ MonoBehaviour:
           _serializedValue: 2147483648
         yMax:
           _serializedValue: 2147483648
-      shape: 0
-      type: 0
-    - bodyPart: 6
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 2576980480
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 17179869184
-        height:
-          _serializedValue: 17179869184
-        xMax:
-          _serializedValue: 17179869184
-        yMax:
-          _serializedValue: 17179869184
-      shape: 0
-      type: 0
-    - bodyPart: 4
-      followXBounds: 0
-      followYBounds: 0
-      hitBoxDefinitionIndex: 0
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      _radius:
-        _serializedValue: 3006477056
-      _rect:
-        _x:
-          _serializedValue: 0
-        _y:
-          _serializedValue: 0
-        topRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 0
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 17179869184
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 0
-          y:
-            _serializedValue: 17179869184
-          z:
-            _serializedValue: 0
-        width:
-          _serializedValue: 17179869184
-        height:
-          _serializedValue: 17179869184
-        xMax:
-          _serializedValue: 17179869184
-        yMax:
-          _serializedValue: 17179869184
       shape: 0
       type: 0
   blockableArea:
@@ -652,11 +540,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 408037504
+        _serializedValue: 412625280
       y:
-        _serializedValue: 20102813696
+        _serializedValue: 20125593600
       z:
-        _serializedValue: -5809664
+        _serializedValue: 40271392
     prevPosition:
       x:
         _serializedValue: 0
