@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Ninja
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 0417f241926129b4b826c75622d4f060, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: b45fdf28b5e63704ebe774b705e01689, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 0417f241926129b4b826c75622d4f060, type: 3}
-  characterName: Ninja
+  characterName: TAKE
   gender: 1
   characterDescription: 
   selectionAnimation: {fileID: 7400000, guid: 1c56c5bfd88a6a04bb9bdb8bd1b50c03, type: 2}
