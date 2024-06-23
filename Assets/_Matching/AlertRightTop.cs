@@ -18,7 +18,7 @@ public class AlertRightTop : MonoBehaviour
     private void Update()
     {
         //挑戦状通知
-        if (Input.GetKeyDown("6"))
+        if (Input.GetKeyDown("q"))
         {
             anim.SetTrigger("Activate");
         }

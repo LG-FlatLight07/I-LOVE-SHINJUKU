@@ -36,7 +36,7 @@ public class MatchingSystem : MonoBehaviour
     void Update()
     {
         //フェードイン
-        if (Input.GetKey("4"))
+        if (Input.GetKey("e"))
         {
             StartCoroutine(StartDelay());
         }
