@@ -29,8 +29,8 @@ MonoBehaviour:
   characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
     type: 3}
   prefabResourcePath: 
-  moveName: Light Punch
-  description: Light Punch
+  moveName: GrandPa_Punch
+  description: GrandPa_Punch
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
