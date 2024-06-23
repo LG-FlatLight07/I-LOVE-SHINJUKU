@@ -369,15 +369,15 @@ public class DefaultBattleGUI : BattleGUI {
 			}
 		}else if (msg == UFE.config.selectedLanguage.fight){
 			if (this.announcer != null && !this.muteAnnouncer){
-                fightImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.Fight];
                 roundImage.SetActive(false);
                 fightImage.SetActive(true);
+                fightImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.Fight];
                 UFE.PlaySound(this.announcer.fight);
 			}
 		}else if (msg == UFE.config.selectedLanguage.ko){
 			if (this.announcer != null && !this.muteAnnouncer && this.announcer.ko != null){
-                koImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.KO];
                 koImage.SetActive(true);
+                koImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.KO];
                 UFE.PlaySound(this.announcer.ko);
 			}
 		}else{
@@ -654,20 +654,29 @@ public class DefaultBattleGUI : BattleGUI {
 			if (this.announcer != null && !this.muteAnnouncer){
                 if (roundNumber == 1)
                 {
-                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round1];
-                    roundImage.SetActive(true);
+                    if (roundImage != null)
+                    {
+                        roundImage.SetActive(true);
+                        roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round1];
+                    }
                     UFE.PlaySound(this.announcer.round1);
                 }
                 if (roundNumber == 2)
                 {
-                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round2];
-                    roundImage.SetActive(true);
+                    if (roundImage != null)
+                    {
+                        roundImage.SetActive(true);
+                        roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round2];
+                    }
                     UFE.PlaySound(this.announcer.round2);
                 }
                 if (roundNumber == 3)
                 {
-                    roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round3];
-                    roundImage.SetActive(true);
+                    if (roundImage != null)
+                    {
+                        roundImage.SetActive(true);
+                        roundImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.round3];
+                    }
                     UFE.PlaySound(this.announcer.round3);
                 }
 				if (roundNumber > 3) UFE.PlaySound(this.announcer.otherRounds);
