@@ -203,7 +203,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  gameFadeDuration: 0.5
+  gameFadeDuration: 0
 --- !u!850595691 &1128661064
 LightingSettings:
   m_ObjectHideFlags: 0
