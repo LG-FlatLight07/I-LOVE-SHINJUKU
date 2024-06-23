@@ -16,7 +16,7 @@ MonoBehaviour:
   gameplayType: 1
   animData:
     id: b49db9b2-5987-462b-92b6-d17a266d39b5
-    clip: {fileID: 7400000, guid: e269420dcaae20f4c80e4017addd965c, type: 2}
+    clip: {fileID: 7400000, guid: 776e342d6495e904b833234f8755ca15, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
       _serializedValue: 1717987072
@@ -26,7 +26,7 @@ MonoBehaviour:
     _serializedValue: 6442450944
   wrapMode: 0
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 1178544640871134380, guid: d7b58455e3285ee41a046ef2e0b8b974,
+  characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
     type: 3}
   prefabResourcePath: 
   moveName: Light Punch
@@ -151,42 +151,15 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
+    ignorePlayerConditions: 1
+    ignoreGauge: 1
     nextMoveStartupFrame: 4
     linkableMoves:
-    - {fileID: 11400000, guid: b84b346a6d47e8b43ae211a56861bda7, type: 2}
+    - {fileID: 11400000, guid: de01d384046a2154b8f34b669db5f4db, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1
     counterMoveToggle: 1
-    useCharacterMoves: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 0
-    activeFramesBegins: 1
-    activeFramesEnds: 12
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 7
-    linkableMoves:
-    - {fileID: 11400000, guid: 4b9d5ea5671119d4880ef55ab362d82f, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 0
     useCharacterMoves: 0
   gauges:
   - castingFrame: 0
@@ -706,11 +679,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -147622016
+        _serializedValue: 1321478400
       y:
-        _serializedValue: 1573623936
+        _serializedValue: 20809275392
       z:
-        _serializedValue: 24109056
+        _serializedValue: -429909056
     prevPosition:
       x:
         _serializedValue: 0

@@ -4825,4 +4825,5 @@ MonoBehaviour:
   attackMoves:
   - {fileID: 11400000, guid: ccf4ef19b6d5131448264a33d2a78f9b, type: 2}
   - {fileID: 11400000, guid: 5cf87588c61fb254faad381efe5cd952, type: 2}
+  - {fileID: 11400000, guid: 74e69bcd593ea104792d886ce3ed423f, type: 2}
   AM_File: {fileID: 0}
