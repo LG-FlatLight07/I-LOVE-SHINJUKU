@@ -34,7 +34,7 @@ public class InGameTimer : MonoBehaviour
 
     void _SecondCalculation(bool Start)
     {
-        Debug.Log(timerText.text.ToString());
+        //Debug.Log(timerText.text.ToString());
 
         // スタート時の初期化以外の時は時間を減らす
         m_uiTime = int.Parse(timerText.text.ToString());

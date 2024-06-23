@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameplayType: 0
   profilePictureSmall: {fileID: 2800000, guid: e5c0af8792f5b3e4ca4ba4794b13eac6, type: 3}
-  profilePictureBig: {fileID: 0}
+  profilePictureBig: {fileID: 2800000, guid: e5c0af8792f5b3e4ca4ba4794b13eac6, type: 3}
   characterName: Girl
   gender: 2
   characterDescription: 

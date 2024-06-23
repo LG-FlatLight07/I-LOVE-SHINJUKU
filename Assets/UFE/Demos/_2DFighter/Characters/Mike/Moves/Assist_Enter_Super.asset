@@ -140,7 +140,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 8
-    activeFramesEnds: 25
+    activeFramesEnds: 24
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
