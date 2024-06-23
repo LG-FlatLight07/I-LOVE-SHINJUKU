@@ -3615,6 +3615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: highGirl (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8608029173974680724, guid: 2e3cfef2e6b11b642a66a6077aef3c3b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4252,23 +4257,23 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1986463222}
-  - {fileID: 1645327633}
-  - {fileID: 1163614452}
   - {fileID: 1561462938}
-  - {fileID: 1669342289}
-  - {fileID: 1605306434}
-  - {fileID: 1955157167}
-  - {fileID: 909202528}
-  - {fileID: 1593057889}
-  - {fileID: 2147061697}
-  - {fileID: 997863582}
-  - {fileID: 1095653285}
-  - {fileID: 1100744196}
-  - {fileID: 931034917}
-  - {fileID: 1078699146}
   - {fileID: 1660384757}
   - {fileID: 1411579134}
+  - {fileID: 931034917}
+  - {fileID: 997863582}
+  - {fileID: 1095653285}
+  - {fileID: 1986463222}
+  - {fileID: 1605306434}
+  - {fileID: 1669342289}
+  - {fileID: 2147061697}
+  - {fileID: 1645327633}
+  - {fileID: 1163614452}
+  - {fileID: 1078699146}
+  - {fileID: 909202528}
+  - {fileID: 1593057889}
+  - {fileID: 1100744196}
+  - {fileID: 1955157167}
   - {fileID: 796757226}
   - {fileID: 1658908417}
   - {fileID: 87649891}
