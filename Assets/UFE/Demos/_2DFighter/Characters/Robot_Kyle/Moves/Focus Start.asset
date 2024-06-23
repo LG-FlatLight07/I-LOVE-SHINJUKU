@@ -247,7 +247,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 44
-    activeFramesEnds: 46
+    activeFramesEnds: 45
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
