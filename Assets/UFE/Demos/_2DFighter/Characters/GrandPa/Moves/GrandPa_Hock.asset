@@ -36,7 +36,7 @@ MonoBehaviour:
   ignoreFriction: 0
   cancelMoveWhenLanding: 0
   landingMoveLink: {fileID: 0}
-  forceMirrorLeft: 1
+  forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
   invertRotationRight: 0
@@ -133,34 +133,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 15
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 1
-    ignoreGauge: 1
-    nextMoveStartupFrame: 4
-    linkableMoves:
-    - {fileID: 11400000, guid: de01d384046a2154b8f34b669db5f4db, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 1
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -679,11 +652,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 1321478400
+        _serializedValue: -389503072
       y:
-        _serializedValue: 20809275392
+        _serializedValue: 20823216128
       z:
-        _serializedValue: -429909056
+        _serializedValue: 2016097408
     prevPosition:
       x:
         _serializedValue: 0
