@@ -1225,7 +1225,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 2147483648
+      _serializedValue: 1073741824
     _offSet:
       x:
         _serializedValue: 0
@@ -1305,7 +1305,7 @@ MonoBehaviour:
       yMax:
         _serializedValue: 0
     _radius:
-      _serializedValue: 2147483648
+      _serializedValue: 1073741824
     _offSet:
       x:
         _serializedValue: 0

@@ -23,7 +23,7 @@ MonoBehaviour:
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 8589934592
   wrapMode: 0
   characterPrefabStorage: 0
   characterPrefab: {fileID: 0}
@@ -48,10 +48,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 40
+  totalFrames: 20
   startUpFrames: 0
-  activeFrames: 15
-  recoveryFrames: 25
+  activeFrames: 20
+  recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 94489280512
+        _serializedValue: 12884901888
       _rect:
         _x:
           _serializedValue: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 94489280512
+        _serializedValue: 12884901888
       _rect:
         _x:
           _serializedValue: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 94489280512
+        _serializedValue: 12884901888
       _rect:
         _x:
           _serializedValue: 0
@@ -1219,7 +1219,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 94489280512
+        _serializedValue: 12884901888
       _rect:
         _x:
           _serializedValue: 0
@@ -1264,7 +1264,7 @@ MonoBehaviour:
       shape: 0
       type: 0
   - activeFramesBegin: 12
-    activeFramesEnds: 14
+    activeFramesEnds: 19
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -1498,7 +1498,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 94489280512
+        _serializedValue: 12884901888
       _rect:
         _x:
           _serializedValue: 0

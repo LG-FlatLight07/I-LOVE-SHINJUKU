@@ -84,7 +84,7 @@ MonoBehaviour:
     jumpDelay: 5
     landingDelay: 7
     _groundCollisionMass:
-      _serializedValue: 8589934592
+      _serializedValue: 2147483648
   headLook:
     enabled: 0
     segments: []
