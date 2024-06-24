@@ -154,6 +154,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe0a5a9aa990294fb9c1578466ce725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  highlightFirstOption: 1
+  canvasPreview: 1
+  firstSelectableGameObject: {fileID: 0}
+  hasFadeIn: 1
+  hasFadeOut: 1
+  wrapInput: 1
+  stopPreviousSoundEffectsOnLoad: 0
+  delayBeforePlayingMusic: 0.1
+  onLoadSound: {fileID: 0}
+  music: {fileID: 0}
+  selectSound: {fileID: 0}
+  cancelSound: {fileID: 0}
+  moveCursorSound: {fileID: 0}
   NextScene: 6_VSKagami1Result
 --- !u!1 &100004
 GameObject:
@@ -274,13 +287,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100006}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8754261, y: -0.109381676, z: 0.40821794, w: 0.23456974}
+  m_LocalRotation: {x: 0.85961425, y: 0.24443664, z: 0.25471058, w: -0.36937338}
   m_LocalPosition: {x: 0, y: -0, z: 0.853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 400000}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 229.425, y: -23.304993, z: -20.903992}
 --- !u!108 &10800002
 Light:
   m_ObjectHideFlags: 0
