@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa
+  m_Name: GrandPa_old
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: b45fdf28b5e63704ebe774b705e01689, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 0417f241926129b4b826c75622d4f060, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 7a253759ab61ff54b8c2129c474aaaf0, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: a8aa287c505c4164489570ec13a8867b, type: 3}
   characterName: KAGAMI
   gender: 1
   characterDescription: 
-  selectionAnimation: {fileID: 7400000, guid: 1c56c5bfd88a6a04bb9bdb8bd1b50c03, type: 2}
+  selectionAnimation: {fileID: 7400000, guid: 838a146923af6b44fb3a53db2aa498e1, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
-  height: 180
-  age: 24
+  height: 160
+  age: 78
   bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 1000
@@ -31,13 +31,13 @@ MonoBehaviour:
     type: 3}
   prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
   alternativeCostumes:
-  - name: Ninja
+  - name: GrandPa
     characterPrefabStorage: 0
     prefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
       type: 3}
     prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
     enableColorMask: 0
-    colorMask: {r: 0, g: 0.91391253, b: 1, a: 0}
+    colorMask: {r: 0.9578586, g: 0.9877442, b: 0.990566, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
     jumpDelay: 5
     landingDelay: 7
     _groundCollisionMass:
-      _serializedValue: 2147483648
+      _serializedValue: 8589934592
   headLook:
     enabled: 0
     segments: []
@@ -109,7 +109,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 429496736
   animationType: 1
-  avatar: {fileID: 9000000, guid: ff9c704090cc16649a8ee16ce62ed8da, type: 3}
+  avatar: {fileID: 9000000, guid: ad4cd1a698c248047a28890916e51e5c, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0

@@ -25,8 +25,9 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 3435973888
   wrapMode: 0
-  characterPrefabStorage: 1
-  characterPrefab: {fileID: 0}
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 1311943263835902, guid: ceeaecc0393d0fb438fde5457a24ead6,
+    type: 3}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
   moveName: Crouching Heavy Kick
   description: Crouching Heavy Kick
@@ -651,11 +652,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -2586864384
+        _serializedValue: -5239067648
       y:
-        _serializedValue: 4042212864
+        _serializedValue: 7717007360
       z:
-        _serializedValue: -6821714944
+        _serializedValue: -2606562304
     prevPosition:
       x:
         _serializedValue: 0
