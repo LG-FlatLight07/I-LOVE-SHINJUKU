@@ -166,7 +166,7 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 27
+    activeFramesBegins: 12
     activeFramesEnds: 29
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
