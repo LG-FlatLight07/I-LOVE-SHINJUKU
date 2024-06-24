@@ -3,9 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class GeneralMapLoader : MonoBehaviour
 {
+    public static GeneralMapLoader instance;
+
+    public DefaultVersusModeAfterBattleScreen versus;
+
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     void Update()
@@ -38,6 +50,14 @@ public class GeneralMapLoader : MonoBehaviour
         if (Input.GetKeyDown("6"))
         {
             SceneManager.LoadScene("9_VSKagami2Result");
+        }
+
+        if (Input.GetKeyDown("7"))
+        {
+            if (versus)
+            {
+                versus.RepeatBattle();
+            }
         }
     }
 }

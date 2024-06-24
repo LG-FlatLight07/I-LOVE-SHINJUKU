@@ -19,7 +19,7 @@ public class InGameSceneChange : VersusModeAfterBattleScreen
     public void ChangeScene()
     {
         if (NextScene == null) return;
-        SceneManager.LoadScene(NextScene);
+       // SceneManager.LoadScene(NextScene);
     }
     public override void OnShow()
     {

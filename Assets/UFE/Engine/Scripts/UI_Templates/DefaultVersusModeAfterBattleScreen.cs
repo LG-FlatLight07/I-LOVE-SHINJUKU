@@ -6,7 +6,16 @@ public class DefaultVersusModeAfterBattleScreen : VersusModeAfterBattleScreen
     #region public override methods
     public override void OnShow()
     {
-        base.OnShow();
+        //base.OnShow();
+    }
+
+    private void Start()
+    {
+
+        if (GeneralMapLoader.instance)
+        {
+            GeneralMapLoader.instance.versus = this;
+        }
     }
 
     // Override constructor and don't call base
