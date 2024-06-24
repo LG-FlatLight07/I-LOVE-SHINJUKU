@@ -18,7 +18,7 @@ MonoBehaviour:
       id: 24a1b1c6-fa4a-4b6f-b04a-d504865207fe
       animData:
       - id: 
-        clip: {fileID: 7400000, guid: 5c3464479e2759a40b3c0d518ca5a487, type: 2}
+        clip: {fileID: 7400000, guid: 838a146923af6b44fb3a53db2aa498e1, type: 2}
         customHitBoxDefinition: {fileID: 11400000, guid: af61bdabbd88c3849b7f485aa93a2306,
           type: 2}
         length:
@@ -104,7 +104,7 @@ MonoBehaviour:
       id: 1d30178a-17a4-4be7-aff9-77180651e48c
       animData:
       - id: 
-        clip: {fileID: 7400000, guid: 3fadf9917fc65e949b3c43853fabfb7d, type: 2}
+        clip: {fileID: 7400000, guid: d215c9e14a7e9db49a462fdca2478424, type: 2}
         customHitBoxDefinition: {fileID: 0}
         length:
           _serializedValue: 2863311616
@@ -183,7 +183,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 1
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 1
     moveBack:
       id: 4481336e-a821-44d4-a592-0cd00e8fe513
@@ -4824,6 +4824,7 @@ MonoBehaviour:
     parryEnabled: 1
   attackMoves:
   - {fileID: 11400000, guid: f4f3ece645349044db1d4579e21c5d71, type: 2}
-  - {fileID: 11400000, guid: 5cf87588c61fb254faad381efe5cd952, type: 2}
   - {fileID: 11400000, guid: de01d384046a2154b8f34b669db5f4db, type: 2}
+  - {fileID: 11400000, guid: 5cf87588c61fb254faad381efe5cd952, type: 2}
+  - {fileID: 11400000, guid: a3d42bfa1dd599a4b87d61edb246f119, type: 2}
   AM_File: {fileID: 0}

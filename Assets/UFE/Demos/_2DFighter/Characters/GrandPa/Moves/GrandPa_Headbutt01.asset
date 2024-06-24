@@ -77,7 +77,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 06000000
+    buttonExecution: 07000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 44
+    activeFramesBegins: 40
     activeFramesEnds: 73
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
@@ -155,7 +155,7 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 1d370b8b9e89ea04288e8b58ef7a2281, type: 2}
+    - {fileID: 0}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
     instantAirRecovery: 1
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 0
+    hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 85899345920
@@ -308,7 +308,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 0
+    hitType: 2
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1

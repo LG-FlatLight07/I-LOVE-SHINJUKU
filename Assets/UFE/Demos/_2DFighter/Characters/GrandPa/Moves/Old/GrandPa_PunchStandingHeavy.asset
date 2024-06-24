@@ -16,7 +16,7 @@ MonoBehaviour:
   gameplayType: 0
   animData:
     id: a854d4a4-c5cb-4b65-9eee-8711a8f6783e
-    clip: {fileID: 7400000, guid: 886ad7c43516ed24396602125c189be2, type: 2}
+    clip: {fileID: 7400000, guid: 89fc62f00457aa64eb0e85e94257ff2f, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
       _serializedValue: 2147483648
@@ -75,8 +75,8 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 
-    buttonExecution: 05000000
+    buttonSequence: 06000000
+    buttonExecution: 
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
     buttonSequence: 
     buttonExecution: 
     editorToggle: 0
-    buttonSequenceToggle: 0
+    buttonSequenceToggle: 1
     buttonExecutionToggle: 0
   previousMoves: []
   opponentConditions:
@@ -154,7 +154,7 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 5bae5c2d681fa5847a12e18677e8a6c0, type: 2}
+    - {fileID: 11400000, guid: de01d384046a2154b8f34b669db5f4db, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1

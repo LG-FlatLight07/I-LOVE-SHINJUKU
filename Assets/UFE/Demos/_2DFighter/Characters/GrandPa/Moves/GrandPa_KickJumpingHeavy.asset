@@ -144,7 +144,7 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: f4f3ece645349044db1d4579e21c5d71, type: 2}
+    - {fileID: 11400000, guid: a3d42bfa1dd599a4b87d61edb246f119, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 0
