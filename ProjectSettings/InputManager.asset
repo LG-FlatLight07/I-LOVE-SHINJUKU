@@ -426,7 +426,7 @@ InputManager:
     descriptiveName: Light Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: insert
+    positiveButton: z
     altNegativeButton: 
     altPositiveButton: joystick 2 button 0
     gravity: 1000
@@ -442,7 +442,7 @@ InputManager:
     descriptiveName: Medium Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: home
+    positiveButton: x
     altNegativeButton: 
     altPositiveButton: joystick 2 button 1
     gravity: 1000
@@ -458,7 +458,7 @@ InputManager:
     descriptiveName: Hard Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: page up
+    positiveButton: c
     altNegativeButton: 
     altPositiveButton: joystick 2 button 2
     gravity: 1000
@@ -474,7 +474,7 @@ InputManager:
     descriptiveName: Light Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: delete
+    positiveButton: v
     altNegativeButton: 
     altPositiveButton: joystick 2 button 3
     gravity: 1000
@@ -490,7 +490,7 @@ InputManager:
     descriptiveName: Medium Kick
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: end
+    positiveButton: b
     altNegativeButton: 
     altPositiveButton: joystick 2 button 4
     gravity: 1000
@@ -506,7 +506,7 @@ InputManager:
     descriptiveName: Hard Kick
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: page down
+    positiveButton: n
     altNegativeButton: 
     altPositiveButton: joystick 2 button 5
     gravity: 1000

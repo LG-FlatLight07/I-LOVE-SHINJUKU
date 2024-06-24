@@ -80,7 +80,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 04000000
+    buttonExecution: 05000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -288,7 +288,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 42949672960
@@ -305,7 +305,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 8589934592
     doesntKill: 0
-    hitType: 1
+    hitType: 0
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0

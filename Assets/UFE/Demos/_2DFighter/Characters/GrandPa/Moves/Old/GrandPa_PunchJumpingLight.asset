@@ -172,7 +172,7 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 0
+    activeFramesBegins: 34
     activeFramesEnds: 55
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
@@ -184,11 +184,11 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 0
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 606f9b5f2f9e5314e953190dfab8352c, type: 2}
+    - {fileID: 11400000, guid: de01d384046a2154b8f34b669db5f4db, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1
@@ -712,11 +712,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -5031394816
+        _serializedValue: -4890928640
       y:
-        _serializedValue: 20372875264
+        _serializedValue: 20418168832
       z:
-        _serializedValue: 373404160
+        _serializedValue: 385187328
     prevPosition:
       x:
         _serializedValue: 0

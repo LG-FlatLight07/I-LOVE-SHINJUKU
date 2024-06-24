@@ -77,7 +77,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 07000000
+    buttonExecution: 04000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -194,7 +194,12 @@ MonoBehaviour:
   particleEffects: []
   appliedForces: []
   opAppliedForces: []
-  slowMoEffects: []
+  slowMoEffects:
+  - castingFrame: 20
+    _duration:
+      _serializedValue: 4294967296
+    _percentage:
+      _serializedValue: 214748364800
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
@@ -205,7 +210,26 @@ MonoBehaviour:
     soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
-  cameraMovements: []
+  cameraMovements:
+  - cinematicType: 0
+    animationClip: {fileID: 0}
+    prefab: {fileID: 0}
+    camAnimationSpeed: 1
+    blendSpeed: 100
+    gameObjectPosition: {x: 0, y: 0, z: 0}
+    position: {x: 4, y: 4, z: -20}
+    rotation: {x: 0, y: 0, z: 0}
+    castingFrame: 10
+    _duration:
+      _serializedValue: 3435973888
+    fieldOfView: 15
+    camSpeed: 2
+    freezePhysics: 0
+    _myAnimationSpeed:
+      _serializedValue: 429496729600
+    _opAnimationSpeed:
+      _serializedValue: 429496729600
+    previewToggle: 0
   hits:
   - activeFramesBegin: 26
     activeFramesEnds: 44

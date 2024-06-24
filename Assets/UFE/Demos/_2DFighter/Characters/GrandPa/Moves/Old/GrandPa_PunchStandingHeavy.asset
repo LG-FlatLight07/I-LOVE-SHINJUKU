@@ -75,9 +75,9 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 06000000
+    buttonSequence: 
     buttonExecution: 
-    editorToggle: 1
+    editorToggle: 0
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
   altInputs:
@@ -306,7 +306,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 38
-    hitStrength: 2
+    hitStrength: 1
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 128849018880
