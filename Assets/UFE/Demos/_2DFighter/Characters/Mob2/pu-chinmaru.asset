@@ -32,10 +32,16 @@ MonoBehaviour:
   lifePoints: 800
   maxGaugePoints: 400
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 1190138812574788316, guid: d686e0bce2f5cc44d954c7396159a7c5,
+  characterPrefab: {fileID: 1380895578980968326, guid: 7b934bb98ecc8b440aba2d5c3c25fb49,
     type: 3}
   prefabResourcePath: _2DFighter\Characters\Mike
-  alternativeCostumes: []
+  alternativeCostumes:
+  - name: 
+    characterPrefabStorage: 0
+    prefab: {fileID: 0}
+    prefabResourcePath: 
+    enableColorMask: 0
+    colorMask: {r: 0, g: 0, b: 0, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
