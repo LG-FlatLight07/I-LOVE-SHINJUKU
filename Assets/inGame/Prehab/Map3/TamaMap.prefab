@@ -173,6 +173,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe0a5a9aa990294fb9c1578466ce725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  highlightFirstOption: 1
+  canvasPreview: 1
+  firstSelectableGameObject: {fileID: 0}
+  hasFadeIn: 1
+  hasFadeOut: 1
+  wrapInput: 1
+  stopPreviousSoundEffectsOnLoad: 0
+  delayBeforePlayingMusic: 0.1
+  onLoadSound: {fileID: 0}
+  music: {fileID: 0}
+  selectSound: {fileID: 0}
+  cancelSound: {fileID: 0}
+  moveCursorSound: {fileID: 0}
   NextScene: 9_VSKagami2Result
 --- !u!114 &-7777178085772338984
 MonoBehaviour:
@@ -1861,6 +1874,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fa2bda03f43ced142b0116d1cf4760ca, type: 2}
+    - target: {fileID: -7511558181221131132, guid: dbe95b00da39b8c4ca110c1bc5f4aedd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: -1134714066672644336, guid: 015dac1fb1b550947b900ecc2af5af74,
+        type: 3}
     - target: {fileID: -7511558181221131132, guid: dbe95b00da39b8c4ca110c1bc5f4aedd,
         type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -6811,7 +6830,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f59ea535bb715ca4da8afac832fd36eb, type: 2}
+      objectReference: {fileID: 2100000, guid: f866a45fc069fec449870e13483023b8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
