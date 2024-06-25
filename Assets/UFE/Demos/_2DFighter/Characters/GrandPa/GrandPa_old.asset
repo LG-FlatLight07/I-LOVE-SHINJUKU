@@ -18,7 +18,7 @@ MonoBehaviour:
   characterName: KAGAMI
   gender: 1
   characterDescription: 
-  selectionAnimation: {fileID: 7400000, guid: 838a146923af6b44fb3a53db2aa498e1, type: 2}
+  selectionAnimation: {fileID: 7400000, guid: 5c3464479e2759a40b3c0d518ca5a487, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
   height: 160
