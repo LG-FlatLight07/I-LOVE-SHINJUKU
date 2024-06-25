@@ -38,7 +38,8 @@ MonoBehaviour:
   alternativeCostumes:
   - name: 
     characterPrefabStorage: 0
-    prefab: {fileID: 0}
+    prefab: {fileID: 1380895578980968326, guid: 7b934bb98ecc8b440aba2d5c3c25fb49,
+      type: 3}
     prefabResourcePath: 
     enableColorMask: 0
     colorMask: {r: 0, g: 0, b: 0, a: 0}
@@ -53,11 +54,11 @@ MonoBehaviour:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 4294967296
+      _serializedValue: 3037000704
     z:
       _serializedValue: 0
     w:
-      _serializedValue: -187
+      _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
       _serializedValue: 32212254720
@@ -120,7 +121,7 @@ MonoBehaviour:
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _2DFighter\MoveSets\Mike
+  - _2DFighter/MoveSets/Pu-shinmaruMike
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}

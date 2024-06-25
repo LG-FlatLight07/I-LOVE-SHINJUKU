@@ -3,134 +3,101 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f9522b1b0f53b4c87d047ac5c3794f, type: 3}
+  m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
   m_Name: DashBack
   m_EditorClassIdentifier: 
-  characterPrefab: {fileID: 100052, guid: ceeaecc0393d0fb438fde5457a24ead6, type: 2}
-  moveName: Dash Back
-  description: Dash Back
+  id: 14cf3665-6ea2-45fb-aba1-fbe8798ed8cf
+  gameplayType: 0
+  animData:
+    id: 
+    clip: {fileID: 7400000, guid: bde6dd2141bb61c40b67de7e104fe5e9, type: 2}
+    customHitBoxDefinition: {fileID: 0}
+    length:
+      _serializedValue: 429496768
+    bakeSpeed: 0
+    hitBoxDefinitionType: 0
+  _animationSpeed:
+    _serializedValue: 4294967296
+  wrapMode: 0
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 1380895578980968326, guid: 7b934bb98ecc8b440aba2d5c3c25fb49,
+    type: 3}
+  prefabResourcePath: 
+  moveName: 
+  description: 
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
-  cancelMoveWheLanding: 1
+  cancelMoveWhenLanding: 0
+  landingMoveLink: {fileID: 0}
   forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
   invertRotationRight: 0
   autoCorrectRotation: 0
+  allowSideSwitch: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
-  gaugeUsage: 0
-  gaugeGainOnMiss: 0
-  gaugeGainOnHit: 2
-  gaugeGainOnBlock: 0
-  opGaugeGainOnBlock: 0
-  opGaugeGainOnParry: 0
-  opGaugeGainOnHit: 0
-  possibleStates: 00000000
-  possibleMoveStates:
-  - possibleState: 0
-    jumpArc: 0
-    jumpArcBegins: 0
-    jumpArcEnds: 100
-    opponentDistance: 0
-    proximityRangeBegins: 0
-    proximityRangeEnds: 100
-    movingForward: 1
-    movingBack: 1
-    standBy: 1
-    blocking: 0
-    stunned: 0
-  animationClip: {fileID: 7400000, guid: bde6dd2141bb61c40b67de7e104fe5e9, type: 2}
+  cooldown: 0
+  cooldownFrames: 0
   disableHeadLook: 1
-  wrapMode: 4
+  speedKeyFrameToggle: 0
   fixedSpeed: 1
-  animationSpeed: -0.4
   animSpeedKeyFrame: []
-  totalFrames: 16
-  startUpFrames: 5
-  activeFrames: 5
-  recoveryFrames: 5
+  totalFrames: 15
+  startUpFrames: 0
+  activeFrames: 1
+  recoveryFrames: 2
   applyRootMotion: 0
+  lockXMotion: 0
+  lockYMotion: 0
+  lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 1
   overrideBlendingOut: 0
-  blendingIn: 0
-  blendingOut: 0
-  chargeMove: 0
-  chargeTiming: 0.7
-  allowInputLeniency: 0
-  allowNegativeEdge: 1
-  leniencyBuffer: 3
-  onReleaseExecution: 0
-  onPressExecution: 1
-  buttonSequence: 01000000
-  buttonExecution: 01000000
+  _blendingIn:
+    _serializedValue: 0
+  _blendingOut:
+    _serializedValue: 0
+  defaultInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 0
+    forceAxisPrecision: 0
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
+  altInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 0
+    forceAxisPrecision: 0
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
   previousMoves: []
-  frameLinks: []
-  particleEffects: []
-  appliedForces:
-  - castingFrame: 0
-    resetPreviousVertical: 1
-    resetPreviousHorizontal: 1
-    force: {x: -20, y: 12}
-  slowMoEffects: []
-  bodyPartVisibilityChanges: []
-  opponentOverride: []
-  soundEffects:
-  - castingFrame: 0
-    sound: {fileID: 0}
-    sounds:
-    - {fileID: 8300000, guid: e49eb8fd2bdc27b49905d2c8c91c5058, type: 3}
-    soundEffectsToggle: 0
-  inGameAlert: []
-  stanceChanges: []
-  cameraMovements: []
-  hits: []
-  blockableArea:
-    activeFramesBegin: 2
-    activeFramesEnds: 3
-    bodyPart: 0
-    shape: 0
-    rect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 4
-      height: 4
-    followXBounds: 0
-    followYBounds: 0
-    radius: 0
-    offSet: {x: 0, y: 0}
-    position: {x: 0, y: 0, z: 0}
-  invincibleBodyParts: []
-  armorOptions:
-    activeFramesBegin: 0
-    activeFramesEnds: 0
-    overrideHitEffects: 0
-    hitEffects:
-      hitParticle: {fileID: 0}
-      killTime: 0
-      hitSound: {fileID: 0}
-      spawnPoint: 1
-      freezingTime: 0
-      animationSpeed: 0.1
-      autoHitStop: 1
-      hitStop: 0.1
-      shakeCharacterOnHit: 1
-      shakeCameraOnHit: 1
-      shakeDensity: 0.8
-      editorToggle: 0
-    hitAbsorption: 0
-    damageAbsorption: 0
-    nonAffectedBodyParts: 
-  projectiles: []
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -138,30 +105,160 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates:
-    - possibleState: 0
-      jumpArc: 0
-      jumpArcBegins: 0
-      jumpArcEnds: 100
-      opponentDistance: 0
-      proximityRangeBegins: 0
-      proximityRangeEnds: 100
-      movingForward: 1
-      movingBack: 1
-      standBy: 1
-      blocking: 0
-      stunned: 0
+    possibleMoveStates: []
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
-    attackType: 3
+    attackType: 0
     hitType: 0
     startupSpeed: 0
     recoverySpeed: 0
     hitConfirmType: 0
-    preferableDistance: 1
+    preferableDistance: 0
     gaugeUsage: 0
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  speedKeyFrameToggle: 0
+  frameLinks: []
+  gauges: []
+  sortOrder: []
+  particleEffects: []
+  appliedForces: []
+  opAppliedForces: []
+  slowMoEffects: []
+  bodyPartVisibilityChanges: []
+  opponentOverride: []
+  characterAssist: []
+  soundEffects: []
+  inGameAlert: []
+  stanceChanges: []
+  cameraMovements: []
+  hits: []
+  blockableArea:
+    enabled: 1
+    activeFramesBegin: 0
+    activeFramesEnds: 0
+    bodyPart: 0
+    hitBoxDefinitionIndex: 0
+    shape: 0
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    followXBounds: 0
+    followYBounds: 0
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    cuboidMin:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    cuboidMax:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    prevPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  lockOnTargets: []
+  switchCharacterOptions: []
+  invincibleBodyParts: []
+  stateOverride: []
+  armorOptions:
+    activeFramesBegin: 0
+    activeFramesEnds: 0
+    overrideHitEffects: 0
+    blockHits: 0
+    hitEffects:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      sticky: 0
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    hitAbsorption: 0
+    damageAbsorption: 0
+    nonAffectedBodyParts: 
+  projectiles: []
+  rotationPreview: {x: 0, y: 90, z: 0}
