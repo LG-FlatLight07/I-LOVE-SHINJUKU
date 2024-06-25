@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa_Focus Start
+  m_Name: GrandPa_Focus Start_B6
   m_EditorClassIdentifier: 
   id: 30f574a5-491c-4e42-9eb9-148ae720f701
   gameplayType: 0
@@ -25,8 +25,9 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 1288490240
   wrapMode: 0
-  characterPrefabStorage: 1
-  characterPrefab: {fileID: 0}
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
+    type: 3}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
   moveName: Focus Start
   description: Focus Start
@@ -400,11 +401,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -229988416
+        _serializedValue: 439768352
       y:
-        _serializedValue: 17236985856
+        _serializedValue: 9944240128
       z:
-        _serializedValue: -85889984
+        _serializedValue: 1896539904
     prevPosition:
       x:
         _serializedValue: 0

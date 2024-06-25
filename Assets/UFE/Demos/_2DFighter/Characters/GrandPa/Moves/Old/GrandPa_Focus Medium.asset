@@ -25,8 +25,9 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefabStorage: 1
-  characterPrefab: {fileID: 0}
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
+    type: 3}
   prefabResourcePath: _2DFighter\Characters\Robot_Kyle
   moveName: Focus Medium
   description: Focus Medium
@@ -155,7 +156,7 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 2b4b56608d8720643870bf5279451a68, type: 2}
+    - {fileID: 11400000, guid: 76ca5c5d6e701ba4a8c7e380a1024283, type: 2}
     characterSpecificMoves: []
     linkableMovesToggle: 1
     hitConfirmToggle: 1
@@ -567,11 +568,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -10570127360
+        _serializedValue: -2407070464
       y:
-        _serializedValue: 26681266176
+        _serializedValue: 22235017216
       z:
-        _serializedValue: -658859008
+        _serializedValue: -7529272320
     prevPosition:
       x:
         _serializedValue: 0

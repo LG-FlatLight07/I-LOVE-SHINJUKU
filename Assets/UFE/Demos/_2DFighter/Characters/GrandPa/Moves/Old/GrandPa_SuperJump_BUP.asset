@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa_SuperJump
+  m_Name: GrandPa_SuperJump_BUP
   m_EditorClassIdentifier: 
   id: 130f9069-5951-4e1d-b6dc-39bc0aab5f6b
   gameplayType: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -164,8 +164,8 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
+    ignorePlayerConditions: 1
+    ignoreGauge: 1
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: 50091ccf7790fc041b1348f8f47f9056, type: 2}
