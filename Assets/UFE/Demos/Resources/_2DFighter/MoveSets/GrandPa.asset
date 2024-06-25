@@ -98,7 +98,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 0
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
       id: 1d30178a-17a4-4be7-aff9-77180651e48c
@@ -4823,7 +4823,6 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 1
   attackMoves:
-  - {fileID: 11400000, guid: 74e69bcd593ea104792d886ce3ed423f, type: 2}
   - {fileID: 11400000, guid: f4f3ece645349044db1d4579e21c5d71, type: 2}
   - {fileID: 11400000, guid: 3eb85ef35a167814693429a274308535, type: 2}
   - {fileID: 11400000, guid: 1f9219f6d21787548ab3e86cd54fc7f4, type: 2}
