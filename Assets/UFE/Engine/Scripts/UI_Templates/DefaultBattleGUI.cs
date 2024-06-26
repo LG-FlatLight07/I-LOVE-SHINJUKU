@@ -61,6 +61,7 @@ public class DefaultBattleGUI : BattleGUI {
     public float lifeUpSpeed = 900f;
     public Sprite networkPlayerPointer;
     public float pointerTimer = 4f;
+    public Fade fade;
     #endregion
 
     #region protected instance properties
@@ -282,6 +283,12 @@ public class DefaultBattleGUI : BattleGUI {
                 {
                     this.player2GUI.lifeBar_.fillAmount -= 0.003f;
                 }
+            }
+
+            // 死んだらフェードアウト（カス実装）
+            if(this.player1GUI.lifeBar.fillAmount == 0 || this.player1GUI.lifeBar.fillAmount == 0)
+            {
+                fade.FadeOut();
             }
 
             if (UFE.config.gameGUI.hasGauge) {
