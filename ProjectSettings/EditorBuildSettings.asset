@@ -5,34 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/0_Title.unity
     guid: 3b2939ab0d000de44a44069e6285ee06
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/1_VSMobMatching.unity
     guid: ded89c8c9f06e0746b27098c0fdf7c07
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/2_VSMobIngame.unity
     guid: 555dc23d6ea280b49bcd6887f2fb634e
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/3_VSMobResult.unity
     guid: 89d2d3c3882240540b45115794060019
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/4_VSKagami1Matching.unity
     guid: 6e5f605a09c188d4a83e6d5f26fe974e
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/5_VSKagami1InGame.unity
     guid: dfd7569292d240f4384d96a1a48a1fd8
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/6_VSKagami1Result.unity
     guid: 16a40e07e15d1174d92db622fc39c640
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/7_VSKagami2Matching.unity
     guid: 3eb5805b5f06445479313fb56656f6dc
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/8_VSKagami2InGame.unity
     guid: ad139bbb6a0eb164ebd43f8cb68b1ce9
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Map/9_VSKagami2Result.unity
     guid: b445c170a265dfc40a3298673bf8e233
   - enabled: 1

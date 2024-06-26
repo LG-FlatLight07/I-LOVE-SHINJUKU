@@ -41,6 +41,13 @@ public class MatchingSystem : MonoBehaviour
             StartCoroutine(StartDelay());
         }
 
+        //マップオープン
+        if(Input.GetKey("r"))
+        {
+            //マップを開く
+            Invoke("ChangeScene", 0.2f);
+        }
+
         if (In)
         {
             FadeIn();
@@ -64,9 +71,6 @@ public class MatchingSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(EndDelayTime);
         Out = true;
-        
-        //マップを開く
-        Invoke("ChangeScene", 3f);
     }
 
     void ChangeScene()
