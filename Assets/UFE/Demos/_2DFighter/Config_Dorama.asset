@@ -384,7 +384,7 @@ MonoBehaviour:
       _serializedValue: 12884901888
     _slowMoSpeed:
       _serializedValue: 858993472
-    victoryMusic: {fileID: 8300000, guid: 641189ac87f861f41bfd4a406b0d3294, type: 3}
+    victoryMusic: {fileID: 0}
     resetLifePoints: 1
     resetPositions: 1
     allowMovementStart: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
     shakeCamOnBounce: 1
     _shakeDensity:
       _serializedValue: 2576980480
-    bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
+    bounceSound: {fileID: 0}
   wallBounceOptions:
     bounceForce: 2
     bouncePrefab: {fileID: 0}
@@ -420,7 +420,7 @@ MonoBehaviour:
     shakeCamOnBounce: 1
     _shakeDensity:
       _serializedValue: 2576980480
-    bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
+    bounceSound: {fileID: 0}
   counterHitOptions:
     startUpFrames: 1
     activeFrames: 0
@@ -429,7 +429,7 @@ MonoBehaviour:
       _serializedValue: 0
     _hitStunIncrease:
       _serializedValue: 64424509440
-    sound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
+    sound: {fileID: 0}
   comboOptions:
     comboDisplayMode: 0
     hitStunDeterioration: 1
@@ -1227,7 +1227,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
     prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
