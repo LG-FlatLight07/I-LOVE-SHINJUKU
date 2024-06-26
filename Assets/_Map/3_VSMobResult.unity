@@ -7562,6 +7562,7 @@ MonoBehaviour:
   fadeImage: {fileID: 1271389286}
   StartDelayTime: 3
   EndDelayTime: 6
+  sceneName: 2_VSMobIngame
 --- !u!1 &1272032581
 GameObject:
   m_ObjectHideFlags: 0
@@ -11635,7 +11636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1979297827
 Transform:
   m_ObjectHideFlags: 0
@@ -12280,7 +12281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88822eb83e0c29849b217754e7d6df0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 2_VSMobIngame
 --- !u!1 &2116520805
 GameObject:
   m_ObjectHideFlags: 0

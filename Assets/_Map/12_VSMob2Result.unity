@@ -4717,7 +4717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88822eb83e0c29849b217754e7d6df0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 11_VSMobInGame2
 --- !u!1 &996817615
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,6 +7125,7 @@ MonoBehaviour:
   fadeImage: {fileID: 1295757366}
   StartDelayTime: 3
   EndDelayTime: 6
+  sceneName: 11_VSMobInGame2
 --- !u!212 &1295757366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8326,6 +8326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alertSprite: {fileID: 1605328194}
+  Image1: {fileID: 0}
+  Image2: {fileID: 0}
 --- !u!212 &1605328194
 SpriteRenderer:
   m_ObjectHideFlags: 0

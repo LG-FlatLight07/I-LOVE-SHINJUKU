@@ -2,16 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class OnClick : MonoBehaviour
 {
-    // インスペクタビューから設定するシーン名
-    public string sceneName;
+    private GameObject sphereObject;
+    ResultFadain resultfadain;
 
     public void OnClickStartButton()
     {
-        SceneManager.LoadScene(sceneName);
+        sphereObject = GameObject.Find("Black");
+        resultfadain = sphereObject.GetComponent<ResultFadain>();
+        resultfadain.Out = true;
     }
 
 }

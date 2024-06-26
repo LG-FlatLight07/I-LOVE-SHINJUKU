@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //マッチングシステム 
 public class ResultFadain : MonoBehaviour
@@ -18,6 +19,9 @@ public class ResultFadain : MonoBehaviour
     private float StartDelayTime = 3;
     [SerializeField] //終了時ディレイ
     private float EndDelayTime = 6;
+
+    // インスペクタビューから設定するシーン名
+    public string sceneName;
 
     void Start()
     {
@@ -40,10 +44,10 @@ public class ResultFadain : MonoBehaviour
             FadeIn();
         }
 
-       /* if (Out)
+        if (Out)
         {
             FadeOut();
-        }*/
+        }
     }
 
 
@@ -73,15 +77,16 @@ public class ResultFadain : MonoBehaviour
         }
     }
 
-  /*  void FadeOut()
+    void FadeOut()
     {
         alfa += Speed;
         Alpha();
         if (alfa >= 1)
         {
             Out = false;
+            SceneManager.LoadScene(sceneName);
         }
-    }*/
+    }
 
     void Alpha()
     {
