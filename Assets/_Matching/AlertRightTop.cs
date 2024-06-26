@@ -17,8 +17,9 @@ public class AlertRightTop : MonoBehaviour
         anim = GetComponent<Animator>();
 
         alertSprite.enabled = false;
-        if (!Image1 || !Image2) return;
+        if (!Image1) return;
         Image1.enabled = false;
+        if (!Image2) return;
         Image2.enabled = false;
     }
 
@@ -29,8 +30,9 @@ public class AlertRightTop : MonoBehaviour
         {
             //anim.SetTrigger("Activate");
             alertSprite.enabled = true;
-            if (!Image1 || !Image2) return;
+            if (!Image1) return;
             Image1.enabled = true;
+            if (!Image2) return;
             Image2.enabled = true;
         }
     }
