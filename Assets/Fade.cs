@@ -58,9 +58,9 @@ public class Fade : MonoBehaviour
         }
 
         this.fadePanel.color = this.endColor;  // フェードが完了したら最終色に設定
-        yield return new WaitForSeconds(5);
-        this.fadePanel.color = this.defaultColor;  // フェードが完了したら最終色に設定
-        this.isFade = false;
+        // yield return new WaitForSeconds(10);
+        // this.fadePanel.color = this.defaultColor;  // フェードが完了したら最終色に設定
+        // this.isFade = false;
     }
 
 
