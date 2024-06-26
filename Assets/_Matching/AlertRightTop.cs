@@ -13,6 +13,8 @@ public class AlertRightTop : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
+
+        alertSprite.enabled = false;
     }
 
     private void Update()
@@ -20,7 +22,8 @@ public class AlertRightTop : MonoBehaviour
         //挑戦状通知
         if (Input.GetKeyDown("q"))
         {
-            anim.SetTrigger("Activate");
+            //anim.SetTrigger("Activate");
+            alertSprite.enabled = true;
         }
     }
 }
