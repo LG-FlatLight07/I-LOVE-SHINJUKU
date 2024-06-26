@@ -133,34 +133,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 14
-    activeFramesEnds: 21
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: dfb09fc449cbab64780b2da4b8545e05, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -205,26 +178,7 @@ MonoBehaviour:
     soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
-  cameraMovements:
-  - cinematicType: 0
-    animationClip: {fileID: 0}
-    prefab: {fileID: 0}
-    camAnimationSpeed: 1
-    blendSpeed: 100
-    gameObjectPosition: {x: 0, y: 0, z: 0}
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    castingFrame: 1
-    _duration:
-      _serializedValue: 429496736
-    fieldOfView: 1
-    camSpeed: 2
-    freezePhysics: 0
-    _myAnimationSpeed:
-      _serializedValue: 85899345920
-    _opAnimationSpeed:
-      _serializedValue: 4294967296
-    previewToggle: 0
+  cameraMovements: []
   hits:
   - activeFramesBegin: 12
     activeFramesEnds: 15
