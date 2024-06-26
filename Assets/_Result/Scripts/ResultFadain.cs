@@ -84,7 +84,7 @@ public class ResultFadain : MonoBehaviour
         if (alfa >= 1)
         {
             Out = false;
-            SceneManager.LoadScene(sceneName);
+            //SceneManager.LoadScene(sceneName);
         }
     }
 

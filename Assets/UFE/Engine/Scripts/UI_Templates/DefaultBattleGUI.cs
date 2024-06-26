@@ -297,7 +297,7 @@ public class DefaultBattleGUI : BattleGUI {
             if (UFE.config.currentRound != this.previousRound)
             {
                 this.fade.FadeClear();
-                Debug.LogError(UFE.config.currentRound.ToString());
+                //Debug.LogError(UFE.config.currentRound.ToString());
             }
             this.previousRound = UFE.config.currentRound;
 
