@@ -328,7 +328,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 1
     _damageOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 343597383680
     _minDamageOnHit:
       _serializedValue: 0
     _damageOnBlock:

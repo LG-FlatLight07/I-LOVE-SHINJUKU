@@ -299,7 +299,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 1
     _damageOnHit:
-      _serializedValue: 858993459200
+      _serializedValue: 644245094400
     _minDamageOnHit:
       _serializedValue: 214748364800
     _damageOnBlock:
@@ -421,9 +421,9 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 1
+    hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
