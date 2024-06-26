@@ -245,7 +245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &45502723
 Transform:
   m_ObjectHideFlags: 0
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   fadeImage: {fileID: 968179203}
   StartDelayTime: 3
   EndDelayTime: 6
-  SceneString: 2_VSMobIngame
+  SceneString: 11_VSMobInGame2
 --- !u!212 &968179203
 SpriteRenderer:
   m_ObjectHideFlags: 0
