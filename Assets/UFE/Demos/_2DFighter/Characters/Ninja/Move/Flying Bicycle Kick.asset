@@ -133,7 +133,7 @@ MonoBehaviour:
     anyHitType: 1
     anyHitConfirmType: 1
   frameLinks:
-  - linkType: 2
+  - linkType: 0
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
@@ -163,10 +163,10 @@ MonoBehaviour:
   gauges: []
   sortOrder: []
   particleEffects:
-  - castingFrame: 0
+  - castingFrame: 1
     particleEffect:
       editorToggle: 0
-      prefab: {fileID: 8915312667134092580, guid: 8a43d9f68490c374a93a9e8085555c02,
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
         type: 3}
       duration: 1
       stick: 1
@@ -174,15 +174,15 @@ MonoBehaviour:
       followRotation: 1
       lockLocalPosition: 0
       mirrorOn2PSide: 0
-      overrideRotation: 1
+      overrideRotation: 0
       initialRotation: {x: 0, y: 0, z: 0}
       positionOffSet: {x: 0, y: 0, z: 0}
       bodyPart: 15
       hitBoxDefinitionIndex: 0
-  - castingFrame: 0
+  - castingFrame: 3
     particleEffect:
       editorToggle: 0
-      prefab: {fileID: 8915312667134092580, guid: 8a43d9f68490c374a93a9e8085555c02,
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
         type: 3}
       duration: 1
       stick: 1
@@ -190,7 +190,55 @@ MonoBehaviour:
       followRotation: 1
       lockLocalPosition: 0
       mirrorOn2PSide: 0
-      overrideRotation: 1
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 0, y: 0, z: 0}
+      bodyPart: 14
+      hitBoxDefinitionIndex: 0
+  - castingFrame: 10
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
+        type: 3}
+      duration: 1
+      stick: 1
+      destroyOnMoveOver: 0
+      followRotation: 1
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 0, y: 0, z: 0}
+      bodyPart: 14
+      hitBoxDefinitionIndex: 0
+  - castingFrame: 14
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
+        type: 3}
+      duration: 1
+      stick: 1
+      destroyOnMoveOver: 0
+      followRotation: 1
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 0, y: 0, z: 0}
+      bodyPart: 15
+      hitBoxDefinitionIndex: 0
+  - castingFrame: 18
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
+        type: 3}
+      duration: 1
+      stick: 1
+      destroyOnMoveOver: 0
+      followRotation: 1
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
       initialRotation: {x: 0, y: 0, z: 0}
       positionOffSet: {x: 0, y: 0, z: 0}
       bodyPart: 14
