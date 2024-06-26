@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AQUAS-Lite.meta
+guid: 6ba9daccd4b5193418c1aafa93b2cbdf
+folderAsset: yes
+========
+guid: a2928f2794fc6c5449e00c68c15df3ed
+>>>>>>>> 17d0ba9 (通知とマッチングのフェード完成。マッチングの中身は指示が曖昧過ぎて無理):Assets/_Matching/RealMatching.unity.meta
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
