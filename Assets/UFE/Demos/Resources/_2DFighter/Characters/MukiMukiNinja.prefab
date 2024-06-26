@@ -1313,6 +1313,86 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.85
+      y: -0.47
+      width: 1.69
+      height: 3.2
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 4986115757121413217}
+    hitState: 0
+    hide: 0
+    defaultVisibility: 1
+    bodyPart: 16
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 3
+    type: 0
+    _rect:
+      _x:
+        _serializedValue: -3650722304
+      _y:
+        _serializedValue: -2018634624
+      topRight:
+        x:
+          _serializedValue: 3607772672
+        y:
+          _serializedValue: -2018634624
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -3650722304
+        y:
+          _serializedValue: -2018634624
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 3607772672
+        y:
+          _serializedValue: 11725260800
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -3650722304
+        y:
+          _serializedValue: 11725260800
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 7258494976
+      height:
+        _serializedValue: 13743895552
+      xMax:
+        _serializedValue: 3607772672
+      yMax:
+        _serializedValue: 11725260800
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   activeHurtBoxes: []
   blockableArea:
     enabled: 1
@@ -1409,7 +1489,7 @@ MonoBehaviour:
         _serializedValue: 0
   hitConfirmType: 0
   collisionBoxSize:
-    _serializedValue: 8589934592
+    _serializedValue: 2147483648
   inverted: 0
   bakeSpeed: 0
   deltaPosition:
