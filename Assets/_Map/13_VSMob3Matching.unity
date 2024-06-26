@@ -341,7 +341,7 @@ MonoBehaviour:
   fadeImage: {fileID: 30321558}
   StartDelayTime: 3
   EndDelayTime: 6
-  SceneString: 2_VSMobIngame
+  SceneString: 14_VSMob3Ingame
 --- !u!1 &76145247
 GameObject:
   m_ObjectHideFlags: 0
