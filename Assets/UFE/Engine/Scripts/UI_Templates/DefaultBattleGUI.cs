@@ -11,6 +11,7 @@ public class DefaultBattleGUI : BattleGUI {
         public Text name;
         public Image portrait;
         public Image lifeBar;
+        public Image lifeBar_;
         public Image[] gauges;
         public Image[] wonRoundsImages;
         public AlertGUI alert = new AlertGUI();
@@ -263,6 +264,24 @@ public class DefaultBattleGUI : BattleGUI {
 
             if (this.player2GUI != null && this.player2GUI.lifeBar != null) {
                 this.player2GUI.lifeBar.fillAmount = this.player2.targetLife / this.player2.totalLife;
+            }
+
+            // ゆっくり減る体力ゲージ
+            if (this.player1GUI != null && this.player1GUI.lifeBar_ != null)
+            {
+                if(this.player1GUI.lifeBar_.fillAmount >= this.player1GUI.lifeBar.fillAmount)
+                {
+
+                    this.player1GUI.lifeBar_.fillAmount -= 0.003f;
+                }
+            }
+
+            if (this.player2GUI != null && this.player2GUI.lifeBar_ != null)
+            {
+                if (this.player2GUI.lifeBar_.fillAmount >= this.player2GUI.lifeBar.fillAmount)
+                {
+                    this.player2GUI.lifeBar_.fillAmount -= 0.003f;
+                }
             }
 
             if (UFE.config.gameGUI.hasGauge) {
