@@ -82,6 +82,7 @@ public class DefaultBattleGUI : BattleGUI {
         Fight,
         KO
     }
+    
     [SerializeField]
     private GameObject roundImage;
     [SerializeField]
@@ -286,9 +287,9 @@ public class DefaultBattleGUI : BattleGUI {
             }
 
             // 死んだらフェードアウト（カス実装）
-            if(this.player1GUI.lifeBar.fillAmount == 0 || this.player1GUI.lifeBar.fillAmount == 0)
+            if(!this.fade.IsFade() && (this.player1GUI.lifeBar.fillAmount == 0 || this.player2GUI.lifeBar.fillAmount == 0))
             {
-                fade.FadeOut();
+                this.fade.FadeOut();
             }
 
             if (UFE.config.gameGUI.hasGauge) {
@@ -296,14 +297,14 @@ public class DefaultBattleGUI : BattleGUI {
                 {
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
-                        this.player1GUI.gauges[i].fillAmount = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
+                        this.player1GUI.gauges[i].fillAmount = (float)this.player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
                     }
                 }
                 for (int i = 0; i < this.player2GUI.gauges.Length; i++)
                 {
                     if (this.player2GUI.gauges[i].gameObject.activeInHierarchy)
                     {
-                        this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
+                        this.player2GUI.gauges[i].fillAmount = (float)this.player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
                     }
                 }
             }
