@@ -205,7 +205,23 @@ MonoBehaviour:
     DCStance: 0
     editorToggle: 0
   sortOrder: []
-  particleEffects: []
+  particleEffects:
+  - castingFrame: 21
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5417144784360110242, guid: bdd04bf674bbfcf4cb4a352a9396211b,
+        type: 3}
+      duration: 2
+      stick: 0
+      destroyOnMoveOver: 0
+      followRotation: 0
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 1
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 3, y: 0, z: 0}
+      bodyPart: 9
+      hitBoxDefinitionIndex: 0
   appliedForces:
   - castingFrame: 17
     resetPreviousVertical: 1

@@ -132,34 +132,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 26
-    activeFramesEnds: 29
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 5bae5c2d681fa5847a12e18677e8a6c0, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 1
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -200,12 +173,12 @@ MonoBehaviour:
       stick: 1
       destroyOnMoveOver: 0
       followRotation: 0
-      lockLocalPosition: 0
+      lockLocalPosition: 1
       mirrorOn2PSide: 1
       overrideRotation: 1
       initialRotation: {x: 0, y: 0, z: 0}
-      positionOffSet: {x: 0, y: 0, z: 0}
-      bodyPart: 7
+      positionOffSet: {x: 1, y: 0, z: 0}
+      bodyPart: 2
       hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []
