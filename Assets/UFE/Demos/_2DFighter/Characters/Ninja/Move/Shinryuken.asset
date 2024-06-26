@@ -209,17 +209,17 @@ MonoBehaviour:
   - castingFrame: 21
     particleEffect:
       editorToggle: 0
-      prefab: {fileID: 5417144784360110242, guid: bdd04bf674bbfcf4cb4a352a9396211b,
+      prefab: {fileID: 2288263975732117412, guid: e58d0cfddde60924c9bd8b2a033bd488,
         type: 3}
       duration: 2
-      stick: 0
-      destroyOnMoveOver: 0
+      stick: 1
+      destroyOnMoveOver: 1
       followRotation: 0
       lockLocalPosition: 0
       mirrorOn2PSide: 0
       overrideRotation: 1
       initialRotation: {x: 0, y: 0, z: 0}
-      positionOffSet: {x: 3, y: 0, z: 0}
+      positionOffSet: {x: 0, y: 0, z: 0}
       bodyPart: 9
       hitBoxDefinitionIndex: 0
   appliedForces:

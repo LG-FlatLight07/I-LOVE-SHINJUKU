@@ -132,61 +132,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 15
-    activeFramesEnds: 16
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 1
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: ad8e56a260bd08b41865c65791498d28, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 1
-    useCharacterMoves: 0
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 10
-    activeFramesEnds: 16
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 4b9d5ea5671119d4880ef55ab362d82f, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 0
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -217,7 +163,23 @@ MonoBehaviour:
     DCStance: 0
     editorToggle: 0
   sortOrder: []
-  particleEffects: []
+  particleEffects:
+  - castingFrame: 6
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
+        type: 3}
+      duration: 1
+      stick: 0
+      destroyOnMoveOver: 0
+      followRotation: 0
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 5, y: 0, z: 0}
+      bodyPart: 3
+      hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []
   slowMoEffects: []

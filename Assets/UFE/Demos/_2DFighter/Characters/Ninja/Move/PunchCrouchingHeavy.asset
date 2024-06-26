@@ -191,10 +191,10 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects:
-  - castingFrame: 0
+  - castingFrame: 12
     particleEffect:
       editorToggle: 0
-      prefab: {fileID: 5417144784360110242, guid: bdd04bf674bbfcf4cb4a352a9396211b,
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
         type: 3}
       duration: 1
       stick: 0
@@ -202,10 +202,10 @@ MonoBehaviour:
       followRotation: 0
       lockLocalPosition: 0
       mirrorOn2PSide: 0
-      overrideRotation: 1
+      overrideRotation: 0
       initialRotation: {x: 0, y: 0, z: 0}
-      positionOffSet: {x: 0, y: 0, z: 0}
-      bodyPart: 0
+      positionOffSet: {x: 3, y: 1, z: 0}
+      bodyPart: 2
       hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []

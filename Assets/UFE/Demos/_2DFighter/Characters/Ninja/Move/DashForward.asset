@@ -132,34 +132,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 2
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 4
-    activeFramesEnds: 23
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 1
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: b90e5b1bac7586d4e8976b0ef7941e84, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0

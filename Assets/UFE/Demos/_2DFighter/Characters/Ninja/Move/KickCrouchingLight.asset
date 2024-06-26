@@ -132,35 +132,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 9
-    activeFramesEnds: 15
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 3
-    linkableMoves:
-    - {fileID: 11400000, guid: bafe500d7b7fded49b6d700b41b05fcd, type: 2}
-    - {fileID: 11400000, guid: e2d55f65ba33fce4eac62f440f5d167d, type: 2}
-    characterSpecificMoves: []
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-    useCharacterMoves: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -191,7 +163,23 @@ MonoBehaviour:
     DCStance: 0
     editorToggle: 0
   sortOrder: []
-  particleEffects: []
+  particleEffects:
+  - castingFrame: 4
+    particleEffect:
+      editorToggle: 0
+      prefab: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
+        type: 3}
+      duration: 1
+      stick: 0
+      destroyOnMoveOver: 0
+      followRotation: 0
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 4, y: -2, z: 0}
+      bodyPart: 3
+      hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
