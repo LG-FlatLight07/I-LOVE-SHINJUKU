@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6793613, g: 0.7328877, b: 0.80468684, a: 1}
+  m_IndirectSpecularColor: {r: 0.67935973, g: 0.73288846, b: 0.8046861, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p1CharAsset: {fileID: 11400000, guid: f7c338a04ec6a7540a33c947e30e9cf8, type: 2}
-  p2CharAsset: {fileID: 11400000, guid: c9bdd11147a3fa74c95ff14e3f9be5b1, type: 2}
+  p2CharAsset: {fileID: 11400000, guid: 96eb73e9c6b3a0447a1653c0a28c6a23, type: 2}
   stagePrefab:
     stageName: 
     stageLoadingMethod: 0
