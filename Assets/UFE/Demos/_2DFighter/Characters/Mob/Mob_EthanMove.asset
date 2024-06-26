@@ -15,7 +15,7 @@ MonoBehaviour:
   gameplayType: 0
   profilePictureSmall: {fileID: 2800000, guid: 7e0d219e4c44b8847b49afbcc21039c1, type: 3}
   profilePictureBig: {fileID: 2800000, guid: dac8e3d31c37f4146a276a538033c068, type: 3}
-  characterName: SAKUEA
+  characterName: SAKURA
   gender: 1
   characterDescription: 'Project: Fighter 2D
 

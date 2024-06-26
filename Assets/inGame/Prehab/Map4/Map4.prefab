@@ -167,7 +167,7 @@ MonoBehaviour:
   selectSound: {fileID: 0}
   cancelSound: {fileID: 0}
   moveCursorSound: {fileID: 0}
-  NextScene: 6_VSKagami1Result
+  NextScene: 12_VSMob2Result
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0

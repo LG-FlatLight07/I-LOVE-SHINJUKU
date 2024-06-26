@@ -189,7 +189,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
     prefab: {fileID: 100000, guid: 3455e11cd89ad924ab59adc33c19c3a8, type: 3}
-    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
@@ -280,6 +280,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1367251576028226977, guid: e34a85ed9133d81408f165c4fa989af0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367251576028226977, guid: e34a85ed9133d81408f165c4fa989af0,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2852766220664408679, guid: e34a85ed9133d81408f165c4fa989af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -329,6 +339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 29.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5247117320114713768, guid: e34a85ed9133d81408f165c4fa989af0,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8314677484366939136, guid: e34a85ed9133d81408f165c4fa989af0,
         type: 3}
