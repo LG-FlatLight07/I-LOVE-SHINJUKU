@@ -7,6 +7,8 @@ public class AlertRightTop : MonoBehaviour
 {
     //アラートイメージ
     public SpriteRenderer alertSprite;
+    public Image Image1;
+    public Image Image2;
 
     private Animator anim = null;
 
@@ -15,6 +17,8 @@ public class AlertRightTop : MonoBehaviour
         anim = GetComponent<Animator>();
 
         alertSprite.enabled = false;
+        Image1.enabled = false;
+        Image2.enabled = false;
     }
 
     private void Update()
@@ -24,6 +28,8 @@ public class AlertRightTop : MonoBehaviour
         {
             //anim.SetTrigger("Activate");
             alertSprite.enabled = true;
+            Image1.enabled = true;
+            Image2.enabled = true;
         }
     }
 }
