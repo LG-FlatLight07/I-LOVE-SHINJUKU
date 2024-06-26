@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p1CharAsset: {fileID: 11400000, guid: f7c338a04ec6a7540a33c947e30e9cf8, type: 2}
-  p2CharAsset: {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
+  p2CharAsset: {fileID: 11400000, guid: da95f7e418a87ae48bac9b64648dc6e8, type: 2}
   stagePrefab:
     stageName: 
     stageLoadingMethod: 0
@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ce1a18747a5944ba99470033b538ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  versus: {fileID: 0}
 --- !u!850595691 &1128661064
 LightingSettings:
   m_ObjectHideFlags: 0

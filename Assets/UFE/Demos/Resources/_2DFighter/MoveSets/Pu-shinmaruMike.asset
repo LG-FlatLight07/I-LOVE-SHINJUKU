@@ -118,7 +118,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 0
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
       id: 7a29bcb5-5b6b-4b51-892e-e50a9a28dbf0
@@ -2732,10 +2732,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -2768,7 +2768,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 33
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standingWallBounceKnockdown:
       id: 83cf1f7b-8dfa-46a5-95d1-aa290823acea
@@ -2838,10 +2838,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -2874,7 +2874,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 34
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     airWallBounce:
       id: 8f48619b-26a2-416d-985a-99bd27d09e98
@@ -2944,7 +2944,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -2980,7 +2980,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 35
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     fallingFromGroundBounce:
       id: 537be716-3453-4756-8253-84401067de6a
@@ -4746,7 +4746,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -4782,7 +4782,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 43
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
       id: 7d2318c7-9829-47c8-b61b-7fa2dd396b4b
@@ -4852,7 +4852,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -4888,7 +4888,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 44
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromCrumple:
       id: a7a7b542-bf98-4590-ba7a-95229670d220
@@ -4958,7 +4958,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -4994,7 +4994,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 46
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromSweep:
       id: b288ac39-d629-41b6-9f6a-8175b706f803
@@ -5064,7 +5064,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -5100,7 +5100,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 45
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
       id: 50de479a-555b-4195-9f71-c94881904205
@@ -5170,7 +5170,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -5206,7 +5206,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 47
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromAirWallBounce:
       id: 0a5af0d8-eb16-414f-8239-5653deae40eb
@@ -5276,7 +5276,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -5312,7 +5312,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 48
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromGroundBounce:
       id: b69b7d9f-1692-482c-8c6f-82c0568eeb75
@@ -5382,7 +5382,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
       autoSpeed: 1
@@ -5418,7 +5418,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 49
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     intro:
       id: 08b410db-c0d6-4edd-afc8-cfc697e65ba6
@@ -5488,10 +5488,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -5524,7 +5524,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 51
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     roundWon:
       id: 5586ff93-d749-4265-b756-7aa2e6c61e22
@@ -5594,10 +5594,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -5630,7 +5630,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 52
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     timeOut:
       id: f943e2e2-e438-4c1d-a455-769bf523fd39
@@ -5700,10 +5700,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -5736,7 +5736,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 53
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     gameWon:
       id: 18a43b47-0bd9-44f7-8607-b63237dda7e0
@@ -5806,10 +5806,10 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       moveInfo: {fileID: 0}
       useMoveFile: 0
-      autoSpeed: 1
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -5842,7 +5842,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 54
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveEnabled: 1
     jumpEnabled: 1
@@ -5850,34 +5850,40 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 1
   attackMoves:
-  - {fileID: 11400000, guid: 0ed8d51787e3ab04da9e0c60781ea512, type: 2}
-  - {fileID: 11400000, guid: a229c0f53d78ac649b9348a981c78144, type: 2}
-  - {fileID: 11400000, guid: 6f28904a71741ac4ca58b796c266396c, type: 2}
-  - {fileID: 11400000, guid: e708f22ba7e36ab40982f071e0edf142, type: 2}
-  - {fileID: 11400000, guid: bedab78a1678a304a82dfe2220294cf9, type: 2}
-  - {fileID: 11400000, guid: c3f0451b2b9b3ab42bb3433734c775a4, type: 2}
-  - {fileID: 11400000, guid: 91d7953f25941bc4da541fd797c2a3d3, type: 2}
-  - {fileID: 11400000, guid: 8f689525f8ab4fb4ebe36ca7924d9b24, type: 2}
-  - {fileID: 11400000, guid: 82a7542a2f987b74d8078e05a8d2f08a, type: 2}
-  - {fileID: 11400000, guid: aef70613828629f418ffce920d041594, type: 2}
-  - {fileID: 11400000, guid: 353850e62588b57439fd9ee4d0f10965, type: 2}
-  - {fileID: 11400000, guid: 25be3361dbf9b4444b055e3ab16b6a75, type: 2}
-  - {fileID: 11400000, guid: 163e87a46f845984c8122b99e964ea64, type: 2}
-  - {fileID: 11400000, guid: 560f0f5561deb0a49aa6d0bdd76d5d45, type: 2}
-  - {fileID: 11400000, guid: 26e07baa82407f442b6390f5e6caace8, type: 2}
-  - {fileID: 11400000, guid: 28415ca87bc8f064fb9f742815a2ac1b, type: 2}
-  - {fileID: 11400000, guid: a616b8d8b8df26d4b917ae0d6ef8b556, type: 2}
-  - {fileID: 11400000, guid: 0a14029b107af4848a1bb90ed912f9c2, type: 2}
-  - {fileID: 11400000, guid: b319dffcc6f04b84db8d8db49fe7ecaa, type: 2}
-  - {fileID: 11400000, guid: 3d079e9d92e52a845a0d0984065feaf2, type: 2}
-  - {fileID: 11400000, guid: 142c6839ed40daa408638726db637565, type: 2}
-  - {fileID: 11400000, guid: 6de8c128fd6036a44a533d6cd8ad6b2a, type: 2}
-  - {fileID: 11400000, guid: 807516488530d8747af59520be77308e, type: 2}
-  - {fileID: 11400000, guid: 8df5ff02f732dcf449dd2a535fed9518, type: 2}
-  - {fileID: 11400000, guid: 52a9ee6cdba2d5442a9074874b1cc1c3, type: 2}
-  - {fileID: 11400000, guid: 49049aedf3130704ba575d28a1c4ebd3, type: 2}
-  - {fileID: 11400000, guid: 87ddd5f7d79351f4981ff283ebfc4520, type: 2}
-  - {fileID: 11400000, guid: fd0a9587d05606840ac104dd3ea9933b, type: 2}
-  - {fileID: 11400000, guid: 133c7a6dd4521b445b7d0399348e33c6, type: 2}
-  - {fileID: 11400000, guid: a0d592d58a38b294d8bd208054b13a8c, type: 2}
+  - {fileID: 11400000, guid: d7eaef2279009af4a8c3fd61d6b2b9f2, type: 2}
+  - {fileID: 11400000, guid: 0bd27418dc7ff384dbbc3aae0fcb0a94, type: 2}
+  - {fileID: 11400000, guid: 4d76b93791ee3b84ab32bcb9b36aab6f, type: 2}
+  - {fileID: 11400000, guid: 40310a41e75e1b842a8c12cc3d1cf2e3, type: 2}
+  - {fileID: 11400000, guid: 6480a3e6d37dc6146a20cffb78342779, type: 2}
+  - {fileID: 11400000, guid: 657d2bdf4052ba841a7ce4f04f2eff73, type: 2}
+  - {fileID: 11400000, guid: 2d4bd038f63f1b1419da9ce62e54d5b2, type: 2}
+  - {fileID: 11400000, guid: 9b1415eb2e830c043b053645b9d91556, type: 2}
+  - {fileID: 11400000, guid: 35eebcf5f2eb0f74c87db400e677cfaf, type: 2}
+  - {fileID: 11400000, guid: aec7e8e65ffd48d4da43074084175b90, type: 2}
+  - {fileID: 11400000, guid: b5ec6d77e60f1374a85921ed6024e9b4, type: 2}
+  - {fileID: 11400000, guid: 136a6c79474ad2946a5fea1381d7aefa, type: 2}
+  - {fileID: 11400000, guid: 52033f42be6de034681f34e05f4b9834, type: 2}
+  - {fileID: 11400000, guid: 91deb6564807d06438bc22f894e595d0, type: 2}
+  - {fileID: 11400000, guid: 2fd0e4cd5cd25af4c962c2e1301a6e03, type: 2}
+  - {fileID: 11400000, guid: 1214823d02a07b84f870e2ef338a028d, type: 2}
+  - {fileID: 11400000, guid: f24a586a1ddbf0c4e9181cc8f5c32a20, type: 2}
+  - {fileID: 11400000, guid: 226b67418fd8e9f47b9472f28cf213a0, type: 2}
+  - {fileID: 11400000, guid: dd937b74d0797d7419cab62ebf0759d7, type: 2}
+  - {fileID: 11400000, guid: e2df275dbf943904a9ed3ef2ace5b0e6, type: 2}
+  - {fileID: 11400000, guid: c61e86cb0cfc24d4794946ba0babdb17, type: 2}
+  - {fileID: 11400000, guid: ee6c81b6d16d67648a3c07fae9944d17, type: 2}
+  - {fileID: 11400000, guid: 60b7ad1be01839e43806a35522fb24fb, type: 2}
+  - {fileID: 11400000, guid: 2c1d9b8df2a47c94c969a14b06d0b3e0, type: 2}
+  - {fileID: 11400000, guid: a3219c28ffb4b54439f9536140e0740a, type: 2}
+  - {fileID: 11400000, guid: a436288e133e7084a80e802e8c900029, type: 2}
+  - {fileID: 11400000, guid: 17f0069259cb3e94da22432e790e0af9, type: 2}
+  - {fileID: 11400000, guid: 55044c775b9b74a4c9168e7609926dd8, type: 2}
+  - {fileID: 11400000, guid: d239b0f1482224a40bbfd387bdb3470e, type: 2}
+  - {fileID: 11400000, guid: 7d212b7ce2b64da43b00f3445b5ac579, type: 2}
+  - {fileID: 11400000, guid: 45afe36afcc374e4a998735d72e52390, type: 2}
+  - {fileID: 11400000, guid: 1a14112adba59494ea480770e9ddbbf4, type: 2}
+  - {fileID: 11400000, guid: 15ad392a2b41c634d8674daa4c0497ea, type: 2}
+  - {fileID: 11400000, guid: 3848528fc7c206a42b84c2b02c61c0bf, type: 2}
+  - {fileID: 11400000, guid: 18f0143215baacd438755643bef4d462, type: 2}
+  - {fileID: 11400000, guid: 482ce887eb5bf9348bad648b6f19b2ca, type: 2}
   AM_File: {fileID: 0}

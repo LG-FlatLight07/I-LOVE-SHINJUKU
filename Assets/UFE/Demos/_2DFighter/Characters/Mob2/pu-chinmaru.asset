@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: pu-chinmaru
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: f274acf6d7f4eca41b244e0e243fea01, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: f086e936c41edbb47add275282b27052, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 99c6b14538768d74d8330dfc829b241e, type: 3}
-  characterName: pu-chinmaru
+  characterName: RYOCHAN
   gender: 1
   characterDescription: 'Project: Fighter 2D
 
@@ -23,7 +23,7 @@ MonoBehaviour:
 
     Animation
     Type: Legacy'
-  selectionAnimation: {fileID: 7400000, guid: d2a0638b855fb2c4bbe50d0b77bfebb2, type: 2}
+  selectionAnimation: {fileID: 7400000, guid: 2649700f1b6cd20488984e8dccef8161, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 8300000, guid: b671558967ea26742bffcc63ea2ac5d0, type: 3}
   height: 5.8
@@ -36,12 +36,12 @@ MonoBehaviour:
     type: 3}
   prefabResourcePath: _2DFighter\Characters\Mike
   alternativeCostumes:
-  - name: 
+  - name: RYOUCHAN
     characterPrefabStorage: 0
     prefab: {fileID: 1380895578980968326, guid: 7b934bb98ecc8b440aba2d5c3c25fb49,
       type: 3}
     prefabResourcePath: 
-    enableColorMask: 0
+    enableColorMask: 1
     colorMask: {r: 0, g: 0, b: 0, a: 0}
   initialPosition:
     x:
@@ -113,8 +113,8 @@ MonoBehaviour:
   possibleAirMoves: 1
   _blendingTime:
     _serializedValue: 429496736
-  animationType: 0
-  avatar: {fileID: 0}
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 1aba7a7c774064d40a658cda56f492f4, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
