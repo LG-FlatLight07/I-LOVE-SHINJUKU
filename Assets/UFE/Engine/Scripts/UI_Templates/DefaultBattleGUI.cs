@@ -55,6 +55,7 @@ public class DefaultBattleGUI : BattleGUI {
     public AlertGUI mainAlert = new AlertGUI();
     public Text info;
     public Text timer;
+    public Animator timerScaleAnimCont;
     public float lifeDownSpeed = 500f;
     public float lifeUpSpeed = 900f;
     public Sprite networkPlayerPointer;
@@ -115,6 +116,15 @@ public class DefaultBattleGUI : BattleGUI {
 
         if (this.isRunning) {
             float deltaTime = (float)UFE.fixedDeltaTime;
+
+            if( Convert.ToInt32(timer.text) % 10 == 0 && Convert.ToInt32(timer.text) > 0)
+            {
+                timerScaleAnimCont.SetBool("scale", true);
+            }
+            else
+            {
+                timerScaleAnimCont.SetBool("scale", false);
+            }
 
             // Animate the alert messages if they exist
             if (this.player1GUI != null && this.player1GUI.alert != null && this.player1GUI.alert.text != null) {

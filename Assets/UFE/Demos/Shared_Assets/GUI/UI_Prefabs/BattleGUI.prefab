@@ -807,6 +807,7 @@ MonoBehaviour:
     movementSpeed: 15
   info: {fileID: 509025652250189536}
   timer: {fileID: 5203282447950010529}
+  timerScaleAnimCont: {fileID: 2730887331913260306}
   lifeDownSpeed: 500
   lifeUpSpeed: 800
   networkPlayerPointer: {fileID: 21300000, guid: d1232699d70774e429244566299cb8fa,
@@ -2091,6 +2092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7362895839329073952}
   - component: {fileID: 6732068454882374834}
+  - component: {fileID: 2730887331913260306}
   m_Layer: 0
   m_Name: TimerObject
   m_TagString: Untagged
@@ -2143,6 +2145,27 @@ MonoBehaviour:
   - {fileID: -1129587628, guid: d0870915eb81cdd4793ec606a2f98cea, type: 3}
   - {fileID: -1963430422, guid: d0870915eb81cdd4793ec606a2f98cea, type: 3}
   defaultBattleGUI: {fileID: 8008647689190016299}
+--- !u!95 &2730887331913260306
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756695531433750828}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f7b854b8206cdc4fa3e22073d0978a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4794251321406602680
 GameObject:
   m_ObjectHideFlags: 0
