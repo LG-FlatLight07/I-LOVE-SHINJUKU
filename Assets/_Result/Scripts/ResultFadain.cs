@@ -55,7 +55,7 @@ public class ResultFadain : MonoBehaviour
     {
         yield return new WaitForSeconds(StartDelayTime);
         In = true;
-        StartCoroutine(EndDelay());
+        //StartCoroutine(EndDelay());
     }
 
     IEnumerator EndDelay()
