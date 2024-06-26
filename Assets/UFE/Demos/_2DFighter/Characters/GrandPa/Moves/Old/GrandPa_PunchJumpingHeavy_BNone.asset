@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: GrandPa_PunchJumpingHeavy_B2
+  m_Name: GrandPa_PunchJumpingHeavy_BNone
   m_EditorClassIdentifier: 
   id: 07fc2058-d1c6-41e2-b130-097fd28d8772
   gameplayType: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 05000000
+    buttonExecution: 
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
