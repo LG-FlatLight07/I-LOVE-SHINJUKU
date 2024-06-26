@@ -27,7 +27,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 9108760496287619396, guid: d7b58455e3285ee41a046ef2e0b8b974,
+  characterPrefab: {fileID: 9108760496287619396, guid: 6b6c8516e26fba94e8fd081066d22522,
     type: 3}
   prefabResourcePath: _2DFighter/Characters/SK_Ninja_skin
   alternativeCostumes:
@@ -56,9 +56,9 @@ MonoBehaviour:
       _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 38654705664
-    _moveBackSpeed:
       _serializedValue: 30064771072
+    _moveBackSpeed:
+      _serializedValue: 21474836480
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
