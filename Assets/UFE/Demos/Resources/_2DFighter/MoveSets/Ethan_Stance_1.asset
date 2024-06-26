@@ -18,7 +18,7 @@ MonoBehaviour:
       id: 2913dabc-5748-4d1d-9ad5-be434f2fd3a0
       animData:
       - id: 
-        clip: {fileID: 7400000, guid: 4f9a299a3b4786742b3f48dddc2e81a7, type: 2}
+        clip: {fileID: 7400000, guid: 4712db4241c083642b1ed3ad6f86c43b, type: 2}
         customHitBoxDefinition: {fileID: 0}
         length:
           _serializedValue: 10093173760
@@ -4802,18 +4802,18 @@ MonoBehaviour:
     parryEnabled: 1
   attackMoves:
   - {fileID: 11400000, guid: 069844d353e0db9498fc08cfd2a8fad2, type: 2}
-  - {fileID: 11400000, guid: a320b3894d27c7140a5cca16ec987e8d, type: 2}
+  - {fileID: 11400000, guid: d4bd5e580de9ab840aae07e0b7f055a7, type: 2}
   - {fileID: 11400000, guid: 9248942738b045444ac31f453cf4f4c9, type: 2}
   - {fileID: 11400000, guid: 4ff8210b96b80eb49a738f5ec697bc1a, type: 2}
   - {fileID: 11400000, guid: 8c1f520baa592954a9d9f02af4a2c46a, type: 2}
-  - {fileID: 11400000, guid: d4bd5e580de9ab840aae07e0b7f055a7, type: 2}
+  - {fileID: 11400000, guid: a320b3894d27c7140a5cca16ec987e8d, type: 2}
   - {fileID: 11400000, guid: 50a8644ff0240cf4d815e8f796c80984, type: 2}
   - {fileID: 11400000, guid: b32765269b0a1c34abeff1e3d40ae5d2, type: 2}
   - {fileID: 11400000, guid: eb94b041344f1f742b76d44a04b3893e, type: 2}
   - {fileID: 11400000, guid: 8c773daf7b9e0d646ada5da6e90b8169, type: 2}
-  - {fileID: 11400000, guid: b15991d4951e91b488417c315b33356a, type: 2}
-  - {fileID: 11400000, guid: acb4d7a241211504aa0fee49b458dbd4, type: 2}
   - {fileID: 11400000, guid: 2875ba2b82ba4414684bdca9090da7d4, type: 2}
+  - {fileID: 11400000, guid: acb4d7a241211504aa0fee49b458dbd4, type: 2}
+  - {fileID: 11400000, guid: b15991d4951e91b488417c315b33356a, type: 2}
   - {fileID: 11400000, guid: c1dd6bea0e7837841aeed5a5595ea7d3, type: 2}
   - {fileID: 11400000, guid: 6cfa48615d6100d4290c3f5d2fca0895, type: 2}
   - {fileID: 11400000, guid: 2f1ea8e7075ad6b46bb43b21a7f4e034, type: 2}

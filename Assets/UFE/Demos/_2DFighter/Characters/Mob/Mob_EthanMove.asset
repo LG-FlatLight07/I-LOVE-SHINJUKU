@@ -32,13 +32,13 @@ MonoBehaviour:
   lifePoints: 1100
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 6186621602402964227, guid: e9e261f1195bd53449441b2e1c708163,
+  characterPrefab: {fileID: 1036785046355839571, guid: e8f3a0d08676be44da197b84592e7877,
     type: 3}
   prefabResourcePath: _2DFighter\Characters\Ethan
   alternativeCostumes:
   - name: Red Ethan
     characterPrefabStorage: 0
-    prefab: {fileID: 6186621602402964227, guid: e9e261f1195bd53449441b2e1c708163,
+    prefab: {fileID: 1036785046355839571, guid: e8f3a0d08676be44da197b84592e7877,
       type: 3}
     prefabResourcePath: _2DFighter\Characters\Ethan
     enableColorMask: 1
