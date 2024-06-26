@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Fade : MonoBehaviour
 {
     public Image fadePanel;             // フェード用のUIパネル（Image）
-    public float fadeDuration = 2.0f;   // フェードの完了にかかる時間
+    public float fadeDuration = 2.7f;   // フェードの完了にかかる時間
     private Color defaultColor = Color.clear;
     private Color endColor; // フェードパネルの最終色を設定
     private bool isFade = false;
@@ -30,13 +30,20 @@ public class Fade : MonoBehaviour
     }
     public void FadeClear()
     {
-        this.fadePanel.color = this.defaultColor;
+        this.fadePanel.color = this.defaultColor;  // フェードが完了したら最終色に設定
+        this.isFade = false;
     }
-
+    /// <summary>
+    /// フェードアウト処理
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator FadeOutAndLoadScene()
     {
         isFade = true;
+        Debug.Log("FadeOutAndLoadScene");
         yield return new WaitForSeconds(2);
+        //yield return new WaitCount(30);
+        Debug.Log("WaitForSeconds(2)");
 
         this.fadePanel.enabled = true;                 // パネルを有効化
         float elapsedTime = 0.0f;                 // 経過時間を初期化
@@ -51,11 +58,15 @@ public class Fade : MonoBehaviour
         }
 
         this.fadePanel.color = this.endColor;  // フェードが完了したら最終色に設定
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         this.fadePanel.color = this.defaultColor;  // フェードが完了したら最終色に設定
         this.isFade = false;
     }
 
+
+    /// <summary>
+    /// フェードアウト中か判定
+    /// </summary>
     public bool IsFade()
     {
         return isFade;

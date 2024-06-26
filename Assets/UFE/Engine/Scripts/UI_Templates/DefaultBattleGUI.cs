@@ -94,6 +94,8 @@ public class DefaultBattleGUI : BattleGUI {
     [SerializeField]
     private InGameSceneChange inGameSceneChange;
 
+    private int previousRound = 0;
+
     private void Start()
     {
         inGameSceneChange = GameObject.FindGameObjectWithTag("Map").GetComponent<InGameSceneChange>();
@@ -291,6 +293,13 @@ public class DefaultBattleGUI : BattleGUI {
             {
                 this.fade.FadeOut();
             }
+            //ラウンドが変わってたらフェードを解除（こんな実装になったのはUFEが悪い）
+            if (UFE.config.currentRound != this.previousRound)
+            {
+                this.fade.FadeClear();
+                Debug.LogError(UFE.config.currentRound.ToString());
+            }
+            this.previousRound = UFE.config.currentRound;
 
             if (UFE.config.gameGUI.hasGauge) {
                 for (int i = 0; i < this.player1GUI.gauges.Length; i++)
@@ -869,6 +878,7 @@ public class DefaultBattleGUI : BattleGUI {
 		if (this.announcer != null && !this.muteAnnouncer){
 			UFE.PlaySound(this.announcer.timeOver);
 		}
+        Debug.LogError("OnTimeOver");
 	}
 
 	protected override void OnInput (InputReferences[] inputReferences, int player){
