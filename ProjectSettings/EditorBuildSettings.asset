@@ -65,4 +65,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom.unity
     guid: 932678a643abbec4394ad92242da150f
+  - enabled: 1
+    path: Assets/_Map/13_VSMob3Matching.unity
+    guid: 6ba9daccd4b5193418c1aafa93b2cbdf
+  - enabled: 1
+    path: Assets/_Map/14_VSMob3Ingame.unity
+    guid: fcc735dea2e530947bd67e3abec5f3c1
+  - enabled: 1
+    path: Assets/_Map/15_VSMob3Result.unity
+    guid: 95e95e03fea2e204aab92034ba1ccea5
   m_configObjects: {}

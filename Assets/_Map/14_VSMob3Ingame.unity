@@ -188,7 +188,7 @@ MonoBehaviour:
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 2800000, guid: c4f1e0e081c488c4e8db86fb8fea7a34, type: 3}
-    prefab: {fileID: 100000, guid: 3455e11cd89ad924ab59adc33c19c3a8, type: 3}
+    prefab: {fileID: 100000, guid: 5c5657a00e8e63f449a607a46ab765d3, type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600

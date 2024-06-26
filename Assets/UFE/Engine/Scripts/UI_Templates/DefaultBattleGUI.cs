@@ -421,11 +421,11 @@ public class DefaultBattleGUI : BattleGUI {
                 UFE.PlaySound(this.announcer.fight);
 			}
 		}else if (msg == UFE.config.selectedLanguage.ko){
-			if (this.announcer != null && !this.muteAnnouncer && this.announcer.ko != null){
+			//if (this.announcer != null && !this.muteAnnouncer && this.announcer.ko != null){
                 koImage.SetActive(true);
                 koImage.GetComponent<Image>().sprite = mainAlertSprite[(int)MainAlertImage.KO];
-                UFE.PlaySound(this.announcer.ko);
-			}
+                //UFE.PlaySound(this.announcer.ko);
+			//}
 		}else{
 			return this.SetStringValues(msg, null);
 		}
