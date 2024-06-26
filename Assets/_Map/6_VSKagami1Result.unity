@@ -1298,6 +1298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alertSprite: {fileID: 342066014}
+  Image1: {fileID: 0}
+  Image2: {fileID: 0}
 --- !u!212 &342066014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2136,7 +2138,7 @@ SpriteRenderer:
   m_SortingLayerID: -20335087
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3d5b203c367c0f04db9ca0e136961f4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25c579dacafe6b84ebe8c0d6c07e9888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4584,7 +4586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88822eb83e0c29849b217754e7d6df0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 5_VSKagami1InGame
+  kieuseroButton: {fileID: 0}
 --- !u!1 &921810185
 GameObject:
   m_ObjectHideFlags: 0
@@ -6535,7 +6537,7 @@ GameObject:
   - component: {fileID: 1329116900}
   - component: {fileID: 1329116901}
   m_Layer: 0
-  m_Name: ryouchan
+  m_Name: 'name_Bruziemi '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6597,7 +6599,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: 21300000, guid: dc8bd4f717168164eba270210fc19497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25c579dacafe6b84ebe8c0d6c07e9888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7598,7 +7600,7 @@ GameObject:
   - component: {fileID: 1571014321}
   - component: {fileID: 1571014322}
   m_Layer: 0
-  m_Name: Take
+  m_Name: name_DOMKICK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7660,7 +7662,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: 21300000, guid: e69b689c0d210a848aa98d06a0ba3694, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aaac56a9e607bfa45a8e1c24c11a294d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8575,6 +8577,7 @@ MonoBehaviour:
   fadeImage: {fileID: 1752601149}
   StartDelayTime: 3
   EndDelayTime: 6
+  sceneName: 
 --- !u!212 &1752601149
 SpriteRenderer:
   m_ObjectHideFlags: 0

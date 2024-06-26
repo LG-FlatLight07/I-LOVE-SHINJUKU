@@ -1133,7 +1133,7 @@ GameObject:
   - component: {fileID: 140804633}
   - component: {fileID: 140804634}
   m_Layer: 0
-  m_Name: ryouchan
+  m_Name: name_Pudini
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1195,7 +1195,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: 21300000, guid: 68b75d6e8f0a1c74e82d6053ff71f749, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2bf2559dbe90db42a07bd685b098c54, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6622,7 +6622,7 @@ GameObject:
   - component: {fileID: 1118979941}
   - component: {fileID: 1118979942}
   m_Layer: 0
-  m_Name: Take
+  m_Name: name_DOMKICK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6684,7 +6684,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: 21300000, guid: e69b689c0d210a848aa98d06a0ba3694, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aaac56a9e607bfa45a8e1c24c11a294d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
